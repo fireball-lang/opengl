@@ -1,0 +1,33 @@
+mod opengl;
+
+pub struct Version {
+    pub major: u8,
+    pub minor: u8,
+}
+
+impl Version {
+    pub func new(major: u8, minor: u8) Version {
+        return Version { major: major, minor: minor };
+    }
+}
+
+impl Version : Eq[Version] {
+    pub func eq(self, rhs: Version) bool {
+        return self.major == rhs.major && self.minor == rhs.minor;
+    }
+}
+
+impl Version : Ord[Version] {
+    pub func ord(self, rhs: Version) Ordering {
+        var major = ord(self.major, rhs.major);
+        if (major != Ordering::Equal) return major;
+
+        return ord(self.minor, rhs.minor);
+    }
+}
+
+func ord(a: u8, b: u8) Ordering {
+    if (a < b) return Ordering::Less;
+    if (a > b) return Ordering::Greater;
+    return Ordering::Equal;
+}

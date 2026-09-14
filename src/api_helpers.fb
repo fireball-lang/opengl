@@ -1,0 +1,32 @@
+mod opengl;
+
+import opengl::{Api, Extension};
+
+impl Api {
+    pub func has_extension(self, ext: Extension) bool {
+        return self.extensions[ext as u32];
+    }
+
+    func check_extension(self, count: i32, name: *u8) bool {
+        for (var i = 0; i < count; i += 1) {
+            var ext = self.get_stringi(opengl::StringName::Extensions, i as u32);
+
+            if (ext != null && c_str_eq(ext, name)) {
+                return true;
+            }
+        }
+
+        return false;
+    }
+}
+
+func c_str_eq(a: *u8, b: *u8) bool {
+    var i = 0;
+
+    while (a[i] != 0 && b[i] != 0) {
+        if (a[i] != b[i]) return false;
+        i += 1;
+    }
+
+    return a[i] == b[i];
+}
