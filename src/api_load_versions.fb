@@ -42,10 +42,10 @@ impl opengl::Api {
         if (ptr != null) self.ref_tex_parameteriv = ptr as opengl::GlTexParameteriv;
 
         ptr = fn("glTexImage1D");
-        if (ptr != null) self.ref_tex_image1d = ptr as opengl::GlTexImage1D;
+        if (ptr != null) self.ref_tex_image_1d = ptr as opengl::GlTexImage1D;
 
         ptr = fn("glTexImage2D");
-        if (ptr != null) self.ref_tex_image2d = ptr as opengl::GlTexImage2D;
+        if (ptr != null) self.ref_tex_image_2d = ptr as opengl::GlTexImage2D;
 
         ptr = fn("glDrawBuffer");
         if (ptr != null) self.ref_draw_buffer = ptr as opengl::GlDrawBuffer;
@@ -170,22 +170,22 @@ impl opengl::Api {
         if (ptr != null) self.ref_polygon_offset = ptr as opengl::GlPolygonOffset;
 
         ptr = fn("glCopyTexImage1D");
-        if (ptr != null) self.ref_copy_tex_image1d = ptr as opengl::GlCopyTexImage1D;
+        if (ptr != null) self.ref_copy_tex_image_1d = ptr as opengl::GlCopyTexImage1D;
 
         ptr = fn("glCopyTexImage2D");
-        if (ptr != null) self.ref_copy_tex_image2d = ptr as opengl::GlCopyTexImage2D;
+        if (ptr != null) self.ref_copy_tex_image_2d = ptr as opengl::GlCopyTexImage2D;
 
         ptr = fn("glCopyTexSubImage1D");
-        if (ptr != null) self.ref_copy_tex_sub_image1d = ptr as opengl::GlCopyTexSubImage1D;
+        if (ptr != null) self.ref_copy_tex_sub_image_1d = ptr as opengl::GlCopyTexSubImage1D;
 
         ptr = fn("glCopyTexSubImage2D");
-        if (ptr != null) self.ref_copy_tex_sub_image2d = ptr as opengl::GlCopyTexSubImage2D;
+        if (ptr != null) self.ref_copy_tex_sub_image_2d = ptr as opengl::GlCopyTexSubImage2D;
 
         ptr = fn("glTexSubImage1D");
-        if (ptr != null) self.ref_tex_sub_image1d = ptr as opengl::GlTexSubImage1D;
+        if (ptr != null) self.ref_tex_sub_image_1d = ptr as opengl::GlTexSubImage1D;
 
         ptr = fn("glTexSubImage2D");
-        if (ptr != null) self.ref_tex_sub_image2d = ptr as opengl::GlTexSubImage2D;
+        if (ptr != null) self.ref_tex_sub_image_2d = ptr as opengl::GlTexSubImage2D;
 
         ptr = fn("glBindTexture");
         if (ptr != null) self.ref_bind_texture = ptr as opengl::GlBindTexture;
@@ -211,13 +211,13 @@ impl opengl::Api {
         if (ptr != null) self.ref_draw_range_elements = ptr as opengl::GlDrawRangeElements;
 
         ptr = fn("glTexImage3D");
-        if (ptr != null) self.ref_tex_image3d = ptr as opengl::GlTexImage3D;
+        if (ptr != null) self.ref_tex_image_3d = ptr as opengl::GlTexImage3D;
 
         ptr = fn("glTexSubImage3D");
-        if (ptr != null) self.ref_tex_sub_image3d = ptr as opengl::GlTexSubImage3D;
+        if (ptr != null) self.ref_tex_sub_image_3d = ptr as opengl::GlTexSubImage3D;
 
         ptr = fn("glCopyTexSubImage3D");
-        if (ptr != null) self.ref_copy_tex_sub_image3d = ptr as opengl::GlCopyTexSubImage3D;
+        if (ptr != null) self.ref_copy_tex_sub_image_3d = ptr as opengl::GlCopyTexSubImage3D;
 
         return true;
     }
@@ -234,22 +234,22 @@ impl opengl::Api {
         if (ptr != null) self.ref_sample_coverage = ptr as opengl::GlSampleCoverage;
 
         ptr = fn("glCompressedTexImage3D");
-        if (ptr != null) self.ref_compressed_tex_image3d = ptr as opengl::GlCompressedTexImage3D;
+        if (ptr != null) self.ref_compressed_tex_image_3d = ptr as opengl::GlCompressedTexImage3D;
 
         ptr = fn("glCompressedTexImage2D");
-        if (ptr != null) self.ref_compressed_tex_image2d = ptr as opengl::GlCompressedTexImage2D;
+        if (ptr != null) self.ref_compressed_tex_image_2d = ptr as opengl::GlCompressedTexImage2D;
 
         ptr = fn("glCompressedTexImage1D");
-        if (ptr != null) self.ref_compressed_tex_image1d = ptr as opengl::GlCompressedTexImage1D;
+        if (ptr != null) self.ref_compressed_tex_image_1d = ptr as opengl::GlCompressedTexImage1D;
 
         ptr = fn("glCompressedTexSubImage3D");
-        if (ptr != null) self.ref_compressed_tex_sub_image3d = ptr as opengl::GlCompressedTexSubImage3D;
+        if (ptr != null) self.ref_compressed_tex_sub_image_3d = ptr as opengl::GlCompressedTexSubImage3D;
 
         ptr = fn("glCompressedTexSubImage2D");
-        if (ptr != null) self.ref_compressed_tex_sub_image2d = ptr as opengl::GlCompressedTexSubImage2D;
+        if (ptr != null) self.ref_compressed_tex_sub_image_2d = ptr as opengl::GlCompressedTexSubImage2D;
 
         ptr = fn("glCompressedTexSubImage1D");
-        if (ptr != null) self.ref_compressed_tex_sub_image1d = ptr as opengl::GlCompressedTexSubImage1D;
+        if (ptr != null) self.ref_compressed_tex_sub_image_1d = ptr as opengl::GlCompressedTexSubImage1D;
 
         ptr = fn("glGetCompressedTexImage");
         if (ptr != null) self.ref_get_compressed_tex_image = ptr as opengl::GlGetCompressedTexImage;
@@ -585,25 +585,25 @@ impl opengl::Api {
         if (ptr != null) self.ref_vertex_attrib3sv = ptr as opengl::GlVertexAttrib3sv;
 
         ptr = fn("glVertexAttrib4Nbv");
-        if (ptr != null) self.ref_vertex_attrib4nbv = ptr as opengl::GlVertexAttrib4Nbv;
+        if (ptr != null) self.ref_vertex_attrib4_nbv = ptr as opengl::GlVertexAttrib4Nbv;
 
         ptr = fn("glVertexAttrib4Niv");
-        if (ptr != null) self.ref_vertex_attrib4niv = ptr as opengl::GlVertexAttrib4Niv;
+        if (ptr != null) self.ref_vertex_attrib4_niv = ptr as opengl::GlVertexAttrib4Niv;
 
         ptr = fn("glVertexAttrib4Nsv");
-        if (ptr != null) self.ref_vertex_attrib4nsv = ptr as opengl::GlVertexAttrib4Nsv;
+        if (ptr != null) self.ref_vertex_attrib4_nsv = ptr as opengl::GlVertexAttrib4Nsv;
 
         ptr = fn("glVertexAttrib4Nub");
-        if (ptr != null) self.ref_vertex_attrib4nub = ptr as opengl::GlVertexAttrib4Nub;
+        if (ptr != null) self.ref_vertex_attrib4_nub = ptr as opengl::GlVertexAttrib4Nub;
 
         ptr = fn("glVertexAttrib4Nubv");
-        if (ptr != null) self.ref_vertex_attrib4nubv = ptr as opengl::GlVertexAttrib4Nubv;
+        if (ptr != null) self.ref_vertex_attrib4_nubv = ptr as opengl::GlVertexAttrib4Nubv;
 
         ptr = fn("glVertexAttrib4Nuiv");
-        if (ptr != null) self.ref_vertex_attrib4nuiv = ptr as opengl::GlVertexAttrib4Nuiv;
+        if (ptr != null) self.ref_vertex_attrib4_nuiv = ptr as opengl::GlVertexAttrib4Nuiv;
 
         ptr = fn("glVertexAttrib4Nusv");
-        if (ptr != null) self.ref_vertex_attrib4nusv = ptr as opengl::GlVertexAttrib4Nusv;
+        if (ptr != null) self.ref_vertex_attrib4_nusv = ptr as opengl::GlVertexAttrib4Nusv;
 
         ptr = fn("glVertexAttrib4bv");
         if (ptr != null) self.ref_vertex_attrib4bv = ptr as opengl::GlVertexAttrib4bv;
@@ -721,7 +721,7 @@ impl opengl::Api {
         if (ptr != null) self.ref_end_conditional_render = ptr as opengl::GlEndConditionalRender;
 
         ptr = fn("glVertexAttribIPointer");
-        if (ptr != null) self.ref_vertex_attrib_ipointer = ptr as opengl::GlVertexAttribIPointer;
+        if (ptr != null) self.ref_vertex_attrib_i_pointer = ptr as opengl::GlVertexAttribIPointer;
 
         ptr = fn("glGetVertexAttribIiv");
         if (ptr != null) self.ref_get_vertex_attrib_iiv = ptr as opengl::GlGetVertexAttribIiv;
@@ -883,13 +883,13 @@ impl opengl::Api {
         if (ptr != null) self.ref_check_framebuffer_status = ptr as opengl::GlCheckFramebufferStatus;
 
         ptr = fn("glFramebufferTexture1D");
-        if (ptr != null) self.ref_framebuffer_texture1d = ptr as opengl::GlFramebufferTexture1D;
+        if (ptr != null) self.ref_framebuffer_texture_1d = ptr as opengl::GlFramebufferTexture1D;
 
         ptr = fn("glFramebufferTexture2D");
-        if (ptr != null) self.ref_framebuffer_texture2d = ptr as opengl::GlFramebufferTexture2D;
+        if (ptr != null) self.ref_framebuffer_texture_2d = ptr as opengl::GlFramebufferTexture2D;
 
         ptr = fn("glFramebufferTexture3D");
-        if (ptr != null) self.ref_framebuffer_texture3d = ptr as opengl::GlFramebufferTexture3D;
+        if (ptr != null) self.ref_framebuffer_texture_3d = ptr as opengl::GlFramebufferTexture3D;
 
         ptr = fn("glFramebufferRenderbuffer");
         if (ptr != null) self.ref_framebuffer_renderbuffer = ptr as opengl::GlFramebufferRenderbuffer;
@@ -1034,10 +1034,10 @@ impl opengl::Api {
         if (ptr != null) self.ref_framebuffer_texture = ptr as opengl::GlFramebufferTexture;
 
         ptr = fn("glTexImage2DMultisample");
-        if (ptr != null) self.ref_tex_image2dmultisample = ptr as opengl::GlTexImage2DMultisample;
+        if (ptr != null) self.ref_tex_image_2d_multisample = ptr as opengl::GlTexImage2DMultisample;
 
         ptr = fn("glTexImage3DMultisample");
-        if (ptr != null) self.ref_tex_image3dmultisample = ptr as opengl::GlTexImage3DMultisample;
+        if (ptr != null) self.ref_tex_image_3d_multisample = ptr as opengl::GlTexImage3DMultisample;
 
         ptr = fn("glGetMultisamplefv");
         if (ptr != null) self.ref_get_multisamplefv = ptr as opengl::GlGetMultisamplefv;
@@ -1523,7 +1523,7 @@ impl opengl::Api {
         if (ptr != null) self.ref_vertex_attrib_l4dv = ptr as opengl::GlVertexAttribL4dv;
 
         ptr = fn("glVertexAttribLPointer");
-        if (ptr != null) self.ref_vertex_attrib_lpointer = ptr as opengl::GlVertexAttribLPointer;
+        if (ptr != null) self.ref_vertex_attrib_l_pointer = ptr as opengl::GlVertexAttribLPointer;
 
         ptr = fn("glGetVertexAttribLdv");
         if (ptr != null) self.ref_get_vertex_attrib_ldv = ptr as opengl::GlGetVertexAttribLdv;
@@ -1588,13 +1588,13 @@ impl opengl::Api {
         if (ptr != null) self.ref_memory_barrier = ptr as opengl::GlMemoryBarrier;
 
         ptr = fn("glTexStorage1D");
-        if (ptr != null) self.ref_tex_storage1d = ptr as opengl::GlTexStorage1D;
+        if (ptr != null) self.ref_tex_storage_1d = ptr as opengl::GlTexStorage1D;
 
         ptr = fn("glTexStorage2D");
-        if (ptr != null) self.ref_tex_storage2d = ptr as opengl::GlTexStorage2D;
+        if (ptr != null) self.ref_tex_storage_2d = ptr as opengl::GlTexStorage2D;
 
         ptr = fn("glTexStorage3D");
-        if (ptr != null) self.ref_tex_storage3d = ptr as opengl::GlTexStorage3D;
+        if (ptr != null) self.ref_tex_storage_3d = ptr as opengl::GlTexStorage3D;
 
         ptr = fn("glDrawTransformFeedbackInstanced");
         if (ptr != null) self.ref_draw_transform_feedback_instanced = ptr as opengl::GlDrawTransformFeedbackInstanced;
@@ -1683,10 +1683,10 @@ impl opengl::Api {
         if (ptr != null) self.ref_tex_buffer_range = ptr as opengl::GlTexBufferRange;
 
         ptr = fn("glTexStorage2DMultisample");
-        if (ptr != null) self.ref_tex_storage2dmultisample = ptr as opengl::GlTexStorage2DMultisample;
+        if (ptr != null) self.ref_tex_storage_2d_multisample = ptr as opengl::GlTexStorage2DMultisample;
 
         ptr = fn("glTexStorage3DMultisample");
-        if (ptr != null) self.ref_tex_storage3dmultisample = ptr as opengl::GlTexStorage3DMultisample;
+        if (ptr != null) self.ref_tex_storage_3d_multisample = ptr as opengl::GlTexStorage3DMultisample;
 
         ptr = fn("glTextureView");
         if (ptr != null) self.ref_texture_view = ptr as opengl::GlTextureView;
@@ -1698,10 +1698,10 @@ impl opengl::Api {
         if (ptr != null) self.ref_vertex_attrib_format = ptr as opengl::GlVertexAttribFormat;
 
         ptr = fn("glVertexAttribIFormat");
-        if (ptr != null) self.ref_vertex_attrib_iformat = ptr as opengl::GlVertexAttribIFormat;
+        if (ptr != null) self.ref_vertex_attrib_i_format = ptr as opengl::GlVertexAttribIFormat;
 
         ptr = fn("glVertexAttribLFormat");
-        if (ptr != null) self.ref_vertex_attrib_lformat = ptr as opengl::GlVertexAttribLFormat;
+        if (ptr != null) self.ref_vertex_attrib_l_format = ptr as opengl::GlVertexAttribLFormat;
 
         ptr = fn("glVertexAttribBinding");
         if (ptr != null) self.ref_vertex_attrib_binding = ptr as opengl::GlVertexAttribBinding;
@@ -1927,46 +1927,46 @@ impl opengl::Api {
         if (ptr != null) self.ref_texture_buffer_range = ptr as opengl::GlTextureBufferRange;
 
         ptr = fn("glTextureStorage1D");
-        if (ptr != null) self.ref_texture_storage1d = ptr as opengl::GlTextureStorage1D;
+        if (ptr != null) self.ref_texture_storage_1d = ptr as opengl::GlTextureStorage1D;
 
         ptr = fn("glTextureStorage2D");
-        if (ptr != null) self.ref_texture_storage2d = ptr as opengl::GlTextureStorage2D;
+        if (ptr != null) self.ref_texture_storage_2d = ptr as opengl::GlTextureStorage2D;
 
         ptr = fn("glTextureStorage3D");
-        if (ptr != null) self.ref_texture_storage3d = ptr as opengl::GlTextureStorage3D;
+        if (ptr != null) self.ref_texture_storage_3d = ptr as opengl::GlTextureStorage3D;
 
         ptr = fn("glTextureStorage2DMultisample");
-        if (ptr != null) self.ref_texture_storage2dmultisample = ptr as opengl::GlTextureStorage2DMultisample;
+        if (ptr != null) self.ref_texture_storage_2d_multisample = ptr as opengl::GlTextureStorage2DMultisample;
 
         ptr = fn("glTextureStorage3DMultisample");
-        if (ptr != null) self.ref_texture_storage3dmultisample = ptr as opengl::GlTextureStorage3DMultisample;
+        if (ptr != null) self.ref_texture_storage_3d_multisample = ptr as opengl::GlTextureStorage3DMultisample;
 
         ptr = fn("glTextureSubImage1D");
-        if (ptr != null) self.ref_texture_sub_image1d = ptr as opengl::GlTextureSubImage1D;
+        if (ptr != null) self.ref_texture_sub_image_1d = ptr as opengl::GlTextureSubImage1D;
 
         ptr = fn("glTextureSubImage2D");
-        if (ptr != null) self.ref_texture_sub_image2d = ptr as opengl::GlTextureSubImage2D;
+        if (ptr != null) self.ref_texture_sub_image_2d = ptr as opengl::GlTextureSubImage2D;
 
         ptr = fn("glTextureSubImage3D");
-        if (ptr != null) self.ref_texture_sub_image3d = ptr as opengl::GlTextureSubImage3D;
+        if (ptr != null) self.ref_texture_sub_image_3d = ptr as opengl::GlTextureSubImage3D;
 
         ptr = fn("glCompressedTextureSubImage1D");
-        if (ptr != null) self.ref_compressed_texture_sub_image1d = ptr as opengl::GlCompressedTextureSubImage1D;
+        if (ptr != null) self.ref_compressed_texture_sub_image_1d = ptr as opengl::GlCompressedTextureSubImage1D;
 
         ptr = fn("glCompressedTextureSubImage2D");
-        if (ptr != null) self.ref_compressed_texture_sub_image2d = ptr as opengl::GlCompressedTextureSubImage2D;
+        if (ptr != null) self.ref_compressed_texture_sub_image_2d = ptr as opengl::GlCompressedTextureSubImage2D;
 
         ptr = fn("glCompressedTextureSubImage3D");
-        if (ptr != null) self.ref_compressed_texture_sub_image3d = ptr as opengl::GlCompressedTextureSubImage3D;
+        if (ptr != null) self.ref_compressed_texture_sub_image_3d = ptr as opengl::GlCompressedTextureSubImage3D;
 
         ptr = fn("glCopyTextureSubImage1D");
-        if (ptr != null) self.ref_copy_texture_sub_image1d = ptr as opengl::GlCopyTextureSubImage1D;
+        if (ptr != null) self.ref_copy_texture_sub_image_1d = ptr as opengl::GlCopyTextureSubImage1D;
 
         ptr = fn("glCopyTextureSubImage2D");
-        if (ptr != null) self.ref_copy_texture_sub_image2d = ptr as opengl::GlCopyTextureSubImage2D;
+        if (ptr != null) self.ref_copy_texture_sub_image_2d = ptr as opengl::GlCopyTextureSubImage2D;
 
         ptr = fn("glCopyTextureSubImage3D");
-        if (ptr != null) self.ref_copy_texture_sub_image3d = ptr as opengl::GlCopyTextureSubImage3D;
+        if (ptr != null) self.ref_copy_texture_sub_image_3d = ptr as opengl::GlCopyTextureSubImage3D;
 
         ptr = fn("glTextureParameterf");
         if (ptr != null) self.ref_texture_parameterf = ptr as opengl::GlTextureParameterf;
@@ -2041,10 +2041,10 @@ impl opengl::Api {
         if (ptr != null) self.ref_vertex_array_attrib_format = ptr as opengl::GlVertexArrayAttribFormat;
 
         ptr = fn("glVertexArrayAttribIFormat");
-        if (ptr != null) self.ref_vertex_array_attrib_iformat = ptr as opengl::GlVertexArrayAttribIFormat;
+        if (ptr != null) self.ref_vertex_array_attrib_i_format = ptr as opengl::GlVertexArrayAttribIFormat;
 
         ptr = fn("glVertexArrayAttribLFormat");
-        if (ptr != null) self.ref_vertex_array_attrib_lformat = ptr as opengl::GlVertexArrayAttribLFormat;
+        if (ptr != null) self.ref_vertex_array_attrib_l_format = ptr as opengl::GlVertexArrayAttribLFormat;
 
         ptr = fn("glVertexArrayBindingDivisor");
         if (ptr != null) self.ref_vertex_array_binding_divisor = ptr as opengl::GlVertexArrayBindingDivisor;

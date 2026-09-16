@@ -96,48 +96,48 @@ pub struct Api {
     pub ref_color_maski: opengl::GlColorMaski,
     pub ref_compile_shader: opengl::GlCompileShader,
     pub ref_compile_shader_include_arb: opengl::GlCompileShaderIncludeARB,
-    pub ref_compressed_multi_tex_image1dext: opengl::GlCompressedMultiTexImage1DEXT,
-    pub ref_compressed_multi_tex_image2dext: opengl::GlCompressedMultiTexImage2DEXT,
-    pub ref_compressed_multi_tex_image3dext: opengl::GlCompressedMultiTexImage3DEXT,
-    pub ref_compressed_multi_tex_sub_image1dext: opengl::GlCompressedMultiTexSubImage1DEXT,
-    pub ref_compressed_multi_tex_sub_image2dext: opengl::GlCompressedMultiTexSubImage2DEXT,
-    pub ref_compressed_multi_tex_sub_image3dext: opengl::GlCompressedMultiTexSubImage3DEXT,
-    pub ref_compressed_tex_image1d: opengl::GlCompressedTexImage1D,
-    pub ref_compressed_tex_image2d: opengl::GlCompressedTexImage2D,
-    pub ref_compressed_tex_image3d: opengl::GlCompressedTexImage3D,
-    pub ref_compressed_tex_sub_image1d: opengl::GlCompressedTexSubImage1D,
-    pub ref_compressed_tex_sub_image2d: opengl::GlCompressedTexSubImage2D,
-    pub ref_compressed_tex_sub_image3d: opengl::GlCompressedTexSubImage3D,
-    pub ref_compressed_texture_image1dext: opengl::GlCompressedTextureImage1DEXT,
-    pub ref_compressed_texture_image2dext: opengl::GlCompressedTextureImage2DEXT,
-    pub ref_compressed_texture_image3dext: opengl::GlCompressedTextureImage3DEXT,
-    pub ref_compressed_texture_sub_image1d: opengl::GlCompressedTextureSubImage1D,
-    pub ref_compressed_texture_sub_image1dext: opengl::GlCompressedTextureSubImage1DEXT,
-    pub ref_compressed_texture_sub_image2d: opengl::GlCompressedTextureSubImage2D,
-    pub ref_compressed_texture_sub_image2dext: opengl::GlCompressedTextureSubImage2DEXT,
-    pub ref_compressed_texture_sub_image3d: opengl::GlCompressedTextureSubImage3D,
-    pub ref_compressed_texture_sub_image3dext: opengl::GlCompressedTextureSubImage3DEXT,
+    pub ref_compressed_multi_tex_image_1dext: opengl::GlCompressedMultiTexImage1DEXT,
+    pub ref_compressed_multi_tex_image_2dext: opengl::GlCompressedMultiTexImage2DEXT,
+    pub ref_compressed_multi_tex_image_3dext: opengl::GlCompressedMultiTexImage3DEXT,
+    pub ref_compressed_multi_tex_sub_image_1dext: opengl::GlCompressedMultiTexSubImage1DEXT,
+    pub ref_compressed_multi_tex_sub_image_2dext: opengl::GlCompressedMultiTexSubImage2DEXT,
+    pub ref_compressed_multi_tex_sub_image_3dext: opengl::GlCompressedMultiTexSubImage3DEXT,
+    pub ref_compressed_tex_image_1d: opengl::GlCompressedTexImage1D,
+    pub ref_compressed_tex_image_2d: opengl::GlCompressedTexImage2D,
+    pub ref_compressed_tex_image_3d: opengl::GlCompressedTexImage3D,
+    pub ref_compressed_tex_sub_image_1d: opengl::GlCompressedTexSubImage1D,
+    pub ref_compressed_tex_sub_image_2d: opengl::GlCompressedTexSubImage2D,
+    pub ref_compressed_tex_sub_image_3d: opengl::GlCompressedTexSubImage3D,
+    pub ref_compressed_texture_image_1dext: opengl::GlCompressedTextureImage1DEXT,
+    pub ref_compressed_texture_image_2dext: opengl::GlCompressedTextureImage2DEXT,
+    pub ref_compressed_texture_image_3dext: opengl::GlCompressedTextureImage3DEXT,
+    pub ref_compressed_texture_sub_image_1d: opengl::GlCompressedTextureSubImage1D,
+    pub ref_compressed_texture_sub_image_1dext: opengl::GlCompressedTextureSubImage1DEXT,
+    pub ref_compressed_texture_sub_image_2d: opengl::GlCompressedTextureSubImage2D,
+    pub ref_compressed_texture_sub_image_2dext: opengl::GlCompressedTextureSubImage2DEXT,
+    pub ref_compressed_texture_sub_image_3d: opengl::GlCompressedTextureSubImage3D,
+    pub ref_compressed_texture_sub_image_3dext: opengl::GlCompressedTextureSubImage3DEXT,
     pub ref_copy_buffer_sub_data: opengl::GlCopyBufferSubData,
     pub ref_copy_image_sub_data: opengl::GlCopyImageSubData,
-    pub ref_copy_multi_tex_image1dext: opengl::GlCopyMultiTexImage1DEXT,
-    pub ref_copy_multi_tex_image2dext: opengl::GlCopyMultiTexImage2DEXT,
-    pub ref_copy_multi_tex_sub_image1dext: opengl::GlCopyMultiTexSubImage1DEXT,
-    pub ref_copy_multi_tex_sub_image2dext: opengl::GlCopyMultiTexSubImage2DEXT,
-    pub ref_copy_multi_tex_sub_image3dext: opengl::GlCopyMultiTexSubImage3DEXT,
+    pub ref_copy_multi_tex_image_1dext: opengl::GlCopyMultiTexImage1DEXT,
+    pub ref_copy_multi_tex_image_2dext: opengl::GlCopyMultiTexImage2DEXT,
+    pub ref_copy_multi_tex_sub_image_1dext: opengl::GlCopyMultiTexSubImage1DEXT,
+    pub ref_copy_multi_tex_sub_image_2dext: opengl::GlCopyMultiTexSubImage2DEXT,
+    pub ref_copy_multi_tex_sub_image_3dext: opengl::GlCopyMultiTexSubImage3DEXT,
     pub ref_copy_named_buffer_sub_data: opengl::GlCopyNamedBufferSubData,
-    pub ref_copy_tex_image1d: opengl::GlCopyTexImage1D,
-    pub ref_copy_tex_image2d: opengl::GlCopyTexImage2D,
-    pub ref_copy_tex_sub_image1d: opengl::GlCopyTexSubImage1D,
-    pub ref_copy_tex_sub_image2d: opengl::GlCopyTexSubImage2D,
-    pub ref_copy_tex_sub_image3d: opengl::GlCopyTexSubImage3D,
-    pub ref_copy_texture_image1dext: opengl::GlCopyTextureImage1DEXT,
-    pub ref_copy_texture_image2dext: opengl::GlCopyTextureImage2DEXT,
-    pub ref_copy_texture_sub_image1d: opengl::GlCopyTextureSubImage1D,
-    pub ref_copy_texture_sub_image1dext: opengl::GlCopyTextureSubImage1DEXT,
-    pub ref_copy_texture_sub_image2d: opengl::GlCopyTextureSubImage2D,
-    pub ref_copy_texture_sub_image2dext: opengl::GlCopyTextureSubImage2DEXT,
-    pub ref_copy_texture_sub_image3d: opengl::GlCopyTextureSubImage3D,
-    pub ref_copy_texture_sub_image3dext: opengl::GlCopyTextureSubImage3DEXT,
+    pub ref_copy_tex_image_1d: opengl::GlCopyTexImage1D,
+    pub ref_copy_tex_image_2d: opengl::GlCopyTexImage2D,
+    pub ref_copy_tex_sub_image_1d: opengl::GlCopyTexSubImage1D,
+    pub ref_copy_tex_sub_image_2d: opengl::GlCopyTexSubImage2D,
+    pub ref_copy_tex_sub_image_3d: opengl::GlCopyTexSubImage3D,
+    pub ref_copy_texture_image_1dext: opengl::GlCopyTextureImage1DEXT,
+    pub ref_copy_texture_image_2dext: opengl::GlCopyTextureImage2DEXT,
+    pub ref_copy_texture_sub_image_1d: opengl::GlCopyTextureSubImage1D,
+    pub ref_copy_texture_sub_image_1dext: opengl::GlCopyTextureSubImage1DEXT,
+    pub ref_copy_texture_sub_image_2d: opengl::GlCopyTextureSubImage2D,
+    pub ref_copy_texture_sub_image_2dext: opengl::GlCopyTextureSubImage2DEXT,
+    pub ref_copy_texture_sub_image_3d: opengl::GlCopyTextureSubImage3D,
+    pub ref_copy_texture_sub_image_3dext: opengl::GlCopyTextureSubImage3DEXT,
     pub ref_create_buffers: opengl::GlCreateBuffers,
     pub ref_create_framebuffers: opengl::GlCreateFramebuffers,
     pub ref_create_program: opengl::GlCreateProgram,
@@ -149,7 +149,7 @@ pub struct Api {
     pub ref_create_shader_program_ext: opengl::GlCreateShaderProgramEXT,
     pub ref_create_shader_programv: opengl::GlCreateShaderProgramv,
     pub ref_create_shader_programv_ext: opengl::GlCreateShaderProgramvEXT,
-    pub ref_create_sync_from_clevent_arb: opengl::GlCreateSyncFromCLeventARB,
+    pub ref_create_sync_from_c_levent_arb: opengl::GlCreateSyncFromCLeventARB,
     pub ref_create_textures: opengl::GlCreateTextures,
     pub ref_create_transform_feedbacks: opengl::GlCreateTransformFeedbacks,
     pub ref_create_vertex_arrays: opengl::GlCreateVertexArrays,
@@ -223,8 +223,8 @@ pub struct Api {
     pub ref_draw_transform_feedback_instanced: opengl::GlDrawTransformFeedbackInstanced,
     pub ref_draw_transform_feedback_stream: opengl::GlDrawTransformFeedbackStream,
     pub ref_draw_transform_feedback_stream_instanced: opengl::GlDrawTransformFeedbackStreamInstanced,
-    pub ref_eglimage_target_tex_storage_ext: opengl::GlEGLImageTargetTexStorageEXT,
-    pub ref_eglimage_target_texture_storage_ext: opengl::GlEGLImageTargetTextureStorageEXT,
+    pub ref_egl_image_target_tex_storage_ext: opengl::GlEGLImageTargetTexStorageEXT,
+    pub ref_egl_image_target_texture_storage_ext: opengl::GlEGLImageTargetTextureStorageEXT,
     pub ref_enable: opengl::GlEnable,
     pub ref_enable_client_state_indexed_ext: opengl::GlEnableClientStateIndexedEXT,
     pub ref_enable_client_statei_ext: opengl::GlEnableClientStateiEXT,
@@ -254,9 +254,9 @@ pub struct Api {
     pub ref_framebuffer_sample_locationsfv_arb: opengl::GlFramebufferSampleLocationsfvARB,
     pub ref_framebuffer_shading_rate_ext: opengl::GlFramebufferShadingRateEXT,
     pub ref_framebuffer_texture: opengl::GlFramebufferTexture,
-    pub ref_framebuffer_texture1d: opengl::GlFramebufferTexture1D,
-    pub ref_framebuffer_texture2d: opengl::GlFramebufferTexture2D,
-    pub ref_framebuffer_texture3d: opengl::GlFramebufferTexture3D,
+    pub ref_framebuffer_texture_1d: opengl::GlFramebufferTexture1D,
+    pub ref_framebuffer_texture_2d: opengl::GlFramebufferTexture2D,
+    pub ref_framebuffer_texture_3d: opengl::GlFramebufferTexture3D,
     pub ref_framebuffer_texture_arb: opengl::GlFramebufferTextureARB,
     pub ref_framebuffer_texture_face_arb: opengl::GlFramebufferTextureFaceARB,
     pub ref_framebuffer_texture_layer: opengl::GlFramebufferTextureLayer,
@@ -571,9 +571,9 @@ pub struct Api {
     pub ref_multi_tex_genfv_ext: opengl::GlMultiTexGenfvEXT,
     pub ref_multi_tex_geni_ext: opengl::GlMultiTexGeniEXT,
     pub ref_multi_tex_geniv_ext: opengl::GlMultiTexGenivEXT,
-    pub ref_multi_tex_image1dext: opengl::GlMultiTexImage1DEXT,
-    pub ref_multi_tex_image2dext: opengl::GlMultiTexImage2DEXT,
-    pub ref_multi_tex_image3dext: opengl::GlMultiTexImage3DEXT,
+    pub ref_multi_tex_image_1dext: opengl::GlMultiTexImage1DEXT,
+    pub ref_multi_tex_image_2dext: opengl::GlMultiTexImage2DEXT,
+    pub ref_multi_tex_image_3dext: opengl::GlMultiTexImage3DEXT,
     pub ref_multi_tex_parameter_iiv_ext: opengl::GlMultiTexParameterIivEXT,
     pub ref_multi_tex_parameter_iuiv_ext: opengl::GlMultiTexParameterIuivEXT,
     pub ref_multi_tex_parameterf_ext: opengl::GlMultiTexParameterfEXT,
@@ -581,9 +581,9 @@ pub struct Api {
     pub ref_multi_tex_parameteri_ext: opengl::GlMultiTexParameteriEXT,
     pub ref_multi_tex_parameteriv_ext: opengl::GlMultiTexParameterivEXT,
     pub ref_multi_tex_renderbuffer_ext: opengl::GlMultiTexRenderbufferEXT,
-    pub ref_multi_tex_sub_image1dext: opengl::GlMultiTexSubImage1DEXT,
-    pub ref_multi_tex_sub_image2dext: opengl::GlMultiTexSubImage2DEXT,
-    pub ref_multi_tex_sub_image3dext: opengl::GlMultiTexSubImage3DEXT,
+    pub ref_multi_tex_sub_image_1dext: opengl::GlMultiTexSubImage1DEXT,
+    pub ref_multi_tex_sub_image_2dext: opengl::GlMultiTexSubImage2DEXT,
+    pub ref_multi_tex_sub_image_3dext: opengl::GlMultiTexSubImage3DEXT,
     pub ref_named_buffer_data: opengl::GlNamedBufferData,
     pub ref_named_buffer_data_ext: opengl::GlNamedBufferDataEXT,
     pub ref_named_buffer_page_commitment_arb: opengl::GlNamedBufferPageCommitmentARB,
@@ -602,9 +602,9 @@ pub struct Api {
     pub ref_named_framebuffer_renderbuffer_ext: opengl::GlNamedFramebufferRenderbufferEXT,
     pub ref_named_framebuffer_sample_locationsfv_arb: opengl::GlNamedFramebufferSampleLocationsfvARB,
     pub ref_named_framebuffer_texture: opengl::GlNamedFramebufferTexture,
-    pub ref_named_framebuffer_texture1dext: opengl::GlNamedFramebufferTexture1DEXT,
-    pub ref_named_framebuffer_texture2dext: opengl::GlNamedFramebufferTexture2DEXT,
-    pub ref_named_framebuffer_texture3dext: opengl::GlNamedFramebufferTexture3DEXT,
+    pub ref_named_framebuffer_texture_1dext: opengl::GlNamedFramebufferTexture1DEXT,
+    pub ref_named_framebuffer_texture_2dext: opengl::GlNamedFramebufferTexture2DEXT,
+    pub ref_named_framebuffer_texture_3dext: opengl::GlNamedFramebufferTexture3DEXT,
     pub ref_named_framebuffer_texture_ext: opengl::GlNamedFramebufferTextureEXT,
     pub ref_named_framebuffer_texture_face_ext: opengl::GlNamedFramebufferTextureFaceEXT,
     pub ref_named_framebuffer_texture_layer: opengl::GlNamedFramebufferTextureLayer,
@@ -663,13 +663,13 @@ pub struct Api {
     pub ref_program_uniform1fv: opengl::GlProgramUniform1fv,
     pub ref_program_uniform1fv_ext: opengl::GlProgramUniform1fvEXT,
     pub ref_program_uniform1i: opengl::GlProgramUniform1i,
-    pub ref_program_uniform1i64arb: opengl::GlProgramUniform1i64ARB,
+    pub ref_program_uniform1i64_arb: opengl::GlProgramUniform1i64ARB,
     pub ref_program_uniform1i64v_arb: opengl::GlProgramUniform1i64vARB,
     pub ref_program_uniform1i_ext: opengl::GlProgramUniform1iEXT,
     pub ref_program_uniform1iv: opengl::GlProgramUniform1iv,
     pub ref_program_uniform1iv_ext: opengl::GlProgramUniform1ivEXT,
     pub ref_program_uniform1ui: opengl::GlProgramUniform1ui,
-    pub ref_program_uniform1ui64arb: opengl::GlProgramUniform1ui64ARB,
+    pub ref_program_uniform1ui64_arb: opengl::GlProgramUniform1ui64ARB,
     pub ref_program_uniform1ui64v_arb: opengl::GlProgramUniform1ui64vARB,
     pub ref_program_uniform1ui_ext: opengl::GlProgramUniform1uiEXT,
     pub ref_program_uniform1uiv: opengl::GlProgramUniform1uiv,
@@ -683,13 +683,13 @@ pub struct Api {
     pub ref_program_uniform2fv: opengl::GlProgramUniform2fv,
     pub ref_program_uniform2fv_ext: opengl::GlProgramUniform2fvEXT,
     pub ref_program_uniform2i: opengl::GlProgramUniform2i,
-    pub ref_program_uniform2i64arb: opengl::GlProgramUniform2i64ARB,
+    pub ref_program_uniform2i64_arb: opengl::GlProgramUniform2i64ARB,
     pub ref_program_uniform2i64v_arb: opengl::GlProgramUniform2i64vARB,
     pub ref_program_uniform2i_ext: opengl::GlProgramUniform2iEXT,
     pub ref_program_uniform2iv: opengl::GlProgramUniform2iv,
     pub ref_program_uniform2iv_ext: opengl::GlProgramUniform2ivEXT,
     pub ref_program_uniform2ui: opengl::GlProgramUniform2ui,
-    pub ref_program_uniform2ui64arb: opengl::GlProgramUniform2ui64ARB,
+    pub ref_program_uniform2ui64_arb: opengl::GlProgramUniform2ui64ARB,
     pub ref_program_uniform2ui64v_arb: opengl::GlProgramUniform2ui64vARB,
     pub ref_program_uniform2ui_ext: opengl::GlProgramUniform2uiEXT,
     pub ref_program_uniform2uiv: opengl::GlProgramUniform2uiv,
@@ -703,13 +703,13 @@ pub struct Api {
     pub ref_program_uniform3fv: opengl::GlProgramUniform3fv,
     pub ref_program_uniform3fv_ext: opengl::GlProgramUniform3fvEXT,
     pub ref_program_uniform3i: opengl::GlProgramUniform3i,
-    pub ref_program_uniform3i64arb: opengl::GlProgramUniform3i64ARB,
+    pub ref_program_uniform3i64_arb: opengl::GlProgramUniform3i64ARB,
     pub ref_program_uniform3i64v_arb: opengl::GlProgramUniform3i64vARB,
     pub ref_program_uniform3i_ext: opengl::GlProgramUniform3iEXT,
     pub ref_program_uniform3iv: opengl::GlProgramUniform3iv,
     pub ref_program_uniform3iv_ext: opengl::GlProgramUniform3ivEXT,
     pub ref_program_uniform3ui: opengl::GlProgramUniform3ui,
-    pub ref_program_uniform3ui64arb: opengl::GlProgramUniform3ui64ARB,
+    pub ref_program_uniform3ui64_arb: opengl::GlProgramUniform3ui64ARB,
     pub ref_program_uniform3ui64v_arb: opengl::GlProgramUniform3ui64vARB,
     pub ref_program_uniform3ui_ext: opengl::GlProgramUniform3uiEXT,
     pub ref_program_uniform3uiv: opengl::GlProgramUniform3uiv,
@@ -723,18 +723,18 @@ pub struct Api {
     pub ref_program_uniform4fv: opengl::GlProgramUniform4fv,
     pub ref_program_uniform4fv_ext: opengl::GlProgramUniform4fvEXT,
     pub ref_program_uniform4i: opengl::GlProgramUniform4i,
-    pub ref_program_uniform4i64arb: opengl::GlProgramUniform4i64ARB,
+    pub ref_program_uniform4i64_arb: opengl::GlProgramUniform4i64ARB,
     pub ref_program_uniform4i64v_arb: opengl::GlProgramUniform4i64vARB,
     pub ref_program_uniform4i_ext: opengl::GlProgramUniform4iEXT,
     pub ref_program_uniform4iv: opengl::GlProgramUniform4iv,
     pub ref_program_uniform4iv_ext: opengl::GlProgramUniform4ivEXT,
     pub ref_program_uniform4ui: opengl::GlProgramUniform4ui,
-    pub ref_program_uniform4ui64arb: opengl::GlProgramUniform4ui64ARB,
+    pub ref_program_uniform4ui64_arb: opengl::GlProgramUniform4ui64ARB,
     pub ref_program_uniform4ui64v_arb: opengl::GlProgramUniform4ui64vARB,
     pub ref_program_uniform4ui_ext: opengl::GlProgramUniform4uiEXT,
     pub ref_program_uniform4uiv: opengl::GlProgramUniform4uiv,
     pub ref_program_uniform4uiv_ext: opengl::GlProgramUniform4uivEXT,
-    pub ref_program_uniform_handleui64arb: opengl::GlProgramUniformHandleui64ARB,
+    pub ref_program_uniform_handleui64_arb: opengl::GlProgramUniformHandleui64ARB,
     pub ref_program_uniform_handleui64v_arb: opengl::GlProgramUniformHandleui64vARB,
     pub ref_program_uniform_matrix2dv: opengl::GlProgramUniformMatrix2dv,
     pub ref_program_uniform_matrix2dv_ext: opengl::GlProgramUniformMatrix2dvEXT,
@@ -816,11 +816,11 @@ pub struct Api {
     pub ref_tex_buffer: opengl::GlTexBuffer,
     pub ref_tex_buffer_arb: opengl::GlTexBufferARB,
     pub ref_tex_buffer_range: opengl::GlTexBufferRange,
-    pub ref_tex_image1d: opengl::GlTexImage1D,
-    pub ref_tex_image2d: opengl::GlTexImage2D,
-    pub ref_tex_image2dmultisample: opengl::GlTexImage2DMultisample,
-    pub ref_tex_image3d: opengl::GlTexImage3D,
-    pub ref_tex_image3dmultisample: opengl::GlTexImage3DMultisample,
+    pub ref_tex_image_1d: opengl::GlTexImage1D,
+    pub ref_tex_image_2d: opengl::GlTexImage2D,
+    pub ref_tex_image_2d_multisample: opengl::GlTexImage2DMultisample,
+    pub ref_tex_image_3d: opengl::GlTexImage3D,
+    pub ref_tex_image_3d_multisample: opengl::GlTexImage3DMultisample,
     pub ref_tex_page_commitment_arb: opengl::GlTexPageCommitmentARB,
     pub ref_tex_parameter_iiv: opengl::GlTexParameterIiv,
     pub ref_tex_parameter_iuiv: opengl::GlTexParameterIuiv,
@@ -828,25 +828,25 @@ pub struct Api {
     pub ref_tex_parameterfv: opengl::GlTexParameterfv,
     pub ref_tex_parameteri: opengl::GlTexParameteri,
     pub ref_tex_parameteriv: opengl::GlTexParameteriv,
-    pub ref_tex_storage1d: opengl::GlTexStorage1D,
-    pub ref_tex_storage1dext: opengl::GlTexStorage1DEXT,
-    pub ref_tex_storage2d: opengl::GlTexStorage2D,
-    pub ref_tex_storage2dext: opengl::GlTexStorage2DEXT,
-    pub ref_tex_storage2dmultisample: opengl::GlTexStorage2DMultisample,
-    pub ref_tex_storage3d: opengl::GlTexStorage3D,
-    pub ref_tex_storage3dext: opengl::GlTexStorage3DEXT,
-    pub ref_tex_storage3dmultisample: opengl::GlTexStorage3DMultisample,
-    pub ref_tex_sub_image1d: opengl::GlTexSubImage1D,
-    pub ref_tex_sub_image2d: opengl::GlTexSubImage2D,
-    pub ref_tex_sub_image3d: opengl::GlTexSubImage3D,
+    pub ref_tex_storage_1d: opengl::GlTexStorage1D,
+    pub ref_tex_storage_1dext: opengl::GlTexStorage1DEXT,
+    pub ref_tex_storage_2d: opengl::GlTexStorage2D,
+    pub ref_tex_storage_2dext: opengl::GlTexStorage2DEXT,
+    pub ref_tex_storage_2d_multisample: opengl::GlTexStorage2DMultisample,
+    pub ref_tex_storage_3d: opengl::GlTexStorage3D,
+    pub ref_tex_storage_3dext: opengl::GlTexStorage3DEXT,
+    pub ref_tex_storage_3d_multisample: opengl::GlTexStorage3DMultisample,
+    pub ref_tex_sub_image_1d: opengl::GlTexSubImage1D,
+    pub ref_tex_sub_image_2d: opengl::GlTexSubImage2D,
+    pub ref_tex_sub_image_3d: opengl::GlTexSubImage3D,
     pub ref_texture_barrier: opengl::GlTextureBarrier,
     pub ref_texture_buffer: opengl::GlTextureBuffer,
     pub ref_texture_buffer_ext: opengl::GlTextureBufferEXT,
     pub ref_texture_buffer_range: opengl::GlTextureBufferRange,
     pub ref_texture_buffer_range_ext: opengl::GlTextureBufferRangeEXT,
-    pub ref_texture_image1dext: opengl::GlTextureImage1DEXT,
-    pub ref_texture_image2dext: opengl::GlTextureImage2DEXT,
-    pub ref_texture_image3dext: opengl::GlTextureImage3DEXT,
+    pub ref_texture_image_1dext: opengl::GlTextureImage1DEXT,
+    pub ref_texture_image_2dext: opengl::GlTextureImage2DEXT,
+    pub ref_texture_image_3dext: opengl::GlTextureImage3DEXT,
     pub ref_texture_page_commitment_ext: opengl::GlTexturePageCommitmentEXT,
     pub ref_texture_parameter_iiv: opengl::GlTextureParameterIiv,
     pub ref_texture_parameter_iiv_ext: opengl::GlTextureParameterIivEXT,
@@ -861,22 +861,22 @@ pub struct Api {
     pub ref_texture_parameteriv: opengl::GlTextureParameteriv,
     pub ref_texture_parameteriv_ext: opengl::GlTextureParameterivEXT,
     pub ref_texture_renderbuffer_ext: opengl::GlTextureRenderbufferEXT,
-    pub ref_texture_storage1d: opengl::GlTextureStorage1D,
-    pub ref_texture_storage1dext: opengl::GlTextureStorage1DEXT,
-    pub ref_texture_storage2d: opengl::GlTextureStorage2D,
-    pub ref_texture_storage2dext: opengl::GlTextureStorage2DEXT,
-    pub ref_texture_storage2dmultisample: opengl::GlTextureStorage2DMultisample,
-    pub ref_texture_storage2dmultisample_ext: opengl::GlTextureStorage2DMultisampleEXT,
-    pub ref_texture_storage3d: opengl::GlTextureStorage3D,
-    pub ref_texture_storage3dext: opengl::GlTextureStorage3DEXT,
-    pub ref_texture_storage3dmultisample: opengl::GlTextureStorage3DMultisample,
-    pub ref_texture_storage3dmultisample_ext: opengl::GlTextureStorage3DMultisampleEXT,
-    pub ref_texture_sub_image1d: opengl::GlTextureSubImage1D,
-    pub ref_texture_sub_image1dext: opengl::GlTextureSubImage1DEXT,
-    pub ref_texture_sub_image2d: opengl::GlTextureSubImage2D,
-    pub ref_texture_sub_image2dext: opengl::GlTextureSubImage2DEXT,
-    pub ref_texture_sub_image3d: opengl::GlTextureSubImage3D,
-    pub ref_texture_sub_image3dext: opengl::GlTextureSubImage3DEXT,
+    pub ref_texture_storage_1d: opengl::GlTextureStorage1D,
+    pub ref_texture_storage_1dext: opengl::GlTextureStorage1DEXT,
+    pub ref_texture_storage_2d: opengl::GlTextureStorage2D,
+    pub ref_texture_storage_2dext: opengl::GlTextureStorage2DEXT,
+    pub ref_texture_storage_2d_multisample: opengl::GlTextureStorage2DMultisample,
+    pub ref_texture_storage_2d_multisample_ext: opengl::GlTextureStorage2DMultisampleEXT,
+    pub ref_texture_storage_3d: opengl::GlTextureStorage3D,
+    pub ref_texture_storage_3dext: opengl::GlTextureStorage3DEXT,
+    pub ref_texture_storage_3d_multisample: opengl::GlTextureStorage3DMultisample,
+    pub ref_texture_storage_3d_multisample_ext: opengl::GlTextureStorage3DMultisampleEXT,
+    pub ref_texture_sub_image_1d: opengl::GlTextureSubImage1D,
+    pub ref_texture_sub_image_1dext: opengl::GlTextureSubImage1DEXT,
+    pub ref_texture_sub_image_2d: opengl::GlTextureSubImage2D,
+    pub ref_texture_sub_image_2dext: opengl::GlTextureSubImage2DEXT,
+    pub ref_texture_sub_image_3d: opengl::GlTextureSubImage3D,
+    pub ref_texture_sub_image_3dext: opengl::GlTextureSubImage3DEXT,
     pub ref_texture_view: opengl::GlTextureView,
     pub ref_transform_feedback_buffer_base: opengl::GlTransformFeedbackBufferBase,
     pub ref_transform_feedback_buffer_range: opengl::GlTransformFeedbackBufferRange,
@@ -886,11 +886,11 @@ pub struct Api {
     pub ref_uniform1f: opengl::GlUniform1f,
     pub ref_uniform1fv: opengl::GlUniform1fv,
     pub ref_uniform1i: opengl::GlUniform1i,
-    pub ref_uniform1i64arb: opengl::GlUniform1i64ARB,
+    pub ref_uniform1i64_arb: opengl::GlUniform1i64ARB,
     pub ref_uniform1i64v_arb: opengl::GlUniform1i64vARB,
     pub ref_uniform1iv: opengl::GlUniform1iv,
     pub ref_uniform1ui: opengl::GlUniform1ui,
-    pub ref_uniform1ui64arb: opengl::GlUniform1ui64ARB,
+    pub ref_uniform1ui64_arb: opengl::GlUniform1ui64ARB,
     pub ref_uniform1ui64v_arb: opengl::GlUniform1ui64vARB,
     pub ref_uniform1uiv: opengl::GlUniform1uiv,
     pub ref_uniform2d: opengl::GlUniform2d,
@@ -898,11 +898,11 @@ pub struct Api {
     pub ref_uniform2f: opengl::GlUniform2f,
     pub ref_uniform2fv: opengl::GlUniform2fv,
     pub ref_uniform2i: opengl::GlUniform2i,
-    pub ref_uniform2i64arb: opengl::GlUniform2i64ARB,
+    pub ref_uniform2i64_arb: opengl::GlUniform2i64ARB,
     pub ref_uniform2i64v_arb: opengl::GlUniform2i64vARB,
     pub ref_uniform2iv: opengl::GlUniform2iv,
     pub ref_uniform2ui: opengl::GlUniform2ui,
-    pub ref_uniform2ui64arb: opengl::GlUniform2ui64ARB,
+    pub ref_uniform2ui64_arb: opengl::GlUniform2ui64ARB,
     pub ref_uniform2ui64v_arb: opengl::GlUniform2ui64vARB,
     pub ref_uniform2uiv: opengl::GlUniform2uiv,
     pub ref_uniform3d: opengl::GlUniform3d,
@@ -910,11 +910,11 @@ pub struct Api {
     pub ref_uniform3f: opengl::GlUniform3f,
     pub ref_uniform3fv: opengl::GlUniform3fv,
     pub ref_uniform3i: opengl::GlUniform3i,
-    pub ref_uniform3i64arb: opengl::GlUniform3i64ARB,
+    pub ref_uniform3i64_arb: opengl::GlUniform3i64ARB,
     pub ref_uniform3i64v_arb: opengl::GlUniform3i64vARB,
     pub ref_uniform3iv: opengl::GlUniform3iv,
     pub ref_uniform3ui: opengl::GlUniform3ui,
-    pub ref_uniform3ui64arb: opengl::GlUniform3ui64ARB,
+    pub ref_uniform3ui64_arb: opengl::GlUniform3ui64ARB,
     pub ref_uniform3ui64v_arb: opengl::GlUniform3ui64vARB,
     pub ref_uniform3uiv: opengl::GlUniform3uiv,
     pub ref_uniform4d: opengl::GlUniform4d,
@@ -922,15 +922,15 @@ pub struct Api {
     pub ref_uniform4f: opengl::GlUniform4f,
     pub ref_uniform4fv: opengl::GlUniform4fv,
     pub ref_uniform4i: opengl::GlUniform4i,
-    pub ref_uniform4i64arb: opengl::GlUniform4i64ARB,
+    pub ref_uniform4i64_arb: opengl::GlUniform4i64ARB,
     pub ref_uniform4i64v_arb: opengl::GlUniform4i64vARB,
     pub ref_uniform4iv: opengl::GlUniform4iv,
     pub ref_uniform4ui: opengl::GlUniform4ui,
-    pub ref_uniform4ui64arb: opengl::GlUniform4ui64ARB,
+    pub ref_uniform4ui64_arb: opengl::GlUniform4ui64ARB,
     pub ref_uniform4ui64v_arb: opengl::GlUniform4ui64vARB,
     pub ref_uniform4uiv: opengl::GlUniform4uiv,
     pub ref_uniform_block_binding: opengl::GlUniformBlockBinding,
-    pub ref_uniform_handleui64arb: opengl::GlUniformHandleui64ARB,
+    pub ref_uniform_handleui64_arb: opengl::GlUniformHandleui64ARB,
     pub ref_uniform_handleui64v_arb: opengl::GlUniformHandleui64vARB,
     pub ref_uniform_matrix2dv: opengl::GlUniformMatrix2dv,
     pub ref_uniform_matrix2fv: opengl::GlUniformMatrix2fv,
@@ -963,8 +963,8 @@ pub struct Api {
     pub ref_validate_program_pipeline_ext: opengl::GlValidateProgramPipelineEXT,
     pub ref_vertex_array_attrib_binding: opengl::GlVertexArrayAttribBinding,
     pub ref_vertex_array_attrib_format: opengl::GlVertexArrayAttribFormat,
-    pub ref_vertex_array_attrib_iformat: opengl::GlVertexArrayAttribIFormat,
-    pub ref_vertex_array_attrib_lformat: opengl::GlVertexArrayAttribLFormat,
+    pub ref_vertex_array_attrib_i_format: opengl::GlVertexArrayAttribIFormat,
+    pub ref_vertex_array_attrib_l_format: opengl::GlVertexArrayAttribLFormat,
     pub ref_vertex_array_bind_vertex_buffer_ext: opengl::GlVertexArrayBindVertexBufferEXT,
     pub ref_vertex_array_binding_divisor: opengl::GlVertexArrayBindingDivisor,
     pub ref_vertex_array_color_offset_ext: opengl::GlVertexArrayColorOffsetEXT,
@@ -979,10 +979,10 @@ pub struct Api {
     pub ref_vertex_array_vertex_attrib_binding_ext: opengl::GlVertexArrayVertexAttribBindingEXT,
     pub ref_vertex_array_vertex_attrib_divisor_ext: opengl::GlVertexArrayVertexAttribDivisorEXT,
     pub ref_vertex_array_vertex_attrib_format_ext: opengl::GlVertexArrayVertexAttribFormatEXT,
-    pub ref_vertex_array_vertex_attrib_iformat_ext: opengl::GlVertexArrayVertexAttribIFormatEXT,
-    pub ref_vertex_array_vertex_attrib_ioffset_ext: opengl::GlVertexArrayVertexAttribIOffsetEXT,
-    pub ref_vertex_array_vertex_attrib_lformat_ext: opengl::GlVertexArrayVertexAttribLFormatEXT,
-    pub ref_vertex_array_vertex_attrib_loffset_ext: opengl::GlVertexArrayVertexAttribLOffsetEXT,
+    pub ref_vertex_array_vertex_attrib_i_format_ext: opengl::GlVertexArrayVertexAttribIFormatEXT,
+    pub ref_vertex_array_vertex_attrib_i_offset_ext: opengl::GlVertexArrayVertexAttribIOffsetEXT,
+    pub ref_vertex_array_vertex_attrib_l_format_ext: opengl::GlVertexArrayVertexAttribLFormatEXT,
+    pub ref_vertex_array_vertex_attrib_l_offset_ext: opengl::GlVertexArrayVertexAttribLOffsetEXT,
     pub ref_vertex_array_vertex_attrib_offset_ext: opengl::GlVertexArrayVertexAttribOffsetEXT,
     pub ref_vertex_array_vertex_binding_divisor_ext: opengl::GlVertexArrayVertexBindingDivisorEXT,
     pub ref_vertex_array_vertex_buffer: opengl::GlVertexArrayVertexBuffer,
@@ -1006,13 +1006,13 @@ pub struct Api {
     pub ref_vertex_attrib3fv: opengl::GlVertexAttrib3fv,
     pub ref_vertex_attrib3s: opengl::GlVertexAttrib3s,
     pub ref_vertex_attrib3sv: opengl::GlVertexAttrib3sv,
-    pub ref_vertex_attrib4nbv: opengl::GlVertexAttrib4Nbv,
-    pub ref_vertex_attrib4niv: opengl::GlVertexAttrib4Niv,
-    pub ref_vertex_attrib4nsv: opengl::GlVertexAttrib4Nsv,
-    pub ref_vertex_attrib4nub: opengl::GlVertexAttrib4Nub,
-    pub ref_vertex_attrib4nubv: opengl::GlVertexAttrib4Nubv,
-    pub ref_vertex_attrib4nuiv: opengl::GlVertexAttrib4Nuiv,
-    pub ref_vertex_attrib4nusv: opengl::GlVertexAttrib4Nusv,
+    pub ref_vertex_attrib4_nbv: opengl::GlVertexAttrib4Nbv,
+    pub ref_vertex_attrib4_niv: opengl::GlVertexAttrib4Niv,
+    pub ref_vertex_attrib4_nsv: opengl::GlVertexAttrib4Nsv,
+    pub ref_vertex_attrib4_nub: opengl::GlVertexAttrib4Nub,
+    pub ref_vertex_attrib4_nubv: opengl::GlVertexAttrib4Nubv,
+    pub ref_vertex_attrib4_nuiv: opengl::GlVertexAttrib4Nuiv,
+    pub ref_vertex_attrib4_nusv: opengl::GlVertexAttrib4Nusv,
     pub ref_vertex_attrib4bv: opengl::GlVertexAttrib4bv,
     pub ref_vertex_attrib4d: opengl::GlVertexAttrib4d,
     pub ref_vertex_attrib4dv: opengl::GlVertexAttrib4dv,
@@ -1048,11 +1048,11 @@ pub struct Api {
     pub ref_vertex_attrib_i4ui: opengl::GlVertexAttribI4ui,
     pub ref_vertex_attrib_i4uiv: opengl::GlVertexAttribI4uiv,
     pub ref_vertex_attrib_i4usv: opengl::GlVertexAttribI4usv,
-    pub ref_vertex_attrib_iformat: opengl::GlVertexAttribIFormat,
-    pub ref_vertex_attrib_ipointer: opengl::GlVertexAttribIPointer,
+    pub ref_vertex_attrib_i_format: opengl::GlVertexAttribIFormat,
+    pub ref_vertex_attrib_i_pointer: opengl::GlVertexAttribIPointer,
     pub ref_vertex_attrib_l1d: opengl::GlVertexAttribL1d,
     pub ref_vertex_attrib_l1dv: opengl::GlVertexAttribL1dv,
-    pub ref_vertex_attrib_l1ui64arb: opengl::GlVertexAttribL1ui64ARB,
+    pub ref_vertex_attrib_l1ui64_arb: opengl::GlVertexAttribL1ui64ARB,
     pub ref_vertex_attrib_l1ui64v_arb: opengl::GlVertexAttribL1ui64vARB,
     pub ref_vertex_attrib_l2d: opengl::GlVertexAttribL2d,
     pub ref_vertex_attrib_l2dv: opengl::GlVertexAttribL2dv,
@@ -1060,8 +1060,8 @@ pub struct Api {
     pub ref_vertex_attrib_l3dv: opengl::GlVertexAttribL3dv,
     pub ref_vertex_attrib_l4d: opengl::GlVertexAttribL4d,
     pub ref_vertex_attrib_l4dv: opengl::GlVertexAttribL4dv,
-    pub ref_vertex_attrib_lformat: opengl::GlVertexAttribLFormat,
-    pub ref_vertex_attrib_lpointer: opengl::GlVertexAttribLPointer,
+    pub ref_vertex_attrib_l_format: opengl::GlVertexAttribLFormat,
+    pub ref_vertex_attrib_l_pointer: opengl::GlVertexAttribLPointer,
     pub ref_vertex_attrib_p1ui: opengl::GlVertexAttribP1ui,
     pub ref_vertex_attrib_p1uiv: opengl::GlVertexAttribP1uiv,
     pub ref_vertex_attrib_p2ui: opengl::GlVertexAttribP2ui,
@@ -1662,48 +1662,48 @@ impl Api {
         self.ref_color_maski = opengl::stub_color_maski;
         self.ref_compile_shader = opengl::stub_compile_shader;
         self.ref_compile_shader_include_arb = opengl::stub_compile_shader_include_arb;
-        self.ref_compressed_multi_tex_image1dext = opengl::stub_compressed_multi_tex_image1dext;
-        self.ref_compressed_multi_tex_image2dext = opengl::stub_compressed_multi_tex_image2dext;
-        self.ref_compressed_multi_tex_image3dext = opengl::stub_compressed_multi_tex_image3dext;
-        self.ref_compressed_multi_tex_sub_image1dext = opengl::stub_compressed_multi_tex_sub_image1dext;
-        self.ref_compressed_multi_tex_sub_image2dext = opengl::stub_compressed_multi_tex_sub_image2dext;
-        self.ref_compressed_multi_tex_sub_image3dext = opengl::stub_compressed_multi_tex_sub_image3dext;
-        self.ref_compressed_tex_image1d = opengl::stub_compressed_tex_image1d;
-        self.ref_compressed_tex_image2d = opengl::stub_compressed_tex_image2d;
-        self.ref_compressed_tex_image3d = opengl::stub_compressed_tex_image3d;
-        self.ref_compressed_tex_sub_image1d = opengl::stub_compressed_tex_sub_image1d;
-        self.ref_compressed_tex_sub_image2d = opengl::stub_compressed_tex_sub_image2d;
-        self.ref_compressed_tex_sub_image3d = opengl::stub_compressed_tex_sub_image3d;
-        self.ref_compressed_texture_image1dext = opengl::stub_compressed_texture_image1dext;
-        self.ref_compressed_texture_image2dext = opengl::stub_compressed_texture_image2dext;
-        self.ref_compressed_texture_image3dext = opengl::stub_compressed_texture_image3dext;
-        self.ref_compressed_texture_sub_image1d = opengl::stub_compressed_texture_sub_image1d;
-        self.ref_compressed_texture_sub_image1dext = opengl::stub_compressed_texture_sub_image1dext;
-        self.ref_compressed_texture_sub_image2d = opengl::stub_compressed_texture_sub_image2d;
-        self.ref_compressed_texture_sub_image2dext = opengl::stub_compressed_texture_sub_image2dext;
-        self.ref_compressed_texture_sub_image3d = opengl::stub_compressed_texture_sub_image3d;
-        self.ref_compressed_texture_sub_image3dext = opengl::stub_compressed_texture_sub_image3dext;
+        self.ref_compressed_multi_tex_image_1dext = opengl::stub_compressed_multi_tex_image_1dext;
+        self.ref_compressed_multi_tex_image_2dext = opengl::stub_compressed_multi_tex_image_2dext;
+        self.ref_compressed_multi_tex_image_3dext = opengl::stub_compressed_multi_tex_image_3dext;
+        self.ref_compressed_multi_tex_sub_image_1dext = opengl::stub_compressed_multi_tex_sub_image_1dext;
+        self.ref_compressed_multi_tex_sub_image_2dext = opengl::stub_compressed_multi_tex_sub_image_2dext;
+        self.ref_compressed_multi_tex_sub_image_3dext = opengl::stub_compressed_multi_tex_sub_image_3dext;
+        self.ref_compressed_tex_image_1d = opengl::stub_compressed_tex_image_1d;
+        self.ref_compressed_tex_image_2d = opengl::stub_compressed_tex_image_2d;
+        self.ref_compressed_tex_image_3d = opengl::stub_compressed_tex_image_3d;
+        self.ref_compressed_tex_sub_image_1d = opengl::stub_compressed_tex_sub_image_1d;
+        self.ref_compressed_tex_sub_image_2d = opengl::stub_compressed_tex_sub_image_2d;
+        self.ref_compressed_tex_sub_image_3d = opengl::stub_compressed_tex_sub_image_3d;
+        self.ref_compressed_texture_image_1dext = opengl::stub_compressed_texture_image_1dext;
+        self.ref_compressed_texture_image_2dext = opengl::stub_compressed_texture_image_2dext;
+        self.ref_compressed_texture_image_3dext = opengl::stub_compressed_texture_image_3dext;
+        self.ref_compressed_texture_sub_image_1d = opengl::stub_compressed_texture_sub_image_1d;
+        self.ref_compressed_texture_sub_image_1dext = opengl::stub_compressed_texture_sub_image_1dext;
+        self.ref_compressed_texture_sub_image_2d = opengl::stub_compressed_texture_sub_image_2d;
+        self.ref_compressed_texture_sub_image_2dext = opengl::stub_compressed_texture_sub_image_2dext;
+        self.ref_compressed_texture_sub_image_3d = opengl::stub_compressed_texture_sub_image_3d;
+        self.ref_compressed_texture_sub_image_3dext = opengl::stub_compressed_texture_sub_image_3dext;
         self.ref_copy_buffer_sub_data = opengl::stub_copy_buffer_sub_data;
         self.ref_copy_image_sub_data = opengl::stub_copy_image_sub_data;
-        self.ref_copy_multi_tex_image1dext = opengl::stub_copy_multi_tex_image1dext;
-        self.ref_copy_multi_tex_image2dext = opengl::stub_copy_multi_tex_image2dext;
-        self.ref_copy_multi_tex_sub_image1dext = opengl::stub_copy_multi_tex_sub_image1dext;
-        self.ref_copy_multi_tex_sub_image2dext = opengl::stub_copy_multi_tex_sub_image2dext;
-        self.ref_copy_multi_tex_sub_image3dext = opengl::stub_copy_multi_tex_sub_image3dext;
+        self.ref_copy_multi_tex_image_1dext = opengl::stub_copy_multi_tex_image_1dext;
+        self.ref_copy_multi_tex_image_2dext = opengl::stub_copy_multi_tex_image_2dext;
+        self.ref_copy_multi_tex_sub_image_1dext = opengl::stub_copy_multi_tex_sub_image_1dext;
+        self.ref_copy_multi_tex_sub_image_2dext = opengl::stub_copy_multi_tex_sub_image_2dext;
+        self.ref_copy_multi_tex_sub_image_3dext = opengl::stub_copy_multi_tex_sub_image_3dext;
         self.ref_copy_named_buffer_sub_data = opengl::stub_copy_named_buffer_sub_data;
-        self.ref_copy_tex_image1d = opengl::stub_copy_tex_image1d;
-        self.ref_copy_tex_image2d = opengl::stub_copy_tex_image2d;
-        self.ref_copy_tex_sub_image1d = opengl::stub_copy_tex_sub_image1d;
-        self.ref_copy_tex_sub_image2d = opengl::stub_copy_tex_sub_image2d;
-        self.ref_copy_tex_sub_image3d = opengl::stub_copy_tex_sub_image3d;
-        self.ref_copy_texture_image1dext = opengl::stub_copy_texture_image1dext;
-        self.ref_copy_texture_image2dext = opengl::stub_copy_texture_image2dext;
-        self.ref_copy_texture_sub_image1d = opengl::stub_copy_texture_sub_image1d;
-        self.ref_copy_texture_sub_image1dext = opengl::stub_copy_texture_sub_image1dext;
-        self.ref_copy_texture_sub_image2d = opengl::stub_copy_texture_sub_image2d;
-        self.ref_copy_texture_sub_image2dext = opengl::stub_copy_texture_sub_image2dext;
-        self.ref_copy_texture_sub_image3d = opengl::stub_copy_texture_sub_image3d;
-        self.ref_copy_texture_sub_image3dext = opengl::stub_copy_texture_sub_image3dext;
+        self.ref_copy_tex_image_1d = opengl::stub_copy_tex_image_1d;
+        self.ref_copy_tex_image_2d = opengl::stub_copy_tex_image_2d;
+        self.ref_copy_tex_sub_image_1d = opengl::stub_copy_tex_sub_image_1d;
+        self.ref_copy_tex_sub_image_2d = opengl::stub_copy_tex_sub_image_2d;
+        self.ref_copy_tex_sub_image_3d = opengl::stub_copy_tex_sub_image_3d;
+        self.ref_copy_texture_image_1dext = opengl::stub_copy_texture_image_1dext;
+        self.ref_copy_texture_image_2dext = opengl::stub_copy_texture_image_2dext;
+        self.ref_copy_texture_sub_image_1d = opengl::stub_copy_texture_sub_image_1d;
+        self.ref_copy_texture_sub_image_1dext = opengl::stub_copy_texture_sub_image_1dext;
+        self.ref_copy_texture_sub_image_2d = opengl::stub_copy_texture_sub_image_2d;
+        self.ref_copy_texture_sub_image_2dext = opengl::stub_copy_texture_sub_image_2dext;
+        self.ref_copy_texture_sub_image_3d = opengl::stub_copy_texture_sub_image_3d;
+        self.ref_copy_texture_sub_image_3dext = opengl::stub_copy_texture_sub_image_3dext;
         self.ref_create_buffers = opengl::stub_create_buffers;
         self.ref_create_framebuffers = opengl::stub_create_framebuffers;
         self.ref_create_program = opengl::stub_create_program;
@@ -1715,7 +1715,7 @@ impl Api {
         self.ref_create_shader_program_ext = opengl::stub_create_shader_program_ext;
         self.ref_create_shader_programv = opengl::stub_create_shader_programv;
         self.ref_create_shader_programv_ext = opengl::stub_create_shader_programv_ext;
-        self.ref_create_sync_from_clevent_arb = opengl::stub_create_sync_from_clevent_arb;
+        self.ref_create_sync_from_c_levent_arb = opengl::stub_create_sync_from_c_levent_arb;
         self.ref_create_textures = opengl::stub_create_textures;
         self.ref_create_transform_feedbacks = opengl::stub_create_transform_feedbacks;
         self.ref_create_vertex_arrays = opengl::stub_create_vertex_arrays;
@@ -1789,8 +1789,8 @@ impl Api {
         self.ref_draw_transform_feedback_instanced = opengl::stub_draw_transform_feedback_instanced;
         self.ref_draw_transform_feedback_stream = opengl::stub_draw_transform_feedback_stream;
         self.ref_draw_transform_feedback_stream_instanced = opengl::stub_draw_transform_feedback_stream_instanced;
-        self.ref_eglimage_target_tex_storage_ext = opengl::stub_eglimage_target_tex_storage_ext;
-        self.ref_eglimage_target_texture_storage_ext = opengl::stub_eglimage_target_texture_storage_ext;
+        self.ref_egl_image_target_tex_storage_ext = opengl::stub_egl_image_target_tex_storage_ext;
+        self.ref_egl_image_target_texture_storage_ext = opengl::stub_egl_image_target_texture_storage_ext;
         self.ref_enable = opengl::stub_enable;
         self.ref_enable_client_state_indexed_ext = opengl::stub_enable_client_state_indexed_ext;
         self.ref_enable_client_statei_ext = opengl::stub_enable_client_statei_ext;
@@ -1820,9 +1820,9 @@ impl Api {
         self.ref_framebuffer_sample_locationsfv_arb = opengl::stub_framebuffer_sample_locationsfv_arb;
         self.ref_framebuffer_shading_rate_ext = opengl::stub_framebuffer_shading_rate_ext;
         self.ref_framebuffer_texture = opengl::stub_framebuffer_texture;
-        self.ref_framebuffer_texture1d = opengl::stub_framebuffer_texture1d;
-        self.ref_framebuffer_texture2d = opengl::stub_framebuffer_texture2d;
-        self.ref_framebuffer_texture3d = opengl::stub_framebuffer_texture3d;
+        self.ref_framebuffer_texture_1d = opengl::stub_framebuffer_texture_1d;
+        self.ref_framebuffer_texture_2d = opengl::stub_framebuffer_texture_2d;
+        self.ref_framebuffer_texture_3d = opengl::stub_framebuffer_texture_3d;
         self.ref_framebuffer_texture_arb = opengl::stub_framebuffer_texture_arb;
         self.ref_framebuffer_texture_face_arb = opengl::stub_framebuffer_texture_face_arb;
         self.ref_framebuffer_texture_layer = opengl::stub_framebuffer_texture_layer;
@@ -2137,9 +2137,9 @@ impl Api {
         self.ref_multi_tex_genfv_ext = opengl::stub_multi_tex_genfv_ext;
         self.ref_multi_tex_geni_ext = opengl::stub_multi_tex_geni_ext;
         self.ref_multi_tex_geniv_ext = opengl::stub_multi_tex_geniv_ext;
-        self.ref_multi_tex_image1dext = opengl::stub_multi_tex_image1dext;
-        self.ref_multi_tex_image2dext = opengl::stub_multi_tex_image2dext;
-        self.ref_multi_tex_image3dext = opengl::stub_multi_tex_image3dext;
+        self.ref_multi_tex_image_1dext = opengl::stub_multi_tex_image_1dext;
+        self.ref_multi_tex_image_2dext = opengl::stub_multi_tex_image_2dext;
+        self.ref_multi_tex_image_3dext = opengl::stub_multi_tex_image_3dext;
         self.ref_multi_tex_parameter_iiv_ext = opengl::stub_multi_tex_parameter_iiv_ext;
         self.ref_multi_tex_parameter_iuiv_ext = opengl::stub_multi_tex_parameter_iuiv_ext;
         self.ref_multi_tex_parameterf_ext = opengl::stub_multi_tex_parameterf_ext;
@@ -2147,9 +2147,9 @@ impl Api {
         self.ref_multi_tex_parameteri_ext = opengl::stub_multi_tex_parameteri_ext;
         self.ref_multi_tex_parameteriv_ext = opengl::stub_multi_tex_parameteriv_ext;
         self.ref_multi_tex_renderbuffer_ext = opengl::stub_multi_tex_renderbuffer_ext;
-        self.ref_multi_tex_sub_image1dext = opengl::stub_multi_tex_sub_image1dext;
-        self.ref_multi_tex_sub_image2dext = opengl::stub_multi_tex_sub_image2dext;
-        self.ref_multi_tex_sub_image3dext = opengl::stub_multi_tex_sub_image3dext;
+        self.ref_multi_tex_sub_image_1dext = opengl::stub_multi_tex_sub_image_1dext;
+        self.ref_multi_tex_sub_image_2dext = opengl::stub_multi_tex_sub_image_2dext;
+        self.ref_multi_tex_sub_image_3dext = opengl::stub_multi_tex_sub_image_3dext;
         self.ref_named_buffer_data = opengl::stub_named_buffer_data;
         self.ref_named_buffer_data_ext = opengl::stub_named_buffer_data_ext;
         self.ref_named_buffer_page_commitment_arb = opengl::stub_named_buffer_page_commitment_arb;
@@ -2168,9 +2168,9 @@ impl Api {
         self.ref_named_framebuffer_renderbuffer_ext = opengl::stub_named_framebuffer_renderbuffer_ext;
         self.ref_named_framebuffer_sample_locationsfv_arb = opengl::stub_named_framebuffer_sample_locationsfv_arb;
         self.ref_named_framebuffer_texture = opengl::stub_named_framebuffer_texture;
-        self.ref_named_framebuffer_texture1dext = opengl::stub_named_framebuffer_texture1dext;
-        self.ref_named_framebuffer_texture2dext = opengl::stub_named_framebuffer_texture2dext;
-        self.ref_named_framebuffer_texture3dext = opengl::stub_named_framebuffer_texture3dext;
+        self.ref_named_framebuffer_texture_1dext = opengl::stub_named_framebuffer_texture_1dext;
+        self.ref_named_framebuffer_texture_2dext = opengl::stub_named_framebuffer_texture_2dext;
+        self.ref_named_framebuffer_texture_3dext = opengl::stub_named_framebuffer_texture_3dext;
         self.ref_named_framebuffer_texture_ext = opengl::stub_named_framebuffer_texture_ext;
         self.ref_named_framebuffer_texture_face_ext = opengl::stub_named_framebuffer_texture_face_ext;
         self.ref_named_framebuffer_texture_layer = opengl::stub_named_framebuffer_texture_layer;
@@ -2229,13 +2229,13 @@ impl Api {
         self.ref_program_uniform1fv = opengl::stub_program_uniform1fv;
         self.ref_program_uniform1fv_ext = opengl::stub_program_uniform1fv_ext;
         self.ref_program_uniform1i = opengl::stub_program_uniform1i;
-        self.ref_program_uniform1i64arb = opengl::stub_program_uniform1i64arb;
+        self.ref_program_uniform1i64_arb = opengl::stub_program_uniform1i64_arb;
         self.ref_program_uniform1i64v_arb = opengl::stub_program_uniform1i64v_arb;
         self.ref_program_uniform1i_ext = opengl::stub_program_uniform1i_ext;
         self.ref_program_uniform1iv = opengl::stub_program_uniform1iv;
         self.ref_program_uniform1iv_ext = opengl::stub_program_uniform1iv_ext;
         self.ref_program_uniform1ui = opengl::stub_program_uniform1ui;
-        self.ref_program_uniform1ui64arb = opengl::stub_program_uniform1ui64arb;
+        self.ref_program_uniform1ui64_arb = opengl::stub_program_uniform1ui64_arb;
         self.ref_program_uniform1ui64v_arb = opengl::stub_program_uniform1ui64v_arb;
         self.ref_program_uniform1ui_ext = opengl::stub_program_uniform1ui_ext;
         self.ref_program_uniform1uiv = opengl::stub_program_uniform1uiv;
@@ -2249,13 +2249,13 @@ impl Api {
         self.ref_program_uniform2fv = opengl::stub_program_uniform2fv;
         self.ref_program_uniform2fv_ext = opengl::stub_program_uniform2fv_ext;
         self.ref_program_uniform2i = opengl::stub_program_uniform2i;
-        self.ref_program_uniform2i64arb = opengl::stub_program_uniform2i64arb;
+        self.ref_program_uniform2i64_arb = opengl::stub_program_uniform2i64_arb;
         self.ref_program_uniform2i64v_arb = opengl::stub_program_uniform2i64v_arb;
         self.ref_program_uniform2i_ext = opengl::stub_program_uniform2i_ext;
         self.ref_program_uniform2iv = opengl::stub_program_uniform2iv;
         self.ref_program_uniform2iv_ext = opengl::stub_program_uniform2iv_ext;
         self.ref_program_uniform2ui = opengl::stub_program_uniform2ui;
-        self.ref_program_uniform2ui64arb = opengl::stub_program_uniform2ui64arb;
+        self.ref_program_uniform2ui64_arb = opengl::stub_program_uniform2ui64_arb;
         self.ref_program_uniform2ui64v_arb = opengl::stub_program_uniform2ui64v_arb;
         self.ref_program_uniform2ui_ext = opengl::stub_program_uniform2ui_ext;
         self.ref_program_uniform2uiv = opengl::stub_program_uniform2uiv;
@@ -2269,13 +2269,13 @@ impl Api {
         self.ref_program_uniform3fv = opengl::stub_program_uniform3fv;
         self.ref_program_uniform3fv_ext = opengl::stub_program_uniform3fv_ext;
         self.ref_program_uniform3i = opengl::stub_program_uniform3i;
-        self.ref_program_uniform3i64arb = opengl::stub_program_uniform3i64arb;
+        self.ref_program_uniform3i64_arb = opengl::stub_program_uniform3i64_arb;
         self.ref_program_uniform3i64v_arb = opengl::stub_program_uniform3i64v_arb;
         self.ref_program_uniform3i_ext = opengl::stub_program_uniform3i_ext;
         self.ref_program_uniform3iv = opengl::stub_program_uniform3iv;
         self.ref_program_uniform3iv_ext = opengl::stub_program_uniform3iv_ext;
         self.ref_program_uniform3ui = opengl::stub_program_uniform3ui;
-        self.ref_program_uniform3ui64arb = opengl::stub_program_uniform3ui64arb;
+        self.ref_program_uniform3ui64_arb = opengl::stub_program_uniform3ui64_arb;
         self.ref_program_uniform3ui64v_arb = opengl::stub_program_uniform3ui64v_arb;
         self.ref_program_uniform3ui_ext = opengl::stub_program_uniform3ui_ext;
         self.ref_program_uniform3uiv = opengl::stub_program_uniform3uiv;
@@ -2289,18 +2289,18 @@ impl Api {
         self.ref_program_uniform4fv = opengl::stub_program_uniform4fv;
         self.ref_program_uniform4fv_ext = opengl::stub_program_uniform4fv_ext;
         self.ref_program_uniform4i = opengl::stub_program_uniform4i;
-        self.ref_program_uniform4i64arb = opengl::stub_program_uniform4i64arb;
+        self.ref_program_uniform4i64_arb = opengl::stub_program_uniform4i64_arb;
         self.ref_program_uniform4i64v_arb = opengl::stub_program_uniform4i64v_arb;
         self.ref_program_uniform4i_ext = opengl::stub_program_uniform4i_ext;
         self.ref_program_uniform4iv = opengl::stub_program_uniform4iv;
         self.ref_program_uniform4iv_ext = opengl::stub_program_uniform4iv_ext;
         self.ref_program_uniform4ui = opengl::stub_program_uniform4ui;
-        self.ref_program_uniform4ui64arb = opengl::stub_program_uniform4ui64arb;
+        self.ref_program_uniform4ui64_arb = opengl::stub_program_uniform4ui64_arb;
         self.ref_program_uniform4ui64v_arb = opengl::stub_program_uniform4ui64v_arb;
         self.ref_program_uniform4ui_ext = opengl::stub_program_uniform4ui_ext;
         self.ref_program_uniform4uiv = opengl::stub_program_uniform4uiv;
         self.ref_program_uniform4uiv_ext = opengl::stub_program_uniform4uiv_ext;
-        self.ref_program_uniform_handleui64arb = opengl::stub_program_uniform_handleui64arb;
+        self.ref_program_uniform_handleui64_arb = opengl::stub_program_uniform_handleui64_arb;
         self.ref_program_uniform_handleui64v_arb = opengl::stub_program_uniform_handleui64v_arb;
         self.ref_program_uniform_matrix2dv = opengl::stub_program_uniform_matrix2dv;
         self.ref_program_uniform_matrix2dv_ext = opengl::stub_program_uniform_matrix2dv_ext;
@@ -2382,11 +2382,11 @@ impl Api {
         self.ref_tex_buffer = opengl::stub_tex_buffer;
         self.ref_tex_buffer_arb = opengl::stub_tex_buffer_arb;
         self.ref_tex_buffer_range = opengl::stub_tex_buffer_range;
-        self.ref_tex_image1d = opengl::stub_tex_image1d;
-        self.ref_tex_image2d = opengl::stub_tex_image2d;
-        self.ref_tex_image2dmultisample = opengl::stub_tex_image2dmultisample;
-        self.ref_tex_image3d = opengl::stub_tex_image3d;
-        self.ref_tex_image3dmultisample = opengl::stub_tex_image3dmultisample;
+        self.ref_tex_image_1d = opengl::stub_tex_image_1d;
+        self.ref_tex_image_2d = opengl::stub_tex_image_2d;
+        self.ref_tex_image_2d_multisample = opengl::stub_tex_image_2d_multisample;
+        self.ref_tex_image_3d = opengl::stub_tex_image_3d;
+        self.ref_tex_image_3d_multisample = opengl::stub_tex_image_3d_multisample;
         self.ref_tex_page_commitment_arb = opengl::stub_tex_page_commitment_arb;
         self.ref_tex_parameter_iiv = opengl::stub_tex_parameter_iiv;
         self.ref_tex_parameter_iuiv = opengl::stub_tex_parameter_iuiv;
@@ -2394,25 +2394,25 @@ impl Api {
         self.ref_tex_parameterfv = opengl::stub_tex_parameterfv;
         self.ref_tex_parameteri = opengl::stub_tex_parameteri;
         self.ref_tex_parameteriv = opengl::stub_tex_parameteriv;
-        self.ref_tex_storage1d = opengl::stub_tex_storage1d;
-        self.ref_tex_storage1dext = opengl::stub_tex_storage1dext;
-        self.ref_tex_storage2d = opengl::stub_tex_storage2d;
-        self.ref_tex_storage2dext = opengl::stub_tex_storage2dext;
-        self.ref_tex_storage2dmultisample = opengl::stub_tex_storage2dmultisample;
-        self.ref_tex_storage3d = opengl::stub_tex_storage3d;
-        self.ref_tex_storage3dext = opengl::stub_tex_storage3dext;
-        self.ref_tex_storage3dmultisample = opengl::stub_tex_storage3dmultisample;
-        self.ref_tex_sub_image1d = opengl::stub_tex_sub_image1d;
-        self.ref_tex_sub_image2d = opengl::stub_tex_sub_image2d;
-        self.ref_tex_sub_image3d = opengl::stub_tex_sub_image3d;
+        self.ref_tex_storage_1d = opengl::stub_tex_storage_1d;
+        self.ref_tex_storage_1dext = opengl::stub_tex_storage_1dext;
+        self.ref_tex_storage_2d = opengl::stub_tex_storage_2d;
+        self.ref_tex_storage_2dext = opengl::stub_tex_storage_2dext;
+        self.ref_tex_storage_2d_multisample = opengl::stub_tex_storage_2d_multisample;
+        self.ref_tex_storage_3d = opengl::stub_tex_storage_3d;
+        self.ref_tex_storage_3dext = opengl::stub_tex_storage_3dext;
+        self.ref_tex_storage_3d_multisample = opengl::stub_tex_storage_3d_multisample;
+        self.ref_tex_sub_image_1d = opengl::stub_tex_sub_image_1d;
+        self.ref_tex_sub_image_2d = opengl::stub_tex_sub_image_2d;
+        self.ref_tex_sub_image_3d = opengl::stub_tex_sub_image_3d;
         self.ref_texture_barrier = opengl::stub_texture_barrier;
         self.ref_texture_buffer = opengl::stub_texture_buffer;
         self.ref_texture_buffer_ext = opengl::stub_texture_buffer_ext;
         self.ref_texture_buffer_range = opengl::stub_texture_buffer_range;
         self.ref_texture_buffer_range_ext = opengl::stub_texture_buffer_range_ext;
-        self.ref_texture_image1dext = opengl::stub_texture_image1dext;
-        self.ref_texture_image2dext = opengl::stub_texture_image2dext;
-        self.ref_texture_image3dext = opengl::stub_texture_image3dext;
+        self.ref_texture_image_1dext = opengl::stub_texture_image_1dext;
+        self.ref_texture_image_2dext = opengl::stub_texture_image_2dext;
+        self.ref_texture_image_3dext = opengl::stub_texture_image_3dext;
         self.ref_texture_page_commitment_ext = opengl::stub_texture_page_commitment_ext;
         self.ref_texture_parameter_iiv = opengl::stub_texture_parameter_iiv;
         self.ref_texture_parameter_iiv_ext = opengl::stub_texture_parameter_iiv_ext;
@@ -2427,22 +2427,22 @@ impl Api {
         self.ref_texture_parameteriv = opengl::stub_texture_parameteriv;
         self.ref_texture_parameteriv_ext = opengl::stub_texture_parameteriv_ext;
         self.ref_texture_renderbuffer_ext = opengl::stub_texture_renderbuffer_ext;
-        self.ref_texture_storage1d = opengl::stub_texture_storage1d;
-        self.ref_texture_storage1dext = opengl::stub_texture_storage1dext;
-        self.ref_texture_storage2d = opengl::stub_texture_storage2d;
-        self.ref_texture_storage2dext = opengl::stub_texture_storage2dext;
-        self.ref_texture_storage2dmultisample = opengl::stub_texture_storage2dmultisample;
-        self.ref_texture_storage2dmultisample_ext = opengl::stub_texture_storage2dmultisample_ext;
-        self.ref_texture_storage3d = opengl::stub_texture_storage3d;
-        self.ref_texture_storage3dext = opengl::stub_texture_storage3dext;
-        self.ref_texture_storage3dmultisample = opengl::stub_texture_storage3dmultisample;
-        self.ref_texture_storage3dmultisample_ext = opengl::stub_texture_storage3dmultisample_ext;
-        self.ref_texture_sub_image1d = opengl::stub_texture_sub_image1d;
-        self.ref_texture_sub_image1dext = opengl::stub_texture_sub_image1dext;
-        self.ref_texture_sub_image2d = opengl::stub_texture_sub_image2d;
-        self.ref_texture_sub_image2dext = opengl::stub_texture_sub_image2dext;
-        self.ref_texture_sub_image3d = opengl::stub_texture_sub_image3d;
-        self.ref_texture_sub_image3dext = opengl::stub_texture_sub_image3dext;
+        self.ref_texture_storage_1d = opengl::stub_texture_storage_1d;
+        self.ref_texture_storage_1dext = opengl::stub_texture_storage_1dext;
+        self.ref_texture_storage_2d = opengl::stub_texture_storage_2d;
+        self.ref_texture_storage_2dext = opengl::stub_texture_storage_2dext;
+        self.ref_texture_storage_2d_multisample = opengl::stub_texture_storage_2d_multisample;
+        self.ref_texture_storage_2d_multisample_ext = opengl::stub_texture_storage_2d_multisample_ext;
+        self.ref_texture_storage_3d = opengl::stub_texture_storage_3d;
+        self.ref_texture_storage_3dext = opengl::stub_texture_storage_3dext;
+        self.ref_texture_storage_3d_multisample = opengl::stub_texture_storage_3d_multisample;
+        self.ref_texture_storage_3d_multisample_ext = opengl::stub_texture_storage_3d_multisample_ext;
+        self.ref_texture_sub_image_1d = opengl::stub_texture_sub_image_1d;
+        self.ref_texture_sub_image_1dext = opengl::stub_texture_sub_image_1dext;
+        self.ref_texture_sub_image_2d = opengl::stub_texture_sub_image_2d;
+        self.ref_texture_sub_image_2dext = opengl::stub_texture_sub_image_2dext;
+        self.ref_texture_sub_image_3d = opengl::stub_texture_sub_image_3d;
+        self.ref_texture_sub_image_3dext = opengl::stub_texture_sub_image_3dext;
         self.ref_texture_view = opengl::stub_texture_view;
         self.ref_transform_feedback_buffer_base = opengl::stub_transform_feedback_buffer_base;
         self.ref_transform_feedback_buffer_range = opengl::stub_transform_feedback_buffer_range;
@@ -2452,11 +2452,11 @@ impl Api {
         self.ref_uniform1f = opengl::stub_uniform1f;
         self.ref_uniform1fv = opengl::stub_uniform1fv;
         self.ref_uniform1i = opengl::stub_uniform1i;
-        self.ref_uniform1i64arb = opengl::stub_uniform1i64arb;
+        self.ref_uniform1i64_arb = opengl::stub_uniform1i64_arb;
         self.ref_uniform1i64v_arb = opengl::stub_uniform1i64v_arb;
         self.ref_uniform1iv = opengl::stub_uniform1iv;
         self.ref_uniform1ui = opengl::stub_uniform1ui;
-        self.ref_uniform1ui64arb = opengl::stub_uniform1ui64arb;
+        self.ref_uniform1ui64_arb = opengl::stub_uniform1ui64_arb;
         self.ref_uniform1ui64v_arb = opengl::stub_uniform1ui64v_arb;
         self.ref_uniform1uiv = opengl::stub_uniform1uiv;
         self.ref_uniform2d = opengl::stub_uniform2d;
@@ -2464,11 +2464,11 @@ impl Api {
         self.ref_uniform2f = opengl::stub_uniform2f;
         self.ref_uniform2fv = opengl::stub_uniform2fv;
         self.ref_uniform2i = opengl::stub_uniform2i;
-        self.ref_uniform2i64arb = opengl::stub_uniform2i64arb;
+        self.ref_uniform2i64_arb = opengl::stub_uniform2i64_arb;
         self.ref_uniform2i64v_arb = opengl::stub_uniform2i64v_arb;
         self.ref_uniform2iv = opengl::stub_uniform2iv;
         self.ref_uniform2ui = opengl::stub_uniform2ui;
-        self.ref_uniform2ui64arb = opengl::stub_uniform2ui64arb;
+        self.ref_uniform2ui64_arb = opengl::stub_uniform2ui64_arb;
         self.ref_uniform2ui64v_arb = opengl::stub_uniform2ui64v_arb;
         self.ref_uniform2uiv = opengl::stub_uniform2uiv;
         self.ref_uniform3d = opengl::stub_uniform3d;
@@ -2476,11 +2476,11 @@ impl Api {
         self.ref_uniform3f = opengl::stub_uniform3f;
         self.ref_uniform3fv = opengl::stub_uniform3fv;
         self.ref_uniform3i = opengl::stub_uniform3i;
-        self.ref_uniform3i64arb = opengl::stub_uniform3i64arb;
+        self.ref_uniform3i64_arb = opengl::stub_uniform3i64_arb;
         self.ref_uniform3i64v_arb = opengl::stub_uniform3i64v_arb;
         self.ref_uniform3iv = opengl::stub_uniform3iv;
         self.ref_uniform3ui = opengl::stub_uniform3ui;
-        self.ref_uniform3ui64arb = opengl::stub_uniform3ui64arb;
+        self.ref_uniform3ui64_arb = opengl::stub_uniform3ui64_arb;
         self.ref_uniform3ui64v_arb = opengl::stub_uniform3ui64v_arb;
         self.ref_uniform3uiv = opengl::stub_uniform3uiv;
         self.ref_uniform4d = opengl::stub_uniform4d;
@@ -2488,15 +2488,15 @@ impl Api {
         self.ref_uniform4f = opengl::stub_uniform4f;
         self.ref_uniform4fv = opengl::stub_uniform4fv;
         self.ref_uniform4i = opengl::stub_uniform4i;
-        self.ref_uniform4i64arb = opengl::stub_uniform4i64arb;
+        self.ref_uniform4i64_arb = opengl::stub_uniform4i64_arb;
         self.ref_uniform4i64v_arb = opengl::stub_uniform4i64v_arb;
         self.ref_uniform4iv = opengl::stub_uniform4iv;
         self.ref_uniform4ui = opengl::stub_uniform4ui;
-        self.ref_uniform4ui64arb = opengl::stub_uniform4ui64arb;
+        self.ref_uniform4ui64_arb = opengl::stub_uniform4ui64_arb;
         self.ref_uniform4ui64v_arb = opengl::stub_uniform4ui64v_arb;
         self.ref_uniform4uiv = opengl::stub_uniform4uiv;
         self.ref_uniform_block_binding = opengl::stub_uniform_block_binding;
-        self.ref_uniform_handleui64arb = opengl::stub_uniform_handleui64arb;
+        self.ref_uniform_handleui64_arb = opengl::stub_uniform_handleui64_arb;
         self.ref_uniform_handleui64v_arb = opengl::stub_uniform_handleui64v_arb;
         self.ref_uniform_matrix2dv = opengl::stub_uniform_matrix2dv;
         self.ref_uniform_matrix2fv = opengl::stub_uniform_matrix2fv;
@@ -2529,8 +2529,8 @@ impl Api {
         self.ref_validate_program_pipeline_ext = opengl::stub_validate_program_pipeline_ext;
         self.ref_vertex_array_attrib_binding = opengl::stub_vertex_array_attrib_binding;
         self.ref_vertex_array_attrib_format = opengl::stub_vertex_array_attrib_format;
-        self.ref_vertex_array_attrib_iformat = opengl::stub_vertex_array_attrib_iformat;
-        self.ref_vertex_array_attrib_lformat = opengl::stub_vertex_array_attrib_lformat;
+        self.ref_vertex_array_attrib_i_format = opengl::stub_vertex_array_attrib_i_format;
+        self.ref_vertex_array_attrib_l_format = opengl::stub_vertex_array_attrib_l_format;
         self.ref_vertex_array_bind_vertex_buffer_ext = opengl::stub_vertex_array_bind_vertex_buffer_ext;
         self.ref_vertex_array_binding_divisor = opengl::stub_vertex_array_binding_divisor;
         self.ref_vertex_array_color_offset_ext = opengl::stub_vertex_array_color_offset_ext;
@@ -2545,10 +2545,10 @@ impl Api {
         self.ref_vertex_array_vertex_attrib_binding_ext = opengl::stub_vertex_array_vertex_attrib_binding_ext;
         self.ref_vertex_array_vertex_attrib_divisor_ext = opengl::stub_vertex_array_vertex_attrib_divisor_ext;
         self.ref_vertex_array_vertex_attrib_format_ext = opengl::stub_vertex_array_vertex_attrib_format_ext;
-        self.ref_vertex_array_vertex_attrib_iformat_ext = opengl::stub_vertex_array_vertex_attrib_iformat_ext;
-        self.ref_vertex_array_vertex_attrib_ioffset_ext = opengl::stub_vertex_array_vertex_attrib_ioffset_ext;
-        self.ref_vertex_array_vertex_attrib_lformat_ext = opengl::stub_vertex_array_vertex_attrib_lformat_ext;
-        self.ref_vertex_array_vertex_attrib_loffset_ext = opengl::stub_vertex_array_vertex_attrib_loffset_ext;
+        self.ref_vertex_array_vertex_attrib_i_format_ext = opengl::stub_vertex_array_vertex_attrib_i_format_ext;
+        self.ref_vertex_array_vertex_attrib_i_offset_ext = opengl::stub_vertex_array_vertex_attrib_i_offset_ext;
+        self.ref_vertex_array_vertex_attrib_l_format_ext = opengl::stub_vertex_array_vertex_attrib_l_format_ext;
+        self.ref_vertex_array_vertex_attrib_l_offset_ext = opengl::stub_vertex_array_vertex_attrib_l_offset_ext;
         self.ref_vertex_array_vertex_attrib_offset_ext = opengl::stub_vertex_array_vertex_attrib_offset_ext;
         self.ref_vertex_array_vertex_binding_divisor_ext = opengl::stub_vertex_array_vertex_binding_divisor_ext;
         self.ref_vertex_array_vertex_buffer = opengl::stub_vertex_array_vertex_buffer;
@@ -2572,13 +2572,13 @@ impl Api {
         self.ref_vertex_attrib3fv = opengl::stub_vertex_attrib3fv;
         self.ref_vertex_attrib3s = opengl::stub_vertex_attrib3s;
         self.ref_vertex_attrib3sv = opengl::stub_vertex_attrib3sv;
-        self.ref_vertex_attrib4nbv = opengl::stub_vertex_attrib4nbv;
-        self.ref_vertex_attrib4niv = opengl::stub_vertex_attrib4niv;
-        self.ref_vertex_attrib4nsv = opengl::stub_vertex_attrib4nsv;
-        self.ref_vertex_attrib4nub = opengl::stub_vertex_attrib4nub;
-        self.ref_vertex_attrib4nubv = opengl::stub_vertex_attrib4nubv;
-        self.ref_vertex_attrib4nuiv = opengl::stub_vertex_attrib4nuiv;
-        self.ref_vertex_attrib4nusv = opengl::stub_vertex_attrib4nusv;
+        self.ref_vertex_attrib4_nbv = opengl::stub_vertex_attrib4_nbv;
+        self.ref_vertex_attrib4_niv = opengl::stub_vertex_attrib4_niv;
+        self.ref_vertex_attrib4_nsv = opengl::stub_vertex_attrib4_nsv;
+        self.ref_vertex_attrib4_nub = opengl::stub_vertex_attrib4_nub;
+        self.ref_vertex_attrib4_nubv = opengl::stub_vertex_attrib4_nubv;
+        self.ref_vertex_attrib4_nuiv = opengl::stub_vertex_attrib4_nuiv;
+        self.ref_vertex_attrib4_nusv = opengl::stub_vertex_attrib4_nusv;
         self.ref_vertex_attrib4bv = opengl::stub_vertex_attrib4bv;
         self.ref_vertex_attrib4d = opengl::stub_vertex_attrib4d;
         self.ref_vertex_attrib4dv = opengl::stub_vertex_attrib4dv;
@@ -2614,11 +2614,11 @@ impl Api {
         self.ref_vertex_attrib_i4ui = opengl::stub_vertex_attrib_i4ui;
         self.ref_vertex_attrib_i4uiv = opengl::stub_vertex_attrib_i4uiv;
         self.ref_vertex_attrib_i4usv = opengl::stub_vertex_attrib_i4usv;
-        self.ref_vertex_attrib_iformat = opengl::stub_vertex_attrib_iformat;
-        self.ref_vertex_attrib_ipointer = opengl::stub_vertex_attrib_ipointer;
+        self.ref_vertex_attrib_i_format = opengl::stub_vertex_attrib_i_format;
+        self.ref_vertex_attrib_i_pointer = opengl::stub_vertex_attrib_i_pointer;
         self.ref_vertex_attrib_l1d = opengl::stub_vertex_attrib_l1d;
         self.ref_vertex_attrib_l1dv = opengl::stub_vertex_attrib_l1dv;
-        self.ref_vertex_attrib_l1ui64arb = opengl::stub_vertex_attrib_l1ui64arb;
+        self.ref_vertex_attrib_l1ui64_arb = opengl::stub_vertex_attrib_l1ui64_arb;
         self.ref_vertex_attrib_l1ui64v_arb = opengl::stub_vertex_attrib_l1ui64v_arb;
         self.ref_vertex_attrib_l2d = opengl::stub_vertex_attrib_l2d;
         self.ref_vertex_attrib_l2dv = opengl::stub_vertex_attrib_l2dv;
@@ -2626,8 +2626,8 @@ impl Api {
         self.ref_vertex_attrib_l3dv = opengl::stub_vertex_attrib_l3dv;
         self.ref_vertex_attrib_l4d = opengl::stub_vertex_attrib_l4d;
         self.ref_vertex_attrib_l4dv = opengl::stub_vertex_attrib_l4dv;
-        self.ref_vertex_attrib_lformat = opengl::stub_vertex_attrib_lformat;
-        self.ref_vertex_attrib_lpointer = opengl::stub_vertex_attrib_lpointer;
+        self.ref_vertex_attrib_l_format = opengl::stub_vertex_attrib_l_format;
+        self.ref_vertex_attrib_l_pointer = opengl::stub_vertex_attrib_l_pointer;
         self.ref_vertex_attrib_p1ui = opengl::stub_vertex_attrib_p1ui;
         self.ref_vertex_attrib_p1uiv = opengl::stub_vertex_attrib_p1uiv;
         self.ref_vertex_attrib_p2ui = opengl::stub_vertex_attrib_p2ui;

@@ -348,87 +348,87 @@ pub func stub_compile_shader_include_arb(_shader: u32, _count: i32, _path: **u8,
     panic("OpenGL function not found");
 }
 
-pub func stub_compressed_multi_tex_image1dext(_texunit: opengl::TextureUnit, _target: opengl::TextureTarget, _level: i32, _internalformat: opengl::InternalFormat, _width: i32, _border: i32, _image_size: i32, _bits: *void) {
+pub func stub_compressed_multi_tex_image_1dext(_texunit: opengl::TextureUnit, _target: opengl::TextureTarget, _level: i32, _internalformat: opengl::InternalFormat, _width: i32, _border: i32, _image_size: i32, _bits: *void) {
     panic("OpenGL function not found");
 }
 
-pub func stub_compressed_multi_tex_image2dext(_texunit: opengl::TextureUnit, _target: opengl::TextureTarget, _level: i32, _internalformat: opengl::InternalFormat, _width: i32, _height: i32, _border: i32, _image_size: i32, _bits: *void) {
+pub func stub_compressed_multi_tex_image_2dext(_texunit: opengl::TextureUnit, _target: opengl::TextureTarget, _level: i32, _internalformat: opengl::InternalFormat, _width: i32, _height: i32, _border: i32, _image_size: i32, _bits: *void) {
     panic("OpenGL function not found");
 }
 
-pub func stub_compressed_multi_tex_image3dext(_texunit: opengl::TextureUnit, _target: opengl::TextureTarget, _level: i32, _internalformat: opengl::InternalFormat, _width: i32, _height: i32, _depth: i32, _border: i32, _image_size: i32, _bits: *void) {
+pub func stub_compressed_multi_tex_image_3dext(_texunit: opengl::TextureUnit, _target: opengl::TextureTarget, _level: i32, _internalformat: opengl::InternalFormat, _width: i32, _height: i32, _depth: i32, _border: i32, _image_size: i32, _bits: *void) {
     panic("OpenGL function not found");
 }
 
-pub func stub_compressed_multi_tex_sub_image1dext(_texunit: opengl::TextureUnit, _target: opengl::TextureTarget, _level: i32, _xoffset: i32, _width: i32, _format: opengl::InternalFormat, _image_size: i32, _bits: *void) {
+pub func stub_compressed_multi_tex_sub_image_1dext(_texunit: opengl::TextureUnit, _target: opengl::TextureTarget, _level: i32, _xoffset: i32, _width: i32, _format: opengl::InternalFormat, _image_size: i32, _bits: *void) {
     panic("OpenGL function not found");
 }
 
-pub func stub_compressed_multi_tex_sub_image2dext(_texunit: opengl::TextureUnit, _target: opengl::TextureTarget, _level: i32, _xoffset: i32, _yoffset: i32, _width: i32, _height: i32, _format: opengl::InternalFormat, _image_size: i32, _bits: *void) {
+pub func stub_compressed_multi_tex_sub_image_2dext(_texunit: opengl::TextureUnit, _target: opengl::TextureTarget, _level: i32, _xoffset: i32, _yoffset: i32, _width: i32, _height: i32, _format: opengl::InternalFormat, _image_size: i32, _bits: *void) {
     panic("OpenGL function not found");
 }
 
-pub func stub_compressed_multi_tex_sub_image3dext(_texunit: opengl::TextureUnit, _target: opengl::TextureTarget, _level: i32, _xoffset: i32, _yoffset: i32, _zoffset: i32, _width: i32, _height: i32, _depth: i32, _format: opengl::InternalFormat, _image_size: i32, _bits: *void) {
+pub func stub_compressed_multi_tex_sub_image_3dext(_texunit: opengl::TextureUnit, _target: opengl::TextureTarget, _level: i32, _xoffset: i32, _yoffset: i32, _zoffset: i32, _width: i32, _height: i32, _depth: i32, _format: opengl::InternalFormat, _image_size: i32, _bits: *void) {
     panic("OpenGL function not found");
 }
 
-pub func stub_compressed_tex_image1d(_target: opengl::TextureTarget, _level: i32, _internalformat: opengl::InternalFormat, _width: i32, _border: i32, _image_size: i32, _data: *void) {
+pub func stub_compressed_tex_image_1d(_target: opengl::TextureTarget, _level: i32, _internalformat: opengl::InternalFormat, _width: i32, _border: i32, _image_size: i32, _data: *void) {
     panic("OpenGL function not found");
 }
 
-pub func stub_compressed_tex_image2d(_target: opengl::TextureTarget, _level: i32, _internalformat: opengl::InternalFormat, _width: i32, _height: i32, _border: i32, _image_size: i32, _data: *void) {
+pub func stub_compressed_tex_image_2d(_target: opengl::TextureTarget, _level: i32, _internalformat: opengl::InternalFormat, _width: i32, _height: i32, _border: i32, _image_size: i32, _data: *void) {
     panic("OpenGL function not found");
 }
 
-pub func stub_compressed_tex_image3d(_target: opengl::TextureTarget, _level: i32, _internalformat: opengl::InternalFormat, _width: i32, _height: i32, _depth: i32, _border: i32, _image_size: i32, _data: *void) {
+pub func stub_compressed_tex_image_3d(_target: opengl::TextureTarget, _level: i32, _internalformat: opengl::InternalFormat, _width: i32, _height: i32, _depth: i32, _border: i32, _image_size: i32, _data: *void) {
     panic("OpenGL function not found");
 }
 
-pub func stub_compressed_tex_sub_image1d(_target: opengl::TextureTarget, _level: i32, _xoffset: i32, _width: i32, _format: opengl::InternalFormat, _image_size: i32, _data: *void) {
+pub func stub_compressed_tex_sub_image_1d(_target: opengl::TextureTarget, _level: i32, _xoffset: i32, _width: i32, _format: opengl::InternalFormat, _image_size: i32, _data: *void) {
     panic("OpenGL function not found");
 }
 
-pub func stub_compressed_tex_sub_image2d(_target: opengl::TextureTarget, _level: i32, _xoffset: i32, _yoffset: i32, _width: i32, _height: i32, _format: opengl::InternalFormat, _image_size: i32, _data: *void) {
+pub func stub_compressed_tex_sub_image_2d(_target: opengl::TextureTarget, _level: i32, _xoffset: i32, _yoffset: i32, _width: i32, _height: i32, _format: opengl::InternalFormat, _image_size: i32, _data: *void) {
     panic("OpenGL function not found");
 }
 
-pub func stub_compressed_tex_sub_image3d(_target: opengl::TextureTarget, _level: i32, _xoffset: i32, _yoffset: i32, _zoffset: i32, _width: i32, _height: i32, _depth: i32, _format: opengl::InternalFormat, _image_size: i32, _data: *void) {
+pub func stub_compressed_tex_sub_image_3d(_target: opengl::TextureTarget, _level: i32, _xoffset: i32, _yoffset: i32, _zoffset: i32, _width: i32, _height: i32, _depth: i32, _format: opengl::InternalFormat, _image_size: i32, _data: *void) {
     panic("OpenGL function not found");
 }
 
-pub func stub_compressed_texture_image1dext(_texture: u32, _target: opengl::TextureTarget, _level: i32, _internalformat: opengl::InternalFormat, _width: i32, _border: i32, _image_size: i32, _bits: *void) {
+pub func stub_compressed_texture_image_1dext(_texture: u32, _target: opengl::TextureTarget, _level: i32, _internalformat: opengl::InternalFormat, _width: i32, _border: i32, _image_size: i32, _bits: *void) {
     panic("OpenGL function not found");
 }
 
-pub func stub_compressed_texture_image2dext(_texture: u32, _target: opengl::TextureTarget, _level: i32, _internalformat: opengl::InternalFormat, _width: i32, _height: i32, _border: i32, _image_size: i32, _bits: *void) {
+pub func stub_compressed_texture_image_2dext(_texture: u32, _target: opengl::TextureTarget, _level: i32, _internalformat: opengl::InternalFormat, _width: i32, _height: i32, _border: i32, _image_size: i32, _bits: *void) {
     panic("OpenGL function not found");
 }
 
-pub func stub_compressed_texture_image3dext(_texture: u32, _target: opengl::TextureTarget, _level: i32, _internalformat: opengl::InternalFormat, _width: i32, _height: i32, _depth: i32, _border: i32, _image_size: i32, _bits: *void) {
+pub func stub_compressed_texture_image_3dext(_texture: u32, _target: opengl::TextureTarget, _level: i32, _internalformat: opengl::InternalFormat, _width: i32, _height: i32, _depth: i32, _border: i32, _image_size: i32, _bits: *void) {
     panic("OpenGL function not found");
 }
 
-pub func stub_compressed_texture_sub_image1d(_texture: u32, _level: i32, _xoffset: i32, _width: i32, _format: opengl::InternalFormat, _image_size: i32, _data: *void) {
+pub func stub_compressed_texture_sub_image_1d(_texture: u32, _level: i32, _xoffset: i32, _width: i32, _format: opengl::InternalFormat, _image_size: i32, _data: *void) {
     panic("OpenGL function not found");
 }
 
-pub func stub_compressed_texture_sub_image1dext(_texture: u32, _target: opengl::TextureTarget, _level: i32, _xoffset: i32, _width: i32, _format: opengl::InternalFormat, _image_size: i32, _bits: *void) {
+pub func stub_compressed_texture_sub_image_1dext(_texture: u32, _target: opengl::TextureTarget, _level: i32, _xoffset: i32, _width: i32, _format: opengl::InternalFormat, _image_size: i32, _bits: *void) {
     panic("OpenGL function not found");
 }
 
-pub func stub_compressed_texture_sub_image2d(_texture: u32, _level: i32, _xoffset: i32, _yoffset: i32, _width: i32, _height: i32, _format: opengl::InternalFormat, _image_size: i32, _data: *void) {
+pub func stub_compressed_texture_sub_image_2d(_texture: u32, _level: i32, _xoffset: i32, _yoffset: i32, _width: i32, _height: i32, _format: opengl::InternalFormat, _image_size: i32, _data: *void) {
     panic("OpenGL function not found");
 }
 
-pub func stub_compressed_texture_sub_image2dext(_texture: u32, _target: opengl::TextureTarget, _level: i32, _xoffset: i32, _yoffset: i32, _width: i32, _height: i32, _format: opengl::InternalFormat, _image_size: i32, _bits: *void) {
+pub func stub_compressed_texture_sub_image_2dext(_texture: u32, _target: opengl::TextureTarget, _level: i32, _xoffset: i32, _yoffset: i32, _width: i32, _height: i32, _format: opengl::InternalFormat, _image_size: i32, _bits: *void) {
     panic("OpenGL function not found");
 }
 
-pub func stub_compressed_texture_sub_image3d(_texture: u32, _level: i32, _xoffset: i32, _yoffset: i32, _zoffset: i32, _width: i32, _height: i32, _depth: i32, _format: opengl::InternalFormat, _image_size: i32, _data: *void) {
+pub func stub_compressed_texture_sub_image_3d(_texture: u32, _level: i32, _xoffset: i32, _yoffset: i32, _zoffset: i32, _width: i32, _height: i32, _depth: i32, _format: opengl::InternalFormat, _image_size: i32, _data: *void) {
     panic("OpenGL function not found");
 }
 
-pub func stub_compressed_texture_sub_image3dext(_texture: u32, _target: opengl::TextureTarget, _level: i32, _xoffset: i32, _yoffset: i32, _zoffset: i32, _width: i32, _height: i32, _depth: i32, _format: opengl::InternalFormat, _image_size: i32, _bits: *void) {
+pub func stub_compressed_texture_sub_image_3dext(_texture: u32, _target: opengl::TextureTarget, _level: i32, _xoffset: i32, _yoffset: i32, _zoffset: i32, _width: i32, _height: i32, _depth: i32, _format: opengl::InternalFormat, _image_size: i32, _bits: *void) {
     panic("OpenGL function not found");
 }
 
@@ -440,23 +440,23 @@ pub func stub_copy_image_sub_data(_src_name: u32, _src_target: opengl::CopyImage
     panic("OpenGL function not found");
 }
 
-pub func stub_copy_multi_tex_image1dext(_texunit: opengl::TextureUnit, _target: opengl::TextureTarget, _level: i32, _internalformat: opengl::InternalFormat, _x: i32, _y: i32, _width: i32, _border: i32) {
+pub func stub_copy_multi_tex_image_1dext(_texunit: opengl::TextureUnit, _target: opengl::TextureTarget, _level: i32, _internalformat: opengl::InternalFormat, _x: i32, _y: i32, _width: i32, _border: i32) {
     panic("OpenGL function not found");
 }
 
-pub func stub_copy_multi_tex_image2dext(_texunit: opengl::TextureUnit, _target: opengl::TextureTarget, _level: i32, _internalformat: opengl::InternalFormat, _x: i32, _y: i32, _width: i32, _height: i32, _border: i32) {
+pub func stub_copy_multi_tex_image_2dext(_texunit: opengl::TextureUnit, _target: opengl::TextureTarget, _level: i32, _internalformat: opengl::InternalFormat, _x: i32, _y: i32, _width: i32, _height: i32, _border: i32) {
     panic("OpenGL function not found");
 }
 
-pub func stub_copy_multi_tex_sub_image1dext(_texunit: opengl::TextureUnit, _target: opengl::TextureTarget, _level: i32, _xoffset: i32, _x: i32, _y: i32, _width: i32) {
+pub func stub_copy_multi_tex_sub_image_1dext(_texunit: opengl::TextureUnit, _target: opengl::TextureTarget, _level: i32, _xoffset: i32, _x: i32, _y: i32, _width: i32) {
     panic("OpenGL function not found");
 }
 
-pub func stub_copy_multi_tex_sub_image2dext(_texunit: opengl::TextureUnit, _target: opengl::TextureTarget, _level: i32, _xoffset: i32, _yoffset: i32, _x: i32, _y: i32, _width: i32, _height: i32) {
+pub func stub_copy_multi_tex_sub_image_2dext(_texunit: opengl::TextureUnit, _target: opengl::TextureTarget, _level: i32, _xoffset: i32, _yoffset: i32, _x: i32, _y: i32, _width: i32, _height: i32) {
     panic("OpenGL function not found");
 }
 
-pub func stub_copy_multi_tex_sub_image3dext(_texunit: opengl::TextureUnit, _target: opengl::TextureTarget, _level: i32, _xoffset: i32, _yoffset: i32, _zoffset: i32, _x: i32, _y: i32, _width: i32, _height: i32) {
+pub func stub_copy_multi_tex_sub_image_3dext(_texunit: opengl::TextureUnit, _target: opengl::TextureTarget, _level: i32, _xoffset: i32, _yoffset: i32, _zoffset: i32, _x: i32, _y: i32, _width: i32, _height: i32) {
     panic("OpenGL function not found");
 }
 
@@ -464,55 +464,55 @@ pub func stub_copy_named_buffer_sub_data(_read_buffer: u32, _write_buffer: u32, 
     panic("OpenGL function not found");
 }
 
-pub func stub_copy_tex_image1d(_target: opengl::TextureTarget, _level: i32, _internalformat: opengl::InternalFormat, _x: i32, _y: i32, _width: i32, _border: i32) {
+pub func stub_copy_tex_image_1d(_target: opengl::TextureTarget, _level: i32, _internalformat: opengl::InternalFormat, _x: i32, _y: i32, _width: i32, _border: i32) {
     panic("OpenGL function not found");
 }
 
-pub func stub_copy_tex_image2d(_target: opengl::TextureTarget, _level: i32, _internalformat: opengl::InternalFormat, _x: i32, _y: i32, _width: i32, _height: i32, _border: i32) {
+pub func stub_copy_tex_image_2d(_target: opengl::TextureTarget, _level: i32, _internalformat: opengl::InternalFormat, _x: i32, _y: i32, _width: i32, _height: i32, _border: i32) {
     panic("OpenGL function not found");
 }
 
-pub func stub_copy_tex_sub_image1d(_target: opengl::TextureTarget, _level: i32, _xoffset: i32, _x: i32, _y: i32, _width: i32) {
+pub func stub_copy_tex_sub_image_1d(_target: opengl::TextureTarget, _level: i32, _xoffset: i32, _x: i32, _y: i32, _width: i32) {
     panic("OpenGL function not found");
 }
 
-pub func stub_copy_tex_sub_image2d(_target: opengl::TextureTarget, _level: i32, _xoffset: i32, _yoffset: i32, _x: i32, _y: i32, _width: i32, _height: i32) {
+pub func stub_copy_tex_sub_image_2d(_target: opengl::TextureTarget, _level: i32, _xoffset: i32, _yoffset: i32, _x: i32, _y: i32, _width: i32, _height: i32) {
     panic("OpenGL function not found");
 }
 
-pub func stub_copy_tex_sub_image3d(_target: opengl::TextureTarget, _level: i32, _xoffset: i32, _yoffset: i32, _zoffset: i32, _x: i32, _y: i32, _width: i32, _height: i32) {
+pub func stub_copy_tex_sub_image_3d(_target: opengl::TextureTarget, _level: i32, _xoffset: i32, _yoffset: i32, _zoffset: i32, _x: i32, _y: i32, _width: i32, _height: i32) {
     panic("OpenGL function not found");
 }
 
-pub func stub_copy_texture_image1dext(_texture: u32, _target: opengl::TextureTarget, _level: i32, _internalformat: opengl::InternalFormat, _x: i32, _y: i32, _width: i32, _border: i32) {
+pub func stub_copy_texture_image_1dext(_texture: u32, _target: opengl::TextureTarget, _level: i32, _internalformat: opengl::InternalFormat, _x: i32, _y: i32, _width: i32, _border: i32) {
     panic("OpenGL function not found");
 }
 
-pub func stub_copy_texture_image2dext(_texture: u32, _target: opengl::TextureTarget, _level: i32, _internalformat: opengl::InternalFormat, _x: i32, _y: i32, _width: i32, _height: i32, _border: i32) {
+pub func stub_copy_texture_image_2dext(_texture: u32, _target: opengl::TextureTarget, _level: i32, _internalformat: opengl::InternalFormat, _x: i32, _y: i32, _width: i32, _height: i32, _border: i32) {
     panic("OpenGL function not found");
 }
 
-pub func stub_copy_texture_sub_image1d(_texture: u32, _level: i32, _xoffset: i32, _x: i32, _y: i32, _width: i32) {
+pub func stub_copy_texture_sub_image_1d(_texture: u32, _level: i32, _xoffset: i32, _x: i32, _y: i32, _width: i32) {
     panic("OpenGL function not found");
 }
 
-pub func stub_copy_texture_sub_image1dext(_texture: u32, _target: opengl::TextureTarget, _level: i32, _xoffset: i32, _x: i32, _y: i32, _width: i32) {
+pub func stub_copy_texture_sub_image_1dext(_texture: u32, _target: opengl::TextureTarget, _level: i32, _xoffset: i32, _x: i32, _y: i32, _width: i32) {
     panic("OpenGL function not found");
 }
 
-pub func stub_copy_texture_sub_image2d(_texture: u32, _level: i32, _xoffset: i32, _yoffset: i32, _x: i32, _y: i32, _width: i32, _height: i32) {
+pub func stub_copy_texture_sub_image_2d(_texture: u32, _level: i32, _xoffset: i32, _yoffset: i32, _x: i32, _y: i32, _width: i32, _height: i32) {
     panic("OpenGL function not found");
 }
 
-pub func stub_copy_texture_sub_image2dext(_texture: u32, _target: opengl::TextureTarget, _level: i32, _xoffset: i32, _yoffset: i32, _x: i32, _y: i32, _width: i32, _height: i32) {
+pub func stub_copy_texture_sub_image_2dext(_texture: u32, _target: opengl::TextureTarget, _level: i32, _xoffset: i32, _yoffset: i32, _x: i32, _y: i32, _width: i32, _height: i32) {
     panic("OpenGL function not found");
 }
 
-pub func stub_copy_texture_sub_image3d(_texture: u32, _level: i32, _xoffset: i32, _yoffset: i32, _zoffset: i32, _x: i32, _y: i32, _width: i32, _height: i32) {
+pub func stub_copy_texture_sub_image_3d(_texture: u32, _level: i32, _xoffset: i32, _yoffset: i32, _zoffset: i32, _x: i32, _y: i32, _width: i32, _height: i32) {
     panic("OpenGL function not found");
 }
 
-pub func stub_copy_texture_sub_image3dext(_texture: u32, _target: opengl::TextureTarget, _level: i32, _xoffset: i32, _yoffset: i32, _zoffset: i32, _x: i32, _y: i32, _width: i32, _height: i32) {
+pub func stub_copy_texture_sub_image_3dext(_texture: u32, _target: opengl::TextureTarget, _level: i32, _xoffset: i32, _yoffset: i32, _zoffset: i32, _x: i32, _y: i32, _width: i32, _height: i32) {
     panic("OpenGL function not found");
 }
 
@@ -565,7 +565,7 @@ pub func stub_create_shader_programv_ext(_type_: opengl::ShaderType, _count: i32
     return 0;
 }
 
-pub func stub_create_sync_from_clevent_arb(_context: mut *u64, _event: mut *u64, _flags: u32) u64 {
+pub func stub_create_sync_from_c_levent_arb(_context: mut *u64, _event: mut *u64, _flags: u32) u64 {
     panic("OpenGL function not found");
     return 0;
 }
@@ -862,11 +862,11 @@ pub func stub_draw_transform_feedback_stream_instanced(_mode: opengl::PrimitiveT
     panic("OpenGL function not found");
 }
 
-pub func stub_eglimage_target_tex_storage_ext(_target: u32, _image: u64, _attrib_list: *i32) {
+pub func stub_egl_image_target_tex_storage_ext(_target: u32, _image: u64, _attrib_list: *i32) {
     panic("OpenGL function not found");
 }
 
-pub func stub_eglimage_target_texture_storage_ext(_texture: u32, _image: u64, _attrib_list: *i32) {
+pub func stub_egl_image_target_texture_storage_ext(_texture: u32, _image: u64, _attrib_list: *i32) {
     panic("OpenGL function not found");
 }
 
@@ -987,15 +987,15 @@ pub func stub_framebuffer_texture(_target: opengl::FramebufferTarget, _attachmen
     panic("OpenGL function not found");
 }
 
-pub func stub_framebuffer_texture1d(_target: opengl::FramebufferTarget, _attachment: opengl::FramebufferAttachment, _textarget: opengl::TextureTarget, _texture: u32, _level: i32) {
+pub func stub_framebuffer_texture_1d(_target: opengl::FramebufferTarget, _attachment: opengl::FramebufferAttachment, _textarget: opengl::TextureTarget, _texture: u32, _level: i32) {
     panic("OpenGL function not found");
 }
 
-pub func stub_framebuffer_texture2d(_target: opengl::FramebufferTarget, _attachment: opengl::FramebufferAttachment, _textarget: opengl::TextureTarget, _texture: u32, _level: i32) {
+pub func stub_framebuffer_texture_2d(_target: opengl::FramebufferTarget, _attachment: opengl::FramebufferAttachment, _textarget: opengl::TextureTarget, _texture: u32, _level: i32) {
     panic("OpenGL function not found");
 }
 
-pub func stub_framebuffer_texture3d(_target: opengl::FramebufferTarget, _attachment: opengl::FramebufferAttachment, _textarget: opengl::TextureTarget, _texture: u32, _level: i32, _zoffset: i32) {
+pub func stub_framebuffer_texture_3d(_target: opengl::FramebufferTarget, _attachment: opengl::FramebufferAttachment, _textarget: opengl::TextureTarget, _texture: u32, _level: i32, _zoffset: i32) {
     panic("OpenGL function not found");
 }
 
@@ -2302,15 +2302,15 @@ pub func stub_multi_tex_geniv_ext(_texunit: opengl::TextureUnit, _coord: u32, _p
     panic("OpenGL function not found");
 }
 
-pub func stub_multi_tex_image1dext(_texunit: opengl::TextureUnit, _target: opengl::TextureTarget, _level: i32, _internalformat: opengl::InternalFormat, _width: i32, _border: i32, _format: opengl::PixelFormat, _type_: opengl::PixelType, _pixels: *void) {
+pub func stub_multi_tex_image_1dext(_texunit: opengl::TextureUnit, _target: opengl::TextureTarget, _level: i32, _internalformat: opengl::InternalFormat, _width: i32, _border: i32, _format: opengl::PixelFormat, _type_: opengl::PixelType, _pixels: *void) {
     panic("OpenGL function not found");
 }
 
-pub func stub_multi_tex_image2dext(_texunit: opengl::TextureUnit, _target: opengl::TextureTarget, _level: i32, _internalformat: opengl::InternalFormat, _width: i32, _height: i32, _border: i32, _format: opengl::PixelFormat, _type_: opengl::PixelType, _pixels: *void) {
+pub func stub_multi_tex_image_2dext(_texunit: opengl::TextureUnit, _target: opengl::TextureTarget, _level: i32, _internalformat: opengl::InternalFormat, _width: i32, _height: i32, _border: i32, _format: opengl::PixelFormat, _type_: opengl::PixelType, _pixels: *void) {
     panic("OpenGL function not found");
 }
 
-pub func stub_multi_tex_image3dext(_texunit: opengl::TextureUnit, _target: opengl::TextureTarget, _level: i32, _internalformat: opengl::InternalFormat, _width: i32, _height: i32, _depth: i32, _border: i32, _format: opengl::PixelFormat, _type_: opengl::PixelType, _pixels: *void) {
+pub func stub_multi_tex_image_3dext(_texunit: opengl::TextureUnit, _target: opengl::TextureTarget, _level: i32, _internalformat: opengl::InternalFormat, _width: i32, _height: i32, _depth: i32, _border: i32, _format: opengl::PixelFormat, _type_: opengl::PixelType, _pixels: *void) {
     panic("OpenGL function not found");
 }
 
@@ -2342,15 +2342,15 @@ pub func stub_multi_tex_renderbuffer_ext(_texunit: opengl::TextureUnit, _target:
     panic("OpenGL function not found");
 }
 
-pub func stub_multi_tex_sub_image1dext(_texunit: opengl::TextureUnit, _target: opengl::TextureTarget, _level: i32, _xoffset: i32, _width: i32, _format: opengl::PixelFormat, _type_: opengl::PixelType, _pixels: *void) {
+pub func stub_multi_tex_sub_image_1dext(_texunit: opengl::TextureUnit, _target: opengl::TextureTarget, _level: i32, _xoffset: i32, _width: i32, _format: opengl::PixelFormat, _type_: opengl::PixelType, _pixels: *void) {
     panic("OpenGL function not found");
 }
 
-pub func stub_multi_tex_sub_image2dext(_texunit: opengl::TextureUnit, _target: opengl::TextureTarget, _level: i32, _xoffset: i32, _yoffset: i32, _width: i32, _height: i32, _format: opengl::PixelFormat, _type_: opengl::PixelType, _pixels: *void) {
+pub func stub_multi_tex_sub_image_2dext(_texunit: opengl::TextureUnit, _target: opengl::TextureTarget, _level: i32, _xoffset: i32, _yoffset: i32, _width: i32, _height: i32, _format: opengl::PixelFormat, _type_: opengl::PixelType, _pixels: *void) {
     panic("OpenGL function not found");
 }
 
-pub func stub_multi_tex_sub_image3dext(_texunit: opengl::TextureUnit, _target: opengl::TextureTarget, _level: i32, _xoffset: i32, _yoffset: i32, _zoffset: i32, _width: i32, _height: i32, _depth: i32, _format: opengl::PixelFormat, _type_: opengl::PixelType, _pixels: *void) {
+pub func stub_multi_tex_sub_image_3dext(_texunit: opengl::TextureUnit, _target: opengl::TextureTarget, _level: i32, _xoffset: i32, _yoffset: i32, _zoffset: i32, _width: i32, _height: i32, _depth: i32, _format: opengl::PixelFormat, _type_: opengl::PixelType, _pixels: *void) {
     panic("OpenGL function not found");
 }
 
@@ -2426,15 +2426,15 @@ pub func stub_named_framebuffer_texture(_framebuffer: u32, _attachment: opengl::
     panic("OpenGL function not found");
 }
 
-pub func stub_named_framebuffer_texture1dext(_framebuffer: u32, _attachment: opengl::FramebufferAttachment, _textarget: opengl::TextureTarget, _texture: u32, _level: i32) {
+pub func stub_named_framebuffer_texture_1dext(_framebuffer: u32, _attachment: opengl::FramebufferAttachment, _textarget: opengl::TextureTarget, _texture: u32, _level: i32) {
     panic("OpenGL function not found");
 }
 
-pub func stub_named_framebuffer_texture2dext(_framebuffer: u32, _attachment: opengl::FramebufferAttachment, _textarget: opengl::TextureTarget, _texture: u32, _level: i32) {
+pub func stub_named_framebuffer_texture_2dext(_framebuffer: u32, _attachment: opengl::FramebufferAttachment, _textarget: opengl::TextureTarget, _texture: u32, _level: i32) {
     panic("OpenGL function not found");
 }
 
-pub func stub_named_framebuffer_texture3dext(_framebuffer: u32, _attachment: opengl::FramebufferAttachment, _textarget: opengl::TextureTarget, _texture: u32, _level: i32, _zoffset: i32) {
+pub func stub_named_framebuffer_texture_3dext(_framebuffer: u32, _attachment: opengl::FramebufferAttachment, _textarget: opengl::TextureTarget, _texture: u32, _level: i32, _zoffset: i32) {
     panic("OpenGL function not found");
 }
 
@@ -2670,7 +2670,7 @@ pub func stub_program_uniform1i(_program: u32, _location: i32, _v0: i32) {
     panic("OpenGL function not found");
 }
 
-pub func stub_program_uniform1i64arb(_program: u32, _location: i32, _x: i64) {
+pub func stub_program_uniform1i64_arb(_program: u32, _location: i32, _x: i64) {
     panic("OpenGL function not found");
 }
 
@@ -2694,7 +2694,7 @@ pub func stub_program_uniform1ui(_program: u32, _location: i32, _v0: u32) {
     panic("OpenGL function not found");
 }
 
-pub func stub_program_uniform1ui64arb(_program: u32, _location: i32, _x: u64) {
+pub func stub_program_uniform1ui64_arb(_program: u32, _location: i32, _x: u64) {
     panic("OpenGL function not found");
 }
 
@@ -2750,7 +2750,7 @@ pub func stub_program_uniform2i(_program: u32, _location: i32, _v0: i32, _v1: i3
     panic("OpenGL function not found");
 }
 
-pub func stub_program_uniform2i64arb(_program: u32, _location: i32, _x: i64, _y: i64) {
+pub func stub_program_uniform2i64_arb(_program: u32, _location: i32, _x: i64, _y: i64) {
     panic("OpenGL function not found");
 }
 
@@ -2774,7 +2774,7 @@ pub func stub_program_uniform2ui(_program: u32, _location: i32, _v0: u32, _v1: u
     panic("OpenGL function not found");
 }
 
-pub func stub_program_uniform2ui64arb(_program: u32, _location: i32, _x: u64, _y: u64) {
+pub func stub_program_uniform2ui64_arb(_program: u32, _location: i32, _x: u64, _y: u64) {
     panic("OpenGL function not found");
 }
 
@@ -2830,7 +2830,7 @@ pub func stub_program_uniform3i(_program: u32, _location: i32, _v0: i32, _v1: i3
     panic("OpenGL function not found");
 }
 
-pub func stub_program_uniform3i64arb(_program: u32, _location: i32, _x: i64, _y: i64, _z: i64) {
+pub func stub_program_uniform3i64_arb(_program: u32, _location: i32, _x: i64, _y: i64, _z: i64) {
     panic("OpenGL function not found");
 }
 
@@ -2854,7 +2854,7 @@ pub func stub_program_uniform3ui(_program: u32, _location: i32, _v0: u32, _v1: u
     panic("OpenGL function not found");
 }
 
-pub func stub_program_uniform3ui64arb(_program: u32, _location: i32, _x: u64, _y: u64, _z: u64) {
+pub func stub_program_uniform3ui64_arb(_program: u32, _location: i32, _x: u64, _y: u64, _z: u64) {
     panic("OpenGL function not found");
 }
 
@@ -2910,7 +2910,7 @@ pub func stub_program_uniform4i(_program: u32, _location: i32, _v0: i32, _v1: i3
     panic("OpenGL function not found");
 }
 
-pub func stub_program_uniform4i64arb(_program: u32, _location: i32, _x: i64, _y: i64, _z: i64, _w: i64) {
+pub func stub_program_uniform4i64_arb(_program: u32, _location: i32, _x: i64, _y: i64, _z: i64, _w: i64) {
     panic("OpenGL function not found");
 }
 
@@ -2934,7 +2934,7 @@ pub func stub_program_uniform4ui(_program: u32, _location: i32, _v0: u32, _v1: u
     panic("OpenGL function not found");
 }
 
-pub func stub_program_uniform4ui64arb(_program: u32, _location: i32, _x: u64, _y: u64, _z: u64, _w: u64) {
+pub func stub_program_uniform4ui64_arb(_program: u32, _location: i32, _x: u64, _y: u64, _z: u64, _w: u64) {
     panic("OpenGL function not found");
 }
 
@@ -2954,7 +2954,7 @@ pub func stub_program_uniform4uiv_ext(_program: u32, _location: i32, _count: i32
     panic("OpenGL function not found");
 }
 
-pub func stub_program_uniform_handleui64arb(_program: u32, _location: i32, _value: u64) {
+pub func stub_program_uniform_handleui64_arb(_program: u32, _location: i32, _value: u64) {
     panic("OpenGL function not found");
 }
 
@@ -3282,23 +3282,23 @@ pub func stub_tex_buffer_range(_target: opengl::TextureTarget, _internalformat: 
     panic("OpenGL function not found");
 }
 
-pub func stub_tex_image1d(_target: opengl::TextureTarget, _level: i32, _internalformat: opengl::InternalFormat, _width: i32, _border: i32, _format: opengl::PixelFormat, _type_: opengl::PixelType, _pixels: *void) {
+pub func stub_tex_image_1d(_target: opengl::TextureTarget, _level: i32, _internalformat: opengl::InternalFormat, _width: i32, _border: i32, _format: opengl::PixelFormat, _type_: opengl::PixelType, _pixels: *void) {
     panic("OpenGL function not found");
 }
 
-pub func stub_tex_image2d(_target: opengl::TextureTarget, _level: i32, _internalformat: opengl::InternalFormat, _width: i32, _height: i32, _border: i32, _format: opengl::PixelFormat, _type_: opengl::PixelType, _pixels: *void) {
+pub func stub_tex_image_2d(_target: opengl::TextureTarget, _level: i32, _internalformat: opengl::InternalFormat, _width: i32, _height: i32, _border: i32, _format: opengl::PixelFormat, _type_: opengl::PixelType, _pixels: *void) {
     panic("OpenGL function not found");
 }
 
-pub func stub_tex_image2dmultisample(_target: opengl::TextureTarget, _samples: i32, _internalformat: opengl::InternalFormat, _width: i32, _height: i32, _fixedsamplelocations: bool) {
+pub func stub_tex_image_2d_multisample(_target: opengl::TextureTarget, _samples: i32, _internalformat: opengl::InternalFormat, _width: i32, _height: i32, _fixedsamplelocations: bool) {
     panic("OpenGL function not found");
 }
 
-pub func stub_tex_image3d(_target: opengl::TextureTarget, _level: i32, _internalformat: opengl::InternalFormat, _width: i32, _height: i32, _depth: i32, _border: i32, _format: opengl::PixelFormat, _type_: opengl::PixelType, _pixels: *void) {
+pub func stub_tex_image_3d(_target: opengl::TextureTarget, _level: i32, _internalformat: opengl::InternalFormat, _width: i32, _height: i32, _depth: i32, _border: i32, _format: opengl::PixelFormat, _type_: opengl::PixelType, _pixels: *void) {
     panic("OpenGL function not found");
 }
 
-pub func stub_tex_image3dmultisample(_target: opengl::TextureTarget, _samples: i32, _internalformat: opengl::InternalFormat, _width: i32, _height: i32, _depth: i32, _fixedsamplelocations: bool) {
+pub func stub_tex_image_3d_multisample(_target: opengl::TextureTarget, _samples: i32, _internalformat: opengl::InternalFormat, _width: i32, _height: i32, _depth: i32, _fixedsamplelocations: bool) {
     panic("OpenGL function not found");
 }
 
@@ -3330,47 +3330,47 @@ pub func stub_tex_parameteriv(_target: opengl::TextureTarget, _pname: opengl::Te
     panic("OpenGL function not found");
 }
 
-pub func stub_tex_storage1d(_target: opengl::TextureTarget, _levels: i32, _internalformat: opengl::SizedInternalFormat, _width: i32) {
+pub func stub_tex_storage_1d(_target: opengl::TextureTarget, _levels: i32, _internalformat: opengl::SizedInternalFormat, _width: i32) {
     panic("OpenGL function not found");
 }
 
-pub func stub_tex_storage1dext(_target: opengl::TextureTarget, _levels: i32, _internalformat: opengl::SizedInternalFormat, _width: i32) {
+pub func stub_tex_storage_1dext(_target: opengl::TextureTarget, _levels: i32, _internalformat: opengl::SizedInternalFormat, _width: i32) {
     panic("OpenGL function not found");
 }
 
-pub func stub_tex_storage2d(_target: opengl::TextureTarget, _levels: i32, _internalformat: opengl::SizedInternalFormat, _width: i32, _height: i32) {
+pub func stub_tex_storage_2d(_target: opengl::TextureTarget, _levels: i32, _internalformat: opengl::SizedInternalFormat, _width: i32, _height: i32) {
     panic("OpenGL function not found");
 }
 
-pub func stub_tex_storage2dext(_target: opengl::TextureTarget, _levels: i32, _internalformat: opengl::SizedInternalFormat, _width: i32, _height: i32) {
+pub func stub_tex_storage_2dext(_target: opengl::TextureTarget, _levels: i32, _internalformat: opengl::SizedInternalFormat, _width: i32, _height: i32) {
     panic("OpenGL function not found");
 }
 
-pub func stub_tex_storage2dmultisample(_target: opengl::TextureTarget, _samples: i32, _internalformat: opengl::SizedInternalFormat, _width: i32, _height: i32, _fixedsamplelocations: bool) {
+pub func stub_tex_storage_2d_multisample(_target: opengl::TextureTarget, _samples: i32, _internalformat: opengl::SizedInternalFormat, _width: i32, _height: i32, _fixedsamplelocations: bool) {
     panic("OpenGL function not found");
 }
 
-pub func stub_tex_storage3d(_target: opengl::TextureTarget, _levels: i32, _internalformat: opengl::SizedInternalFormat, _width: i32, _height: i32, _depth: i32) {
+pub func stub_tex_storage_3d(_target: opengl::TextureTarget, _levels: i32, _internalformat: opengl::SizedInternalFormat, _width: i32, _height: i32, _depth: i32) {
     panic("OpenGL function not found");
 }
 
-pub func stub_tex_storage3dext(_target: opengl::TextureTarget, _levels: i32, _internalformat: opengl::SizedInternalFormat, _width: i32, _height: i32, _depth: i32) {
+pub func stub_tex_storage_3dext(_target: opengl::TextureTarget, _levels: i32, _internalformat: opengl::SizedInternalFormat, _width: i32, _height: i32, _depth: i32) {
     panic("OpenGL function not found");
 }
 
-pub func stub_tex_storage3dmultisample(_target: opengl::TextureTarget, _samples: i32, _internalformat: opengl::SizedInternalFormat, _width: i32, _height: i32, _depth: i32, _fixedsamplelocations: bool) {
+pub func stub_tex_storage_3d_multisample(_target: opengl::TextureTarget, _samples: i32, _internalformat: opengl::SizedInternalFormat, _width: i32, _height: i32, _depth: i32, _fixedsamplelocations: bool) {
     panic("OpenGL function not found");
 }
 
-pub func stub_tex_sub_image1d(_target: opengl::TextureTarget, _level: i32, _xoffset: i32, _width: i32, _format: opengl::PixelFormat, _type_: opengl::PixelType, _pixels: *void) {
+pub func stub_tex_sub_image_1d(_target: opengl::TextureTarget, _level: i32, _xoffset: i32, _width: i32, _format: opengl::PixelFormat, _type_: opengl::PixelType, _pixels: *void) {
     panic("OpenGL function not found");
 }
 
-pub func stub_tex_sub_image2d(_target: opengl::TextureTarget, _level: i32, _xoffset: i32, _yoffset: i32, _width: i32, _height: i32, _format: opengl::PixelFormat, _type_: opengl::PixelType, _pixels: *void) {
+pub func stub_tex_sub_image_2d(_target: opengl::TextureTarget, _level: i32, _xoffset: i32, _yoffset: i32, _width: i32, _height: i32, _format: opengl::PixelFormat, _type_: opengl::PixelType, _pixels: *void) {
     panic("OpenGL function not found");
 }
 
-pub func stub_tex_sub_image3d(_target: opengl::TextureTarget, _level: i32, _xoffset: i32, _yoffset: i32, _zoffset: i32, _width: i32, _height: i32, _depth: i32, _format: opengl::PixelFormat, _type_: opengl::PixelType, _pixels: *void) {
+pub func stub_tex_sub_image_3d(_target: opengl::TextureTarget, _level: i32, _xoffset: i32, _yoffset: i32, _zoffset: i32, _width: i32, _height: i32, _depth: i32, _format: opengl::PixelFormat, _type_: opengl::PixelType, _pixels: *void) {
     panic("OpenGL function not found");
 }
 
@@ -3394,15 +3394,15 @@ pub func stub_texture_buffer_range_ext(_texture: u32, _target: opengl::TextureTa
     panic("OpenGL function not found");
 }
 
-pub func stub_texture_image1dext(_texture: u32, _target: opengl::TextureTarget, _level: i32, _internalformat: opengl::InternalFormat, _width: i32, _border: i32, _format: opengl::PixelFormat, _type_: opengl::PixelType, _pixels: *void) {
+pub func stub_texture_image_1dext(_texture: u32, _target: opengl::TextureTarget, _level: i32, _internalformat: opengl::InternalFormat, _width: i32, _border: i32, _format: opengl::PixelFormat, _type_: opengl::PixelType, _pixels: *void) {
     panic("OpenGL function not found");
 }
 
-pub func stub_texture_image2dext(_texture: u32, _target: opengl::TextureTarget, _level: i32, _internalformat: opengl::InternalFormat, _width: i32, _height: i32, _border: i32, _format: opengl::PixelFormat, _type_: opengl::PixelType, _pixels: *void) {
+pub func stub_texture_image_2dext(_texture: u32, _target: opengl::TextureTarget, _level: i32, _internalformat: opengl::InternalFormat, _width: i32, _height: i32, _border: i32, _format: opengl::PixelFormat, _type_: opengl::PixelType, _pixels: *void) {
     panic("OpenGL function not found");
 }
 
-pub func stub_texture_image3dext(_texture: u32, _target: opengl::TextureTarget, _level: i32, _internalformat: opengl::InternalFormat, _width: i32, _height: i32, _depth: i32, _border: i32, _format: opengl::PixelFormat, _type_: opengl::PixelType, _pixels: *void) {
+pub func stub_texture_image_3dext(_texture: u32, _target: opengl::TextureTarget, _level: i32, _internalformat: opengl::InternalFormat, _width: i32, _height: i32, _depth: i32, _border: i32, _format: opengl::PixelFormat, _type_: opengl::PixelType, _pixels: *void) {
     panic("OpenGL function not found");
 }
 
@@ -3462,67 +3462,67 @@ pub func stub_texture_renderbuffer_ext(_texture: u32, _target: opengl::TextureTa
     panic("OpenGL function not found");
 }
 
-pub func stub_texture_storage1d(_texture: u32, _levels: i32, _internalformat: opengl::SizedInternalFormat, _width: i32) {
+pub func stub_texture_storage_1d(_texture: u32, _levels: i32, _internalformat: opengl::SizedInternalFormat, _width: i32) {
     panic("OpenGL function not found");
 }
 
-pub func stub_texture_storage1dext(_texture: u32, _target: u32, _levels: i32, _internalformat: opengl::SizedInternalFormat, _width: i32) {
+pub func stub_texture_storage_1dext(_texture: u32, _target: u32, _levels: i32, _internalformat: opengl::SizedInternalFormat, _width: i32) {
     panic("OpenGL function not found");
 }
 
-pub func stub_texture_storage2d(_texture: u32, _levels: i32, _internalformat: opengl::SizedInternalFormat, _width: i32, _height: i32) {
+pub func stub_texture_storage_2d(_texture: u32, _levels: i32, _internalformat: opengl::SizedInternalFormat, _width: i32, _height: i32) {
     panic("OpenGL function not found");
 }
 
-pub func stub_texture_storage2dext(_texture: u32, _target: u32, _levels: i32, _internalformat: opengl::SizedInternalFormat, _width: i32, _height: i32) {
+pub func stub_texture_storage_2dext(_texture: u32, _target: u32, _levels: i32, _internalformat: opengl::SizedInternalFormat, _width: i32, _height: i32) {
     panic("OpenGL function not found");
 }
 
-pub func stub_texture_storage2dmultisample(_texture: u32, _samples: i32, _internalformat: opengl::SizedInternalFormat, _width: i32, _height: i32, _fixedsamplelocations: bool) {
+pub func stub_texture_storage_2d_multisample(_texture: u32, _samples: i32, _internalformat: opengl::SizedInternalFormat, _width: i32, _height: i32, _fixedsamplelocations: bool) {
     panic("OpenGL function not found");
 }
 
-pub func stub_texture_storage2dmultisample_ext(_texture: u32, _target: opengl::TextureTarget, _samples: i32, _internalformat: opengl::SizedInternalFormat, _width: i32, _height: i32, _fixedsamplelocations: bool) {
+pub func stub_texture_storage_2d_multisample_ext(_texture: u32, _target: opengl::TextureTarget, _samples: i32, _internalformat: opengl::SizedInternalFormat, _width: i32, _height: i32, _fixedsamplelocations: bool) {
     panic("OpenGL function not found");
 }
 
-pub func stub_texture_storage3d(_texture: u32, _levels: i32, _internalformat: opengl::SizedInternalFormat, _width: i32, _height: i32, _depth: i32) {
+pub func stub_texture_storage_3d(_texture: u32, _levels: i32, _internalformat: opengl::SizedInternalFormat, _width: i32, _height: i32, _depth: i32) {
     panic("OpenGL function not found");
 }
 
-pub func stub_texture_storage3dext(_texture: u32, _target: u32, _levels: i32, _internalformat: opengl::SizedInternalFormat, _width: i32, _height: i32, _depth: i32) {
+pub func stub_texture_storage_3dext(_texture: u32, _target: u32, _levels: i32, _internalformat: opengl::SizedInternalFormat, _width: i32, _height: i32, _depth: i32) {
     panic("OpenGL function not found");
 }
 
-pub func stub_texture_storage3dmultisample(_texture: u32, _samples: i32, _internalformat: opengl::SizedInternalFormat, _width: i32, _height: i32, _depth: i32, _fixedsamplelocations: bool) {
+pub func stub_texture_storage_3d_multisample(_texture: u32, _samples: i32, _internalformat: opengl::SizedInternalFormat, _width: i32, _height: i32, _depth: i32, _fixedsamplelocations: bool) {
     panic("OpenGL function not found");
 }
 
-pub func stub_texture_storage3dmultisample_ext(_texture: u32, _target: u32, _samples: i32, _internalformat: opengl::SizedInternalFormat, _width: i32, _height: i32, _depth: i32, _fixedsamplelocations: bool) {
+pub func stub_texture_storage_3d_multisample_ext(_texture: u32, _target: u32, _samples: i32, _internalformat: opengl::SizedInternalFormat, _width: i32, _height: i32, _depth: i32, _fixedsamplelocations: bool) {
     panic("OpenGL function not found");
 }
 
-pub func stub_texture_sub_image1d(_texture: u32, _level: i32, _xoffset: i32, _width: i32, _format: opengl::PixelFormat, _type_: opengl::PixelType, _pixels: *void) {
+pub func stub_texture_sub_image_1d(_texture: u32, _level: i32, _xoffset: i32, _width: i32, _format: opengl::PixelFormat, _type_: opengl::PixelType, _pixels: *void) {
     panic("OpenGL function not found");
 }
 
-pub func stub_texture_sub_image1dext(_texture: u32, _target: opengl::TextureTarget, _level: i32, _xoffset: i32, _width: i32, _format: opengl::PixelFormat, _type_: opengl::PixelType, _pixels: *void) {
+pub func stub_texture_sub_image_1dext(_texture: u32, _target: opengl::TextureTarget, _level: i32, _xoffset: i32, _width: i32, _format: opengl::PixelFormat, _type_: opengl::PixelType, _pixels: *void) {
     panic("OpenGL function not found");
 }
 
-pub func stub_texture_sub_image2d(_texture: u32, _level: i32, _xoffset: i32, _yoffset: i32, _width: i32, _height: i32, _format: opengl::PixelFormat, _type_: opengl::PixelType, _pixels: *void) {
+pub func stub_texture_sub_image_2d(_texture: u32, _level: i32, _xoffset: i32, _yoffset: i32, _width: i32, _height: i32, _format: opengl::PixelFormat, _type_: opengl::PixelType, _pixels: *void) {
     panic("OpenGL function not found");
 }
 
-pub func stub_texture_sub_image2dext(_texture: u32, _target: opengl::TextureTarget, _level: i32, _xoffset: i32, _yoffset: i32, _width: i32, _height: i32, _format: opengl::PixelFormat, _type_: opengl::PixelType, _pixels: *void) {
+pub func stub_texture_sub_image_2dext(_texture: u32, _target: opengl::TextureTarget, _level: i32, _xoffset: i32, _yoffset: i32, _width: i32, _height: i32, _format: opengl::PixelFormat, _type_: opengl::PixelType, _pixels: *void) {
     panic("OpenGL function not found");
 }
 
-pub func stub_texture_sub_image3d(_texture: u32, _level: i32, _xoffset: i32, _yoffset: i32, _zoffset: i32, _width: i32, _height: i32, _depth: i32, _format: opengl::PixelFormat, _type_: opengl::PixelType, _pixels: *void) {
+pub func stub_texture_sub_image_3d(_texture: u32, _level: i32, _xoffset: i32, _yoffset: i32, _zoffset: i32, _width: i32, _height: i32, _depth: i32, _format: opengl::PixelFormat, _type_: opengl::PixelType, _pixels: *void) {
     panic("OpenGL function not found");
 }
 
-pub func stub_texture_sub_image3dext(_texture: u32, _target: opengl::TextureTarget, _level: i32, _xoffset: i32, _yoffset: i32, _zoffset: i32, _width: i32, _height: i32, _depth: i32, _format: opengl::PixelFormat, _type_: opengl::PixelType, _pixels: *void) {
+pub func stub_texture_sub_image_3dext(_texture: u32, _target: opengl::TextureTarget, _level: i32, _xoffset: i32, _yoffset: i32, _zoffset: i32, _width: i32, _height: i32, _depth: i32, _format: opengl::PixelFormat, _type_: opengl::PixelType, _pixels: *void) {
     panic("OpenGL function not found");
 }
 
@@ -3562,7 +3562,7 @@ pub func stub_uniform1i(_location: i32, _v0: i32) {
     panic("OpenGL function not found");
 }
 
-pub func stub_uniform1i64arb(_location: i32, _x: i64) {
+pub func stub_uniform1i64_arb(_location: i32, _x: i64) {
     panic("OpenGL function not found");
 }
 
@@ -3578,7 +3578,7 @@ pub func stub_uniform1ui(_location: i32, _v0: u32) {
     panic("OpenGL function not found");
 }
 
-pub func stub_uniform1ui64arb(_location: i32, _x: u64) {
+pub func stub_uniform1ui64_arb(_location: i32, _x: u64) {
     panic("OpenGL function not found");
 }
 
@@ -3610,7 +3610,7 @@ pub func stub_uniform2i(_location: i32, _v0: i32, _v1: i32) {
     panic("OpenGL function not found");
 }
 
-pub func stub_uniform2i64arb(_location: i32, _x: i64, _y: i64) {
+pub func stub_uniform2i64_arb(_location: i32, _x: i64, _y: i64) {
     panic("OpenGL function not found");
 }
 
@@ -3626,7 +3626,7 @@ pub func stub_uniform2ui(_location: i32, _v0: u32, _v1: u32) {
     panic("OpenGL function not found");
 }
 
-pub func stub_uniform2ui64arb(_location: i32, _x: u64, _y: u64) {
+pub func stub_uniform2ui64_arb(_location: i32, _x: u64, _y: u64) {
     panic("OpenGL function not found");
 }
 
@@ -3658,7 +3658,7 @@ pub func stub_uniform3i(_location: i32, _v0: i32, _v1: i32, _v2: i32) {
     panic("OpenGL function not found");
 }
 
-pub func stub_uniform3i64arb(_location: i32, _x: i64, _y: i64, _z: i64) {
+pub func stub_uniform3i64_arb(_location: i32, _x: i64, _y: i64, _z: i64) {
     panic("OpenGL function not found");
 }
 
@@ -3674,7 +3674,7 @@ pub func stub_uniform3ui(_location: i32, _v0: u32, _v1: u32, _v2: u32) {
     panic("OpenGL function not found");
 }
 
-pub func stub_uniform3ui64arb(_location: i32, _x: u64, _y: u64, _z: u64) {
+pub func stub_uniform3ui64_arb(_location: i32, _x: u64, _y: u64, _z: u64) {
     panic("OpenGL function not found");
 }
 
@@ -3706,7 +3706,7 @@ pub func stub_uniform4i(_location: i32, _v0: i32, _v1: i32, _v2: i32, _v3: i32) 
     panic("OpenGL function not found");
 }
 
-pub func stub_uniform4i64arb(_location: i32, _x: i64, _y: i64, _z: i64, _w: i64) {
+pub func stub_uniform4i64_arb(_location: i32, _x: i64, _y: i64, _z: i64, _w: i64) {
     panic("OpenGL function not found");
 }
 
@@ -3722,7 +3722,7 @@ pub func stub_uniform4ui(_location: i32, _v0: u32, _v1: u32, _v2: u32, _v3: u32)
     panic("OpenGL function not found");
 }
 
-pub func stub_uniform4ui64arb(_location: i32, _x: u64, _y: u64, _z: u64, _w: u64) {
+pub func stub_uniform4ui64_arb(_location: i32, _x: u64, _y: u64, _z: u64, _w: u64) {
     panic("OpenGL function not found");
 }
 
@@ -3738,7 +3738,7 @@ pub func stub_uniform_block_binding(_program: u32, _uniform_block_index: u32, _u
     panic("OpenGL function not found");
 }
 
-pub func stub_uniform_handleui64arb(_location: i32, _value: u64) {
+pub func stub_uniform_handleui64_arb(_location: i32, _value: u64) {
     panic("OpenGL function not found");
 }
 
@@ -3873,11 +3873,11 @@ pub func stub_vertex_array_attrib_format(_vaobj: u32, _attribindex: u32, _size: 
     panic("OpenGL function not found");
 }
 
-pub func stub_vertex_array_attrib_iformat(_vaobj: u32, _attribindex: u32, _size: i32, _type_: opengl::VertexAttribIType, _relativeoffset: u32) {
+pub func stub_vertex_array_attrib_i_format(_vaobj: u32, _attribindex: u32, _size: i32, _type_: opengl::VertexAttribIType, _relativeoffset: u32) {
     panic("OpenGL function not found");
 }
 
-pub func stub_vertex_array_attrib_lformat(_vaobj: u32, _attribindex: u32, _size: i32, _type_: opengl::VertexAttribLType, _relativeoffset: u32) {
+pub func stub_vertex_array_attrib_l_format(_vaobj: u32, _attribindex: u32, _size: i32, _type_: opengl::VertexAttribLType, _relativeoffset: u32) {
     panic("OpenGL function not found");
 }
 
@@ -3937,19 +3937,19 @@ pub func stub_vertex_array_vertex_attrib_format_ext(_vaobj: u32, _attribindex: u
     panic("OpenGL function not found");
 }
 
-pub func stub_vertex_array_vertex_attrib_iformat_ext(_vaobj: u32, _attribindex: u32, _size: i32, _type_: opengl::VertexAttribIType, _relativeoffset: u32) {
+pub func stub_vertex_array_vertex_attrib_i_format_ext(_vaobj: u32, _attribindex: u32, _size: i32, _type_: opengl::VertexAttribIType, _relativeoffset: u32) {
     panic("OpenGL function not found");
 }
 
-pub func stub_vertex_array_vertex_attrib_ioffset_ext(_vaobj: u32, _buffer: u32, _index: u32, _size: i32, _type_: opengl::VertexAttribType, _stride: i32, _offset: i64) {
+pub func stub_vertex_array_vertex_attrib_i_offset_ext(_vaobj: u32, _buffer: u32, _index: u32, _size: i32, _type_: opengl::VertexAttribType, _stride: i32, _offset: i64) {
     panic("OpenGL function not found");
 }
 
-pub func stub_vertex_array_vertex_attrib_lformat_ext(_vaobj: u32, _attribindex: u32, _size: i32, _type_: opengl::VertexAttribLType, _relativeoffset: u32) {
+pub func stub_vertex_array_vertex_attrib_l_format_ext(_vaobj: u32, _attribindex: u32, _size: i32, _type_: opengl::VertexAttribLType, _relativeoffset: u32) {
     panic("OpenGL function not found");
 }
 
-pub func stub_vertex_array_vertex_attrib_loffset_ext(_vaobj: u32, _buffer: u32, _index: u32, _size: i32, _type_: opengl::VertexAttribLType, _stride: i32, _offset: i64) {
+pub func stub_vertex_array_vertex_attrib_l_offset_ext(_vaobj: u32, _buffer: u32, _index: u32, _size: i32, _type_: opengl::VertexAttribLType, _stride: i32, _offset: i64) {
     panic("OpenGL function not found");
 }
 
@@ -4045,31 +4045,31 @@ pub func stub_vertex_attrib3sv(_index: u32, _v: *i16) {
     panic("OpenGL function not found");
 }
 
-pub func stub_vertex_attrib4nbv(_index: u32, _v: *i8) {
+pub func stub_vertex_attrib4_nbv(_index: u32, _v: *i8) {
     panic("OpenGL function not found");
 }
 
-pub func stub_vertex_attrib4niv(_index: u32, _v: *i32) {
+pub func stub_vertex_attrib4_niv(_index: u32, _v: *i32) {
     panic("OpenGL function not found");
 }
 
-pub func stub_vertex_attrib4nsv(_index: u32, _v: *i16) {
+pub func stub_vertex_attrib4_nsv(_index: u32, _v: *i16) {
     panic("OpenGL function not found");
 }
 
-pub func stub_vertex_attrib4nub(_index: u32, _x: u8, _y: u8, _z: u8, _w: u8) {
+pub func stub_vertex_attrib4_nub(_index: u32, _x: u8, _y: u8, _z: u8, _w: u8) {
     panic("OpenGL function not found");
 }
 
-pub func stub_vertex_attrib4nubv(_index: u32, _v: *u8) {
+pub func stub_vertex_attrib4_nubv(_index: u32, _v: *u8) {
     panic("OpenGL function not found");
 }
 
-pub func stub_vertex_attrib4nuiv(_index: u32, _v: *u32) {
+pub func stub_vertex_attrib4_nuiv(_index: u32, _v: *u32) {
     panic("OpenGL function not found");
 }
 
-pub func stub_vertex_attrib4nusv(_index: u32, _v: *u16) {
+pub func stub_vertex_attrib4_nusv(_index: u32, _v: *u16) {
     panic("OpenGL function not found");
 }
 
@@ -4213,11 +4213,11 @@ pub func stub_vertex_attrib_i4usv(_index: u32, _v: *u16) {
     panic("OpenGL function not found");
 }
 
-pub func stub_vertex_attrib_iformat(_attribindex: u32, _size: i32, _type_: opengl::VertexAttribIType, _relativeoffset: u32) {
+pub func stub_vertex_attrib_i_format(_attribindex: u32, _size: i32, _type_: opengl::VertexAttribIType, _relativeoffset: u32) {
     panic("OpenGL function not found");
 }
 
-pub func stub_vertex_attrib_ipointer(_index: u32, _size: i32, _type_: opengl::VertexAttribIType, _stride: i32, _pointer: *void) {
+pub func stub_vertex_attrib_i_pointer(_index: u32, _size: i32, _type_: opengl::VertexAttribIType, _stride: i32, _pointer: *void) {
     panic("OpenGL function not found");
 }
 
@@ -4229,7 +4229,7 @@ pub func stub_vertex_attrib_l1dv(_index: u32, _v: *f64) {
     panic("OpenGL function not found");
 }
 
-pub func stub_vertex_attrib_l1ui64arb(_index: u32, _x: u64) {
+pub func stub_vertex_attrib_l1ui64_arb(_index: u32, _x: u64) {
     panic("OpenGL function not found");
 }
 
@@ -4261,11 +4261,11 @@ pub func stub_vertex_attrib_l4dv(_index: u32, _v: *f64) {
     panic("OpenGL function not found");
 }
 
-pub func stub_vertex_attrib_lformat(_attribindex: u32, _size: i32, _type_: opengl::VertexAttribLType, _relativeoffset: u32) {
+pub func stub_vertex_attrib_l_format(_attribindex: u32, _size: i32, _type_: opengl::VertexAttribLType, _relativeoffset: u32) {
     panic("OpenGL function not found");
 }
 
-pub func stub_vertex_attrib_lpointer(_index: u32, _size: i32, _type_: opengl::VertexAttribLType, _stride: i32, _pointer: *void) {
+pub func stub_vertex_attrib_l_pointer(_index: u32, _size: i32, _type_: opengl::VertexAttribLType, _stride: i32, _pointer: *void) {
     panic("OpenGL function not found");
 }
 

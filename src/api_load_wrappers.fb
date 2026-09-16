@@ -345,88 +345,88 @@ impl opengl::Api {
         self.ref_compile_shader_include_arb(shader, count, path, length);
     }
 
-    pub func compressed_multi_tex_image1dext(self, texunit: opengl::TextureUnit, target: opengl::TextureTarget, level: i32, internalformat: opengl::InternalFormat, width: i32, border: i32, image_size: i32, bits: *void) {
-        self.ref_compressed_multi_tex_image1dext(texunit, target, level, internalformat, width, border, image_size, bits);
+    pub func compressed_multi_tex_image_1dext(self, texunit: opengl::TextureUnit, target: opengl::TextureTarget, level: i32, internalformat: opengl::InternalFormat, width: i32, border: i32, image_size: i32, bits: *void) {
+        self.ref_compressed_multi_tex_image_1dext(texunit, target, level, internalformat, width, border, image_size, bits);
     }
 
-    pub func compressed_multi_tex_image2dext(self, texunit: opengl::TextureUnit, target: opengl::TextureTarget, level: i32, internalformat: opengl::InternalFormat, width: i32, height: i32, border: i32, image_size: i32, bits: *void) {
-        self.ref_compressed_multi_tex_image2dext(texunit, target, level, internalformat, width, height, border, image_size, bits);
+    pub func compressed_multi_tex_image_2dext(self, texunit: opengl::TextureUnit, target: opengl::TextureTarget, level: i32, internalformat: opengl::InternalFormat, width: i32, height: i32, border: i32, image_size: i32, bits: *void) {
+        self.ref_compressed_multi_tex_image_2dext(texunit, target, level, internalformat, width, height, border, image_size, bits);
     }
 
-    pub func compressed_multi_tex_image3dext(self, texunit: opengl::TextureUnit, target: opengl::TextureTarget, level: i32, internalformat: opengl::InternalFormat, width: i32, height: i32, depth: i32, border: i32, image_size: i32, bits: *void) {
-        self.ref_compressed_multi_tex_image3dext(texunit, target, level, internalformat, width, height, depth, border, image_size, bits);
+    pub func compressed_multi_tex_image_3dext(self, texunit: opengl::TextureUnit, target: opengl::TextureTarget, level: i32, internalformat: opengl::InternalFormat, width: i32, height: i32, depth: i32, border: i32, image_size: i32, bits: *void) {
+        self.ref_compressed_multi_tex_image_3dext(texunit, target, level, internalformat, width, height, depth, border, image_size, bits);
     }
 
-    pub func compressed_multi_tex_sub_image1dext(self, texunit: opengl::TextureUnit, target: opengl::TextureTarget, level: i32, xoffset: i32, width: i32, format: opengl::InternalFormat, image_size: i32, bits: *void) {
-        self.ref_compressed_multi_tex_sub_image1dext(texunit, target, level, xoffset, width, format, image_size, bits);
+    pub func compressed_multi_tex_sub_image_1dext(self, texunit: opengl::TextureUnit, target: opengl::TextureTarget, level: i32, xoffset: i32, width: i32, format: opengl::InternalFormat, image_size: i32, bits: *void) {
+        self.ref_compressed_multi_tex_sub_image_1dext(texunit, target, level, xoffset, width, format, image_size, bits);
     }
 
-    pub func compressed_multi_tex_sub_image2dext(self, texunit: opengl::TextureUnit, target: opengl::TextureTarget, level: i32, xoffset: i32, yoffset: i32, width: i32, height: i32, format: opengl::InternalFormat, image_size: i32, bits: *void) {
-        self.ref_compressed_multi_tex_sub_image2dext(texunit, target, level, xoffset, yoffset, width, height, format, image_size, bits);
+    pub func compressed_multi_tex_sub_image_2dext(self, texunit: opengl::TextureUnit, target: opengl::TextureTarget, level: i32, xoffset: i32, yoffset: i32, width: i32, height: i32, format: opengl::InternalFormat, image_size: i32, bits: *void) {
+        self.ref_compressed_multi_tex_sub_image_2dext(texunit, target, level, xoffset, yoffset, width, height, format, image_size, bits);
     }
 
-    pub func compressed_multi_tex_sub_image3dext(self, texunit: opengl::TextureUnit, target: opengl::TextureTarget, level: i32, xoffset: i32, yoffset: i32, zoffset: i32, width: i32, height: i32, depth: i32, format: opengl::InternalFormat, image_size: i32, bits: *void) {
-        self.ref_compressed_multi_tex_sub_image3dext(texunit, target, level, xoffset, yoffset, zoffset, width, height, depth, format, image_size, bits);
+    pub func compressed_multi_tex_sub_image_3dext(self, texunit: opengl::TextureUnit, target: opengl::TextureTarget, level: i32, xoffset: i32, yoffset: i32, zoffset: i32, width: i32, height: i32, depth: i32, format: opengl::InternalFormat, image_size: i32, bits: *void) {
+        self.ref_compressed_multi_tex_sub_image_3dext(texunit, target, level, xoffset, yoffset, zoffset, width, height, depth, format, image_size, bits);
     }
 
-    pub func compressed_tex_image1d(self, target: opengl::TextureTarget, level: i32, internalformat: opengl::InternalFormat, width: i32, border: i32, image_size: i32, data: *void) {
-        self.ref_compressed_tex_image1d(target, level, internalformat, width, border, image_size, data);
+    pub func compressed_tex_image_1d(self, target: opengl::TextureTarget, level: i32, internalformat: opengl::InternalFormat, width: i32, border: i32, image_size: i32, data: *void) {
+        self.ref_compressed_tex_image_1d(target, level, internalformat, width, border, image_size, data);
     }
 
-    pub func compressed_tex_image2d(self, target: opengl::TextureTarget, level: i32, internalformat: opengl::InternalFormat, width: i32, height: i32, border: i32, image_size: i32, data: *void) {
-        self.ref_compressed_tex_image2d(target, level, internalformat, width, height, border, image_size, data);
+    pub func compressed_tex_image_2d(self, target: opengl::TextureTarget, level: i32, internalformat: opengl::InternalFormat, width: i32, height: i32, border: i32, image_size: i32, data: *void) {
+        self.ref_compressed_tex_image_2d(target, level, internalformat, width, height, border, image_size, data);
     }
 
-    pub func compressed_tex_image3d(self, target: opengl::TextureTarget, level: i32, internalformat: opengl::InternalFormat, width: i32, height: i32, depth: i32, border: i32, image_size: i32, data: *void) {
-        self.ref_compressed_tex_image3d(target, level, internalformat, width, height, depth, border, image_size, data);
+    pub func compressed_tex_image_3d(self, target: opengl::TextureTarget, level: i32, internalformat: opengl::InternalFormat, width: i32, height: i32, depth: i32, border: i32, image_size: i32, data: *void) {
+        self.ref_compressed_tex_image_3d(target, level, internalformat, width, height, depth, border, image_size, data);
     }
 
-    pub func compressed_tex_sub_image1d(self, target: opengl::TextureTarget, level: i32, xoffset: i32, width: i32, format: opengl::InternalFormat, image_size: i32, data: *void) {
-        self.ref_compressed_tex_sub_image1d(target, level, xoffset, width, format, image_size, data);
+    pub func compressed_tex_sub_image_1d(self, target: opengl::TextureTarget, level: i32, xoffset: i32, width: i32, format: opengl::InternalFormat, image_size: i32, data: *void) {
+        self.ref_compressed_tex_sub_image_1d(target, level, xoffset, width, format, image_size, data);
     }
 
-    pub func compressed_tex_sub_image2d(self, target: opengl::TextureTarget, level: i32, xoffset: i32, yoffset: i32, width: i32, height: i32, format: opengl::InternalFormat, image_size: i32, data: *void) {
-        self.ref_compressed_tex_sub_image2d(target, level, xoffset, yoffset, width, height, format, image_size, data);
+    pub func compressed_tex_sub_image_2d(self, target: opengl::TextureTarget, level: i32, xoffset: i32, yoffset: i32, width: i32, height: i32, format: opengl::InternalFormat, image_size: i32, data: *void) {
+        self.ref_compressed_tex_sub_image_2d(target, level, xoffset, yoffset, width, height, format, image_size, data);
     }
 
-    pub func compressed_tex_sub_image3d(self, target: opengl::TextureTarget, level: i32, xoffset: i32, yoffset: i32, zoffset: i32, width: i32, height: i32, depth: i32, format: opengl::InternalFormat, image_size: i32, data: *void) {
-        self.ref_compressed_tex_sub_image3d(target, level, xoffset, yoffset, zoffset, width, height, depth, format, image_size, data);
+    pub func compressed_tex_sub_image_3d(self, target: opengl::TextureTarget, level: i32, xoffset: i32, yoffset: i32, zoffset: i32, width: i32, height: i32, depth: i32, format: opengl::InternalFormat, image_size: i32, data: *void) {
+        self.ref_compressed_tex_sub_image_3d(target, level, xoffset, yoffset, zoffset, width, height, depth, format, image_size, data);
     }
 
-    pub func compressed_texture_image1dext(self, texture: u32, target: opengl::TextureTarget, level: i32, internalformat: opengl::InternalFormat, width: i32, border: i32, image_size: i32, bits: *void) {
-        self.ref_compressed_texture_image1dext(texture, target, level, internalformat, width, border, image_size, bits);
+    pub func compressed_texture_image_1dext(self, texture: u32, target: opengl::TextureTarget, level: i32, internalformat: opengl::InternalFormat, width: i32, border: i32, image_size: i32, bits: *void) {
+        self.ref_compressed_texture_image_1dext(texture, target, level, internalformat, width, border, image_size, bits);
     }
 
-    pub func compressed_texture_image2dext(self, texture: u32, target: opengl::TextureTarget, level: i32, internalformat: opengl::InternalFormat, width: i32, height: i32, border: i32, image_size: i32, bits: *void) {
-        self.ref_compressed_texture_image2dext(texture, target, level, internalformat, width, height, border, image_size, bits);
+    pub func compressed_texture_image_2dext(self, texture: u32, target: opengl::TextureTarget, level: i32, internalformat: opengl::InternalFormat, width: i32, height: i32, border: i32, image_size: i32, bits: *void) {
+        self.ref_compressed_texture_image_2dext(texture, target, level, internalformat, width, height, border, image_size, bits);
     }
 
-    pub func compressed_texture_image3dext(self, texture: u32, target: opengl::TextureTarget, level: i32, internalformat: opengl::InternalFormat, width: i32, height: i32, depth: i32, border: i32, image_size: i32, bits: *void) {
-        self.ref_compressed_texture_image3dext(texture, target, level, internalformat, width, height, depth, border, image_size, bits);
+    pub func compressed_texture_image_3dext(self, texture: u32, target: opengl::TextureTarget, level: i32, internalformat: opengl::InternalFormat, width: i32, height: i32, depth: i32, border: i32, image_size: i32, bits: *void) {
+        self.ref_compressed_texture_image_3dext(texture, target, level, internalformat, width, height, depth, border, image_size, bits);
     }
 
-    pub func compressed_texture_sub_image1d(self, texture: u32, level: i32, xoffset: i32, width: i32, format: opengl::InternalFormat, image_size: i32, data: *void) {
-        self.ref_compressed_texture_sub_image1d(texture, level, xoffset, width, format, image_size, data);
+    pub func compressed_texture_sub_image_1d(self, texture: u32, level: i32, xoffset: i32, width: i32, format: opengl::InternalFormat, image_size: i32, data: *void) {
+        self.ref_compressed_texture_sub_image_1d(texture, level, xoffset, width, format, image_size, data);
     }
 
-    pub func compressed_texture_sub_image1dext(self, texture: u32, target: opengl::TextureTarget, level: i32, xoffset: i32, width: i32, format: opengl::InternalFormat, image_size: i32, bits: *void) {
-        self.ref_compressed_texture_sub_image1dext(texture, target, level, xoffset, width, format, image_size, bits);
+    pub func compressed_texture_sub_image_1dext(self, texture: u32, target: opengl::TextureTarget, level: i32, xoffset: i32, width: i32, format: opengl::InternalFormat, image_size: i32, bits: *void) {
+        self.ref_compressed_texture_sub_image_1dext(texture, target, level, xoffset, width, format, image_size, bits);
     }
 
-    pub func compressed_texture_sub_image2d(self, texture: u32, level: i32, xoffset: i32, yoffset: i32, width: i32, height: i32, format: opengl::InternalFormat, image_size: i32, data: *void) {
-        self.ref_compressed_texture_sub_image2d(texture, level, xoffset, yoffset, width, height, format, image_size, data);
+    pub func compressed_texture_sub_image_2d(self, texture: u32, level: i32, xoffset: i32, yoffset: i32, width: i32, height: i32, format: opengl::InternalFormat, image_size: i32, data: *void) {
+        self.ref_compressed_texture_sub_image_2d(texture, level, xoffset, yoffset, width, height, format, image_size, data);
     }
 
-    pub func compressed_texture_sub_image2dext(self, texture: u32, target: opengl::TextureTarget, level: i32, xoffset: i32, yoffset: i32, width: i32, height: i32, format: opengl::InternalFormat, image_size: i32, bits: *void) {
-        self.ref_compressed_texture_sub_image2dext(texture, target, level, xoffset, yoffset, width, height, format, image_size, bits);
+    pub func compressed_texture_sub_image_2dext(self, texture: u32, target: opengl::TextureTarget, level: i32, xoffset: i32, yoffset: i32, width: i32, height: i32, format: opengl::InternalFormat, image_size: i32, bits: *void) {
+        self.ref_compressed_texture_sub_image_2dext(texture, target, level, xoffset, yoffset, width, height, format, image_size, bits);
     }
 
-    pub func compressed_texture_sub_image3d(self, texture: u32, level: i32, xoffset: i32, yoffset: i32, zoffset: i32, width: i32, height: i32, depth: i32, format: opengl::InternalFormat, image_size: i32, data: *void) {
-        self.ref_compressed_texture_sub_image3d(texture, level, xoffset, yoffset, zoffset, width, height, depth, format, image_size, data);
+    pub func compressed_texture_sub_image_3d(self, texture: u32, level: i32, xoffset: i32, yoffset: i32, zoffset: i32, width: i32, height: i32, depth: i32, format: opengl::InternalFormat, image_size: i32, data: *void) {
+        self.ref_compressed_texture_sub_image_3d(texture, level, xoffset, yoffset, zoffset, width, height, depth, format, image_size, data);
     }
 
-    pub func compressed_texture_sub_image3dext(self, texture: u32, target: opengl::TextureTarget, level: i32, xoffset: i32, yoffset: i32, zoffset: i32, width: i32, height: i32, depth: i32, format: opengl::InternalFormat, image_size: i32, bits: *void) {
-        self.ref_compressed_texture_sub_image3dext(texture, target, level, xoffset, yoffset, zoffset, width, height, depth, format, image_size, bits);
+    pub func compressed_texture_sub_image_3dext(self, texture: u32, target: opengl::TextureTarget, level: i32, xoffset: i32, yoffset: i32, zoffset: i32, width: i32, height: i32, depth: i32, format: opengl::InternalFormat, image_size: i32, bits: *void) {
+        self.ref_compressed_texture_sub_image_3dext(texture, target, level, xoffset, yoffset, zoffset, width, height, depth, format, image_size, bits);
     }
 
     pub func copy_buffer_sub_data(self, read_target: opengl::CopyBufferSubDataTarget, write_target: opengl::CopyBufferSubDataTarget, read_offset: i64, write_offset: i64, size: u64) {
@@ -437,80 +437,80 @@ impl opengl::Api {
         self.ref_copy_image_sub_data(src_name, src_target, src_level, src_x, src_y, src_z, dst_name, dst_target, dst_level, dst_x, dst_y, dst_z, src_width, src_height, src_depth);
     }
 
-    pub func copy_multi_tex_image1dext(self, texunit: opengl::TextureUnit, target: opengl::TextureTarget, level: i32, internalformat: opengl::InternalFormat, x: i32, y: i32, width: i32, border: i32) {
-        self.ref_copy_multi_tex_image1dext(texunit, target, level, internalformat, x, y, width, border);
+    pub func copy_multi_tex_image_1dext(self, texunit: opengl::TextureUnit, target: opengl::TextureTarget, level: i32, internalformat: opengl::InternalFormat, x: i32, y: i32, width: i32, border: i32) {
+        self.ref_copy_multi_tex_image_1dext(texunit, target, level, internalformat, x, y, width, border);
     }
 
-    pub func copy_multi_tex_image2dext(self, texunit: opengl::TextureUnit, target: opengl::TextureTarget, level: i32, internalformat: opengl::InternalFormat, x: i32, y: i32, width: i32, height: i32, border: i32) {
-        self.ref_copy_multi_tex_image2dext(texunit, target, level, internalformat, x, y, width, height, border);
+    pub func copy_multi_tex_image_2dext(self, texunit: opengl::TextureUnit, target: opengl::TextureTarget, level: i32, internalformat: opengl::InternalFormat, x: i32, y: i32, width: i32, height: i32, border: i32) {
+        self.ref_copy_multi_tex_image_2dext(texunit, target, level, internalformat, x, y, width, height, border);
     }
 
-    pub func copy_multi_tex_sub_image1dext(self, texunit: opengl::TextureUnit, target: opengl::TextureTarget, level: i32, xoffset: i32, x: i32, y: i32, width: i32) {
-        self.ref_copy_multi_tex_sub_image1dext(texunit, target, level, xoffset, x, y, width);
+    pub func copy_multi_tex_sub_image_1dext(self, texunit: opengl::TextureUnit, target: opengl::TextureTarget, level: i32, xoffset: i32, x: i32, y: i32, width: i32) {
+        self.ref_copy_multi_tex_sub_image_1dext(texunit, target, level, xoffset, x, y, width);
     }
 
-    pub func copy_multi_tex_sub_image2dext(self, texunit: opengl::TextureUnit, target: opengl::TextureTarget, level: i32, xoffset: i32, yoffset: i32, x: i32, y: i32, width: i32, height: i32) {
-        self.ref_copy_multi_tex_sub_image2dext(texunit, target, level, xoffset, yoffset, x, y, width, height);
+    pub func copy_multi_tex_sub_image_2dext(self, texunit: opengl::TextureUnit, target: opengl::TextureTarget, level: i32, xoffset: i32, yoffset: i32, x: i32, y: i32, width: i32, height: i32) {
+        self.ref_copy_multi_tex_sub_image_2dext(texunit, target, level, xoffset, yoffset, x, y, width, height);
     }
 
-    pub func copy_multi_tex_sub_image3dext(self, texunit: opengl::TextureUnit, target: opengl::TextureTarget, level: i32, xoffset: i32, yoffset: i32, zoffset: i32, x: i32, y: i32, width: i32, height: i32) {
-        self.ref_copy_multi_tex_sub_image3dext(texunit, target, level, xoffset, yoffset, zoffset, x, y, width, height);
+    pub func copy_multi_tex_sub_image_3dext(self, texunit: opengl::TextureUnit, target: opengl::TextureTarget, level: i32, xoffset: i32, yoffset: i32, zoffset: i32, x: i32, y: i32, width: i32, height: i32) {
+        self.ref_copy_multi_tex_sub_image_3dext(texunit, target, level, xoffset, yoffset, zoffset, x, y, width, height);
     }
 
     pub func copy_named_buffer_sub_data(self, read_buffer: u32, write_buffer: u32, read_offset: i64, write_offset: i64, size: u64) {
         self.ref_copy_named_buffer_sub_data(read_buffer, write_buffer, read_offset, write_offset, size);
     }
 
-    pub func copy_tex_image1d(self, target: opengl::TextureTarget, level: i32, internalformat: opengl::InternalFormat, x: i32, y: i32, width: i32, border: i32) {
-        self.ref_copy_tex_image1d(target, level, internalformat, x, y, width, border);
+    pub func copy_tex_image_1d(self, target: opengl::TextureTarget, level: i32, internalformat: opengl::InternalFormat, x: i32, y: i32, width: i32, border: i32) {
+        self.ref_copy_tex_image_1d(target, level, internalformat, x, y, width, border);
     }
 
-    pub func copy_tex_image2d(self, target: opengl::TextureTarget, level: i32, internalformat: opengl::InternalFormat, x: i32, y: i32, width: i32, height: i32, border: i32) {
-        self.ref_copy_tex_image2d(target, level, internalformat, x, y, width, height, border);
+    pub func copy_tex_image_2d(self, target: opengl::TextureTarget, level: i32, internalformat: opengl::InternalFormat, x: i32, y: i32, width: i32, height: i32, border: i32) {
+        self.ref_copy_tex_image_2d(target, level, internalformat, x, y, width, height, border);
     }
 
-    pub func copy_tex_sub_image1d(self, target: opengl::TextureTarget, level: i32, xoffset: i32, x: i32, y: i32, width: i32) {
-        self.ref_copy_tex_sub_image1d(target, level, xoffset, x, y, width);
+    pub func copy_tex_sub_image_1d(self, target: opengl::TextureTarget, level: i32, xoffset: i32, x: i32, y: i32, width: i32) {
+        self.ref_copy_tex_sub_image_1d(target, level, xoffset, x, y, width);
     }
 
-    pub func copy_tex_sub_image2d(self, target: opengl::TextureTarget, level: i32, xoffset: i32, yoffset: i32, x: i32, y: i32, width: i32, height: i32) {
-        self.ref_copy_tex_sub_image2d(target, level, xoffset, yoffset, x, y, width, height);
+    pub func copy_tex_sub_image_2d(self, target: opengl::TextureTarget, level: i32, xoffset: i32, yoffset: i32, x: i32, y: i32, width: i32, height: i32) {
+        self.ref_copy_tex_sub_image_2d(target, level, xoffset, yoffset, x, y, width, height);
     }
 
-    pub func copy_tex_sub_image3d(self, target: opengl::TextureTarget, level: i32, xoffset: i32, yoffset: i32, zoffset: i32, x: i32, y: i32, width: i32, height: i32) {
-        self.ref_copy_tex_sub_image3d(target, level, xoffset, yoffset, zoffset, x, y, width, height);
+    pub func copy_tex_sub_image_3d(self, target: opengl::TextureTarget, level: i32, xoffset: i32, yoffset: i32, zoffset: i32, x: i32, y: i32, width: i32, height: i32) {
+        self.ref_copy_tex_sub_image_3d(target, level, xoffset, yoffset, zoffset, x, y, width, height);
     }
 
-    pub func copy_texture_image1dext(self, texture: u32, target: opengl::TextureTarget, level: i32, internalformat: opengl::InternalFormat, x: i32, y: i32, width: i32, border: i32) {
-        self.ref_copy_texture_image1dext(texture, target, level, internalformat, x, y, width, border);
+    pub func copy_texture_image_1dext(self, texture: u32, target: opengl::TextureTarget, level: i32, internalformat: opengl::InternalFormat, x: i32, y: i32, width: i32, border: i32) {
+        self.ref_copy_texture_image_1dext(texture, target, level, internalformat, x, y, width, border);
     }
 
-    pub func copy_texture_image2dext(self, texture: u32, target: opengl::TextureTarget, level: i32, internalformat: opengl::InternalFormat, x: i32, y: i32, width: i32, height: i32, border: i32) {
-        self.ref_copy_texture_image2dext(texture, target, level, internalformat, x, y, width, height, border);
+    pub func copy_texture_image_2dext(self, texture: u32, target: opengl::TextureTarget, level: i32, internalformat: opengl::InternalFormat, x: i32, y: i32, width: i32, height: i32, border: i32) {
+        self.ref_copy_texture_image_2dext(texture, target, level, internalformat, x, y, width, height, border);
     }
 
-    pub func copy_texture_sub_image1d(self, texture: u32, level: i32, xoffset: i32, x: i32, y: i32, width: i32) {
-        self.ref_copy_texture_sub_image1d(texture, level, xoffset, x, y, width);
+    pub func copy_texture_sub_image_1d(self, texture: u32, level: i32, xoffset: i32, x: i32, y: i32, width: i32) {
+        self.ref_copy_texture_sub_image_1d(texture, level, xoffset, x, y, width);
     }
 
-    pub func copy_texture_sub_image1dext(self, texture: u32, target: opengl::TextureTarget, level: i32, xoffset: i32, x: i32, y: i32, width: i32) {
-        self.ref_copy_texture_sub_image1dext(texture, target, level, xoffset, x, y, width);
+    pub func copy_texture_sub_image_1dext(self, texture: u32, target: opengl::TextureTarget, level: i32, xoffset: i32, x: i32, y: i32, width: i32) {
+        self.ref_copy_texture_sub_image_1dext(texture, target, level, xoffset, x, y, width);
     }
 
-    pub func copy_texture_sub_image2d(self, texture: u32, level: i32, xoffset: i32, yoffset: i32, x: i32, y: i32, width: i32, height: i32) {
-        self.ref_copy_texture_sub_image2d(texture, level, xoffset, yoffset, x, y, width, height);
+    pub func copy_texture_sub_image_2d(self, texture: u32, level: i32, xoffset: i32, yoffset: i32, x: i32, y: i32, width: i32, height: i32) {
+        self.ref_copy_texture_sub_image_2d(texture, level, xoffset, yoffset, x, y, width, height);
     }
 
-    pub func copy_texture_sub_image2dext(self, texture: u32, target: opengl::TextureTarget, level: i32, xoffset: i32, yoffset: i32, x: i32, y: i32, width: i32, height: i32) {
-        self.ref_copy_texture_sub_image2dext(texture, target, level, xoffset, yoffset, x, y, width, height);
+    pub func copy_texture_sub_image_2dext(self, texture: u32, target: opengl::TextureTarget, level: i32, xoffset: i32, yoffset: i32, x: i32, y: i32, width: i32, height: i32) {
+        self.ref_copy_texture_sub_image_2dext(texture, target, level, xoffset, yoffset, x, y, width, height);
     }
 
-    pub func copy_texture_sub_image3d(self, texture: u32, level: i32, xoffset: i32, yoffset: i32, zoffset: i32, x: i32, y: i32, width: i32, height: i32) {
-        self.ref_copy_texture_sub_image3d(texture, level, xoffset, yoffset, zoffset, x, y, width, height);
+    pub func copy_texture_sub_image_3d(self, texture: u32, level: i32, xoffset: i32, yoffset: i32, zoffset: i32, x: i32, y: i32, width: i32, height: i32) {
+        self.ref_copy_texture_sub_image_3d(texture, level, xoffset, yoffset, zoffset, x, y, width, height);
     }
 
-    pub func copy_texture_sub_image3dext(self, texture: u32, target: opengl::TextureTarget, level: i32, xoffset: i32, yoffset: i32, zoffset: i32, x: i32, y: i32, width: i32, height: i32) {
-        self.ref_copy_texture_sub_image3dext(texture, target, level, xoffset, yoffset, zoffset, x, y, width, height);
+    pub func copy_texture_sub_image_3dext(self, texture: u32, target: opengl::TextureTarget, level: i32, xoffset: i32, yoffset: i32, zoffset: i32, x: i32, y: i32, width: i32, height: i32) {
+        self.ref_copy_texture_sub_image_3dext(texture, target, level, xoffset, yoffset, zoffset, x, y, width, height);
     }
 
     pub func create_buffers(self, n: i32, buffers: mut *u32) {
@@ -557,8 +557,8 @@ impl opengl::Api {
         return self.ref_create_shader_programv_ext(type_, count, strings);
     }
 
-    pub func create_sync_from_clevent_arb(self, context: mut *u64, event: mut *u64, flags: u32) u64 {
-        return self.ref_create_sync_from_clevent_arb(context, event, flags);
+    pub func create_sync_from_c_levent_arb(self, context: mut *u64, event: mut *u64, flags: u32) u64 {
+        return self.ref_create_sync_from_c_levent_arb(context, event, flags);
     }
 
     pub func create_textures(self, target: opengl::TextureTarget, n: i32, textures: mut *u32) {
@@ -853,12 +853,12 @@ impl opengl::Api {
         self.ref_draw_transform_feedback_stream_instanced(mode, id, stream, instancecount);
     }
 
-    pub func eglimage_target_tex_storage_ext(self, target: u32, image: u64, attrib_list: *i32) {
-        self.ref_eglimage_target_tex_storage_ext(target, image, attrib_list);
+    pub func egl_image_target_tex_storage_ext(self, target: u32, image: u64, attrib_list: *i32) {
+        self.ref_egl_image_target_tex_storage_ext(target, image, attrib_list);
     }
 
-    pub func eglimage_target_texture_storage_ext(self, texture: u32, image: u64, attrib_list: *i32) {
-        self.ref_eglimage_target_texture_storage_ext(texture, image, attrib_list);
+    pub func egl_image_target_texture_storage_ext(self, texture: u32, image: u64, attrib_list: *i32) {
+        self.ref_egl_image_target_texture_storage_ext(texture, image, attrib_list);
     }
 
     pub func enable(self, cap: opengl::EnableCap) {
@@ -977,16 +977,16 @@ impl opengl::Api {
         self.ref_framebuffer_texture(target, attachment, texture, level);
     }
 
-    pub func framebuffer_texture1d(self, target: opengl::FramebufferTarget, attachment: opengl::FramebufferAttachment, textarget: opengl::TextureTarget, texture: u32, level: i32) {
-        self.ref_framebuffer_texture1d(target, attachment, textarget, texture, level);
+    pub func framebuffer_texture_1d(self, target: opengl::FramebufferTarget, attachment: opengl::FramebufferAttachment, textarget: opengl::TextureTarget, texture: u32, level: i32) {
+        self.ref_framebuffer_texture_1d(target, attachment, textarget, texture, level);
     }
 
-    pub func framebuffer_texture2d(self, target: opengl::FramebufferTarget, attachment: opengl::FramebufferAttachment, textarget: opengl::TextureTarget, texture: u32, level: i32) {
-        self.ref_framebuffer_texture2d(target, attachment, textarget, texture, level);
+    pub func framebuffer_texture_2d(self, target: opengl::FramebufferTarget, attachment: opengl::FramebufferAttachment, textarget: opengl::TextureTarget, texture: u32, level: i32) {
+        self.ref_framebuffer_texture_2d(target, attachment, textarget, texture, level);
     }
 
-    pub func framebuffer_texture3d(self, target: opengl::FramebufferTarget, attachment: opengl::FramebufferAttachment, textarget: opengl::TextureTarget, texture: u32, level: i32, zoffset: i32) {
-        self.ref_framebuffer_texture3d(target, attachment, textarget, texture, level, zoffset);
+    pub func framebuffer_texture_3d(self, target: opengl::FramebufferTarget, attachment: opengl::FramebufferAttachment, textarget: opengl::TextureTarget, texture: u32, level: i32, zoffset: i32) {
+        self.ref_framebuffer_texture_3d(target, attachment, textarget, texture, level, zoffset);
     }
 
     pub func framebuffer_texture_arb(self, target: opengl::FramebufferTarget, attachment: opengl::FramebufferAttachment, texture: u32, level: i32) {
@@ -2245,16 +2245,16 @@ impl opengl::Api {
         self.ref_multi_tex_geniv_ext(texunit, coord, pname, params);
     }
 
-    pub func multi_tex_image1dext(self, texunit: opengl::TextureUnit, target: opengl::TextureTarget, level: i32, internalformat: opengl::InternalFormat, width: i32, border: i32, format: opengl::PixelFormat, type_: opengl::PixelType, pixels: *void) {
-        self.ref_multi_tex_image1dext(texunit, target, level, internalformat, width, border, format, type_, pixels);
+    pub func multi_tex_image_1dext(self, texunit: opengl::TextureUnit, target: opengl::TextureTarget, level: i32, internalformat: opengl::InternalFormat, width: i32, border: i32, format: opengl::PixelFormat, type_: opengl::PixelType, pixels: *void) {
+        self.ref_multi_tex_image_1dext(texunit, target, level, internalformat, width, border, format, type_, pixels);
     }
 
-    pub func multi_tex_image2dext(self, texunit: opengl::TextureUnit, target: opengl::TextureTarget, level: i32, internalformat: opengl::InternalFormat, width: i32, height: i32, border: i32, format: opengl::PixelFormat, type_: opengl::PixelType, pixels: *void) {
-        self.ref_multi_tex_image2dext(texunit, target, level, internalformat, width, height, border, format, type_, pixels);
+    pub func multi_tex_image_2dext(self, texunit: opengl::TextureUnit, target: opengl::TextureTarget, level: i32, internalformat: opengl::InternalFormat, width: i32, height: i32, border: i32, format: opengl::PixelFormat, type_: opengl::PixelType, pixels: *void) {
+        self.ref_multi_tex_image_2dext(texunit, target, level, internalformat, width, height, border, format, type_, pixels);
     }
 
-    pub func multi_tex_image3dext(self, texunit: opengl::TextureUnit, target: opengl::TextureTarget, level: i32, internalformat: opengl::InternalFormat, width: i32, height: i32, depth: i32, border: i32, format: opengl::PixelFormat, type_: opengl::PixelType, pixels: *void) {
-        self.ref_multi_tex_image3dext(texunit, target, level, internalformat, width, height, depth, border, format, type_, pixels);
+    pub func multi_tex_image_3dext(self, texunit: opengl::TextureUnit, target: opengl::TextureTarget, level: i32, internalformat: opengl::InternalFormat, width: i32, height: i32, depth: i32, border: i32, format: opengl::PixelFormat, type_: opengl::PixelType, pixels: *void) {
+        self.ref_multi_tex_image_3dext(texunit, target, level, internalformat, width, height, depth, border, format, type_, pixels);
     }
 
     pub func multi_tex_parameter_iiv_ext(self, texunit: opengl::TextureUnit, target: opengl::TextureTarget, pname: opengl::TextureParameterName, params: *i32) {
@@ -2285,16 +2285,16 @@ impl opengl::Api {
         self.ref_multi_tex_renderbuffer_ext(texunit, target, renderbuffer);
     }
 
-    pub func multi_tex_sub_image1dext(self, texunit: opengl::TextureUnit, target: opengl::TextureTarget, level: i32, xoffset: i32, width: i32, format: opengl::PixelFormat, type_: opengl::PixelType, pixels: *void) {
-        self.ref_multi_tex_sub_image1dext(texunit, target, level, xoffset, width, format, type_, pixels);
+    pub func multi_tex_sub_image_1dext(self, texunit: opengl::TextureUnit, target: opengl::TextureTarget, level: i32, xoffset: i32, width: i32, format: opengl::PixelFormat, type_: opengl::PixelType, pixels: *void) {
+        self.ref_multi_tex_sub_image_1dext(texunit, target, level, xoffset, width, format, type_, pixels);
     }
 
-    pub func multi_tex_sub_image2dext(self, texunit: opengl::TextureUnit, target: opengl::TextureTarget, level: i32, xoffset: i32, yoffset: i32, width: i32, height: i32, format: opengl::PixelFormat, type_: opengl::PixelType, pixels: *void) {
-        self.ref_multi_tex_sub_image2dext(texunit, target, level, xoffset, yoffset, width, height, format, type_, pixels);
+    pub func multi_tex_sub_image_2dext(self, texunit: opengl::TextureUnit, target: opengl::TextureTarget, level: i32, xoffset: i32, yoffset: i32, width: i32, height: i32, format: opengl::PixelFormat, type_: opengl::PixelType, pixels: *void) {
+        self.ref_multi_tex_sub_image_2dext(texunit, target, level, xoffset, yoffset, width, height, format, type_, pixels);
     }
 
-    pub func multi_tex_sub_image3dext(self, texunit: opengl::TextureUnit, target: opengl::TextureTarget, level: i32, xoffset: i32, yoffset: i32, zoffset: i32, width: i32, height: i32, depth: i32, format: opengl::PixelFormat, type_: opengl::PixelType, pixels: *void) {
-        self.ref_multi_tex_sub_image3dext(texunit, target, level, xoffset, yoffset, zoffset, width, height, depth, format, type_, pixels);
+    pub func multi_tex_sub_image_3dext(self, texunit: opengl::TextureUnit, target: opengl::TextureTarget, level: i32, xoffset: i32, yoffset: i32, zoffset: i32, width: i32, height: i32, depth: i32, format: opengl::PixelFormat, type_: opengl::PixelType, pixels: *void) {
+        self.ref_multi_tex_sub_image_3dext(texunit, target, level, xoffset, yoffset, zoffset, width, height, depth, format, type_, pixels);
     }
 
     pub func named_buffer_data(self, buffer: u32, size: u64, data: *void, usage: opengl::BufferUsageARB) {
@@ -2369,16 +2369,16 @@ impl opengl::Api {
         self.ref_named_framebuffer_texture(framebuffer, attachment, texture, level);
     }
 
-    pub func named_framebuffer_texture1dext(self, framebuffer: u32, attachment: opengl::FramebufferAttachment, textarget: opengl::TextureTarget, texture: u32, level: i32) {
-        self.ref_named_framebuffer_texture1dext(framebuffer, attachment, textarget, texture, level);
+    pub func named_framebuffer_texture_1dext(self, framebuffer: u32, attachment: opengl::FramebufferAttachment, textarget: opengl::TextureTarget, texture: u32, level: i32) {
+        self.ref_named_framebuffer_texture_1dext(framebuffer, attachment, textarget, texture, level);
     }
 
-    pub func named_framebuffer_texture2dext(self, framebuffer: u32, attachment: opengl::FramebufferAttachment, textarget: opengl::TextureTarget, texture: u32, level: i32) {
-        self.ref_named_framebuffer_texture2dext(framebuffer, attachment, textarget, texture, level);
+    pub func named_framebuffer_texture_2dext(self, framebuffer: u32, attachment: opengl::FramebufferAttachment, textarget: opengl::TextureTarget, texture: u32, level: i32) {
+        self.ref_named_framebuffer_texture_2dext(framebuffer, attachment, textarget, texture, level);
     }
 
-    pub func named_framebuffer_texture3dext(self, framebuffer: u32, attachment: opengl::FramebufferAttachment, textarget: opengl::TextureTarget, texture: u32, level: i32, zoffset: i32) {
-        self.ref_named_framebuffer_texture3dext(framebuffer, attachment, textarget, texture, level, zoffset);
+    pub func named_framebuffer_texture_3dext(self, framebuffer: u32, attachment: opengl::FramebufferAttachment, textarget: opengl::TextureTarget, texture: u32, level: i32, zoffset: i32) {
+        self.ref_named_framebuffer_texture_3dext(framebuffer, attachment, textarget, texture, level, zoffset);
     }
 
     pub func named_framebuffer_texture_ext(self, framebuffer: u32, attachment: opengl::FramebufferAttachment, texture: u32, level: i32) {
@@ -2613,8 +2613,8 @@ impl opengl::Api {
         self.ref_program_uniform1i(program, location, v0);
     }
 
-    pub func program_uniform1i64arb(self, program: u32, location: i32, x: i64) {
-        self.ref_program_uniform1i64arb(program, location, x);
+    pub func program_uniform1i64_arb(self, program: u32, location: i32, x: i64) {
+        self.ref_program_uniform1i64_arb(program, location, x);
     }
 
     pub func program_uniform1i64v_arb(self, program: u32, location: i32, count: i32, value: *i64) {
@@ -2637,8 +2637,8 @@ impl opengl::Api {
         self.ref_program_uniform1ui(program, location, v0);
     }
 
-    pub func program_uniform1ui64arb(self, program: u32, location: i32, x: u64) {
-        self.ref_program_uniform1ui64arb(program, location, x);
+    pub func program_uniform1ui64_arb(self, program: u32, location: i32, x: u64) {
+        self.ref_program_uniform1ui64_arb(program, location, x);
     }
 
     pub func program_uniform1ui64v_arb(self, program: u32, location: i32, count: i32, value: *u64) {
@@ -2693,8 +2693,8 @@ impl opengl::Api {
         self.ref_program_uniform2i(program, location, v0, v1);
     }
 
-    pub func program_uniform2i64arb(self, program: u32, location: i32, x: i64, y: i64) {
-        self.ref_program_uniform2i64arb(program, location, x, y);
+    pub func program_uniform2i64_arb(self, program: u32, location: i32, x: i64, y: i64) {
+        self.ref_program_uniform2i64_arb(program, location, x, y);
     }
 
     pub func program_uniform2i64v_arb(self, program: u32, location: i32, count: i32, value: *i64) {
@@ -2717,8 +2717,8 @@ impl opengl::Api {
         self.ref_program_uniform2ui(program, location, v0, v1);
     }
 
-    pub func program_uniform2ui64arb(self, program: u32, location: i32, x: u64, y: u64) {
-        self.ref_program_uniform2ui64arb(program, location, x, y);
+    pub func program_uniform2ui64_arb(self, program: u32, location: i32, x: u64, y: u64) {
+        self.ref_program_uniform2ui64_arb(program, location, x, y);
     }
 
     pub func program_uniform2ui64v_arb(self, program: u32, location: i32, count: i32, value: *u64) {
@@ -2773,8 +2773,8 @@ impl opengl::Api {
         self.ref_program_uniform3i(program, location, v0, v1, v2);
     }
 
-    pub func program_uniform3i64arb(self, program: u32, location: i32, x: i64, y: i64, z: i64) {
-        self.ref_program_uniform3i64arb(program, location, x, y, z);
+    pub func program_uniform3i64_arb(self, program: u32, location: i32, x: i64, y: i64, z: i64) {
+        self.ref_program_uniform3i64_arb(program, location, x, y, z);
     }
 
     pub func program_uniform3i64v_arb(self, program: u32, location: i32, count: i32, value: *i64) {
@@ -2797,8 +2797,8 @@ impl opengl::Api {
         self.ref_program_uniform3ui(program, location, v0, v1, v2);
     }
 
-    pub func program_uniform3ui64arb(self, program: u32, location: i32, x: u64, y: u64, z: u64) {
-        self.ref_program_uniform3ui64arb(program, location, x, y, z);
+    pub func program_uniform3ui64_arb(self, program: u32, location: i32, x: u64, y: u64, z: u64) {
+        self.ref_program_uniform3ui64_arb(program, location, x, y, z);
     }
 
     pub func program_uniform3ui64v_arb(self, program: u32, location: i32, count: i32, value: *u64) {
@@ -2853,8 +2853,8 @@ impl opengl::Api {
         self.ref_program_uniform4i(program, location, v0, v1, v2, v3);
     }
 
-    pub func program_uniform4i64arb(self, program: u32, location: i32, x: i64, y: i64, z: i64, w: i64) {
-        self.ref_program_uniform4i64arb(program, location, x, y, z, w);
+    pub func program_uniform4i64_arb(self, program: u32, location: i32, x: i64, y: i64, z: i64, w: i64) {
+        self.ref_program_uniform4i64_arb(program, location, x, y, z, w);
     }
 
     pub func program_uniform4i64v_arb(self, program: u32, location: i32, count: i32, value: *i64) {
@@ -2877,8 +2877,8 @@ impl opengl::Api {
         self.ref_program_uniform4ui(program, location, v0, v1, v2, v3);
     }
 
-    pub func program_uniform4ui64arb(self, program: u32, location: i32, x: u64, y: u64, z: u64, w: u64) {
-        self.ref_program_uniform4ui64arb(program, location, x, y, z, w);
+    pub func program_uniform4ui64_arb(self, program: u32, location: i32, x: u64, y: u64, z: u64, w: u64) {
+        self.ref_program_uniform4ui64_arb(program, location, x, y, z, w);
     }
 
     pub func program_uniform4ui64v_arb(self, program: u32, location: i32, count: i32, value: *u64) {
@@ -2897,8 +2897,8 @@ impl opengl::Api {
         self.ref_program_uniform4uiv_ext(program, location, count, value);
     }
 
-    pub func program_uniform_handleui64arb(self, program: u32, location: i32, value: u64) {
-        self.ref_program_uniform_handleui64arb(program, location, value);
+    pub func program_uniform_handleui64_arb(self, program: u32, location: i32, value: u64) {
+        self.ref_program_uniform_handleui64_arb(program, location, value);
     }
 
     pub func program_uniform_handleui64v_arb(self, program: u32, location: i32, count: i32, values: *u64) {
@@ -3225,24 +3225,24 @@ impl opengl::Api {
         self.ref_tex_buffer_range(target, internalformat, buffer, offset, size);
     }
 
-    pub func tex_image1d(self, target: opengl::TextureTarget, level: i32, internalformat: opengl::InternalFormat, width: i32, border: i32, format: opengl::PixelFormat, type_: opengl::PixelType, pixels: *void) {
-        self.ref_tex_image1d(target, level, internalformat, width, border, format, type_, pixels);
+    pub func tex_image_1d(self, target: opengl::TextureTarget, level: i32, internalformat: opengl::InternalFormat, width: i32, border: i32, format: opengl::PixelFormat, type_: opengl::PixelType, pixels: *void) {
+        self.ref_tex_image_1d(target, level, internalformat, width, border, format, type_, pixels);
     }
 
-    pub func tex_image2d(self, target: opengl::TextureTarget, level: i32, internalformat: opengl::InternalFormat, width: i32, height: i32, border: i32, format: opengl::PixelFormat, type_: opengl::PixelType, pixels: *void) {
-        self.ref_tex_image2d(target, level, internalformat, width, height, border, format, type_, pixels);
+    pub func tex_image_2d(self, target: opengl::TextureTarget, level: i32, internalformat: opengl::InternalFormat, width: i32, height: i32, border: i32, format: opengl::PixelFormat, type_: opengl::PixelType, pixels: *void) {
+        self.ref_tex_image_2d(target, level, internalformat, width, height, border, format, type_, pixels);
     }
 
-    pub func tex_image2dmultisample(self, target: opengl::TextureTarget, samples: i32, internalformat: opengl::InternalFormat, width: i32, height: i32, fixedsamplelocations: bool) {
-        self.ref_tex_image2dmultisample(target, samples, internalformat, width, height, fixedsamplelocations);
+    pub func tex_image_2d_multisample(self, target: opengl::TextureTarget, samples: i32, internalformat: opengl::InternalFormat, width: i32, height: i32, fixedsamplelocations: bool) {
+        self.ref_tex_image_2d_multisample(target, samples, internalformat, width, height, fixedsamplelocations);
     }
 
-    pub func tex_image3d(self, target: opengl::TextureTarget, level: i32, internalformat: opengl::InternalFormat, width: i32, height: i32, depth: i32, border: i32, format: opengl::PixelFormat, type_: opengl::PixelType, pixels: *void) {
-        self.ref_tex_image3d(target, level, internalformat, width, height, depth, border, format, type_, pixels);
+    pub func tex_image_3d(self, target: opengl::TextureTarget, level: i32, internalformat: opengl::InternalFormat, width: i32, height: i32, depth: i32, border: i32, format: opengl::PixelFormat, type_: opengl::PixelType, pixels: *void) {
+        self.ref_tex_image_3d(target, level, internalformat, width, height, depth, border, format, type_, pixels);
     }
 
-    pub func tex_image3dmultisample(self, target: opengl::TextureTarget, samples: i32, internalformat: opengl::InternalFormat, width: i32, height: i32, depth: i32, fixedsamplelocations: bool) {
-        self.ref_tex_image3dmultisample(target, samples, internalformat, width, height, depth, fixedsamplelocations);
+    pub func tex_image_3d_multisample(self, target: opengl::TextureTarget, samples: i32, internalformat: opengl::InternalFormat, width: i32, height: i32, depth: i32, fixedsamplelocations: bool) {
+        self.ref_tex_image_3d_multisample(target, samples, internalformat, width, height, depth, fixedsamplelocations);
     }
 
     pub func tex_page_commitment_arb(self, target: u32, level: i32, xoffset: i32, yoffset: i32, zoffset: i32, width: i32, height: i32, depth: i32, commit: bool) {
@@ -3273,48 +3273,48 @@ impl opengl::Api {
         self.ref_tex_parameteriv(target, pname, params);
     }
 
-    pub func tex_storage1d(self, target: opengl::TextureTarget, levels: i32, internalformat: opengl::SizedInternalFormat, width: i32) {
-        self.ref_tex_storage1d(target, levels, internalformat, width);
+    pub func tex_storage_1d(self, target: opengl::TextureTarget, levels: i32, internalformat: opengl::SizedInternalFormat, width: i32) {
+        self.ref_tex_storage_1d(target, levels, internalformat, width);
     }
 
-    pub func tex_storage1dext(self, target: opengl::TextureTarget, levels: i32, internalformat: opengl::SizedInternalFormat, width: i32) {
-        self.ref_tex_storage1dext(target, levels, internalformat, width);
+    pub func tex_storage_1dext(self, target: opengl::TextureTarget, levels: i32, internalformat: opengl::SizedInternalFormat, width: i32) {
+        self.ref_tex_storage_1dext(target, levels, internalformat, width);
     }
 
-    pub func tex_storage2d(self, target: opengl::TextureTarget, levels: i32, internalformat: opengl::SizedInternalFormat, width: i32, height: i32) {
-        self.ref_tex_storage2d(target, levels, internalformat, width, height);
+    pub func tex_storage_2d(self, target: opengl::TextureTarget, levels: i32, internalformat: opengl::SizedInternalFormat, width: i32, height: i32) {
+        self.ref_tex_storage_2d(target, levels, internalformat, width, height);
     }
 
-    pub func tex_storage2dext(self, target: opengl::TextureTarget, levels: i32, internalformat: opengl::SizedInternalFormat, width: i32, height: i32) {
-        self.ref_tex_storage2dext(target, levels, internalformat, width, height);
+    pub func tex_storage_2dext(self, target: opengl::TextureTarget, levels: i32, internalformat: opengl::SizedInternalFormat, width: i32, height: i32) {
+        self.ref_tex_storage_2dext(target, levels, internalformat, width, height);
     }
 
-    pub func tex_storage2dmultisample(self, target: opengl::TextureTarget, samples: i32, internalformat: opengl::SizedInternalFormat, width: i32, height: i32, fixedsamplelocations: bool) {
-        self.ref_tex_storage2dmultisample(target, samples, internalformat, width, height, fixedsamplelocations);
+    pub func tex_storage_2d_multisample(self, target: opengl::TextureTarget, samples: i32, internalformat: opengl::SizedInternalFormat, width: i32, height: i32, fixedsamplelocations: bool) {
+        self.ref_tex_storage_2d_multisample(target, samples, internalformat, width, height, fixedsamplelocations);
     }
 
-    pub func tex_storage3d(self, target: opengl::TextureTarget, levels: i32, internalformat: opengl::SizedInternalFormat, width: i32, height: i32, depth: i32) {
-        self.ref_tex_storage3d(target, levels, internalformat, width, height, depth);
+    pub func tex_storage_3d(self, target: opengl::TextureTarget, levels: i32, internalformat: opengl::SizedInternalFormat, width: i32, height: i32, depth: i32) {
+        self.ref_tex_storage_3d(target, levels, internalformat, width, height, depth);
     }
 
-    pub func tex_storage3dext(self, target: opengl::TextureTarget, levels: i32, internalformat: opengl::SizedInternalFormat, width: i32, height: i32, depth: i32) {
-        self.ref_tex_storage3dext(target, levels, internalformat, width, height, depth);
+    pub func tex_storage_3dext(self, target: opengl::TextureTarget, levels: i32, internalformat: opengl::SizedInternalFormat, width: i32, height: i32, depth: i32) {
+        self.ref_tex_storage_3dext(target, levels, internalformat, width, height, depth);
     }
 
-    pub func tex_storage3dmultisample(self, target: opengl::TextureTarget, samples: i32, internalformat: opengl::SizedInternalFormat, width: i32, height: i32, depth: i32, fixedsamplelocations: bool) {
-        self.ref_tex_storage3dmultisample(target, samples, internalformat, width, height, depth, fixedsamplelocations);
+    pub func tex_storage_3d_multisample(self, target: opengl::TextureTarget, samples: i32, internalformat: opengl::SizedInternalFormat, width: i32, height: i32, depth: i32, fixedsamplelocations: bool) {
+        self.ref_tex_storage_3d_multisample(target, samples, internalformat, width, height, depth, fixedsamplelocations);
     }
 
-    pub func tex_sub_image1d(self, target: opengl::TextureTarget, level: i32, xoffset: i32, width: i32, format: opengl::PixelFormat, type_: opengl::PixelType, pixels: *void) {
-        self.ref_tex_sub_image1d(target, level, xoffset, width, format, type_, pixels);
+    pub func tex_sub_image_1d(self, target: opengl::TextureTarget, level: i32, xoffset: i32, width: i32, format: opengl::PixelFormat, type_: opengl::PixelType, pixels: *void) {
+        self.ref_tex_sub_image_1d(target, level, xoffset, width, format, type_, pixels);
     }
 
-    pub func tex_sub_image2d(self, target: opengl::TextureTarget, level: i32, xoffset: i32, yoffset: i32, width: i32, height: i32, format: opengl::PixelFormat, type_: opengl::PixelType, pixels: *void) {
-        self.ref_tex_sub_image2d(target, level, xoffset, yoffset, width, height, format, type_, pixels);
+    pub func tex_sub_image_2d(self, target: opengl::TextureTarget, level: i32, xoffset: i32, yoffset: i32, width: i32, height: i32, format: opengl::PixelFormat, type_: opengl::PixelType, pixels: *void) {
+        self.ref_tex_sub_image_2d(target, level, xoffset, yoffset, width, height, format, type_, pixels);
     }
 
-    pub func tex_sub_image3d(self, target: opengl::TextureTarget, level: i32, xoffset: i32, yoffset: i32, zoffset: i32, width: i32, height: i32, depth: i32, format: opengl::PixelFormat, type_: opengl::PixelType, pixels: *void) {
-        self.ref_tex_sub_image3d(target, level, xoffset, yoffset, zoffset, width, height, depth, format, type_, pixels);
+    pub func tex_sub_image_3d(self, target: opengl::TextureTarget, level: i32, xoffset: i32, yoffset: i32, zoffset: i32, width: i32, height: i32, depth: i32, format: opengl::PixelFormat, type_: opengl::PixelType, pixels: *void) {
+        self.ref_tex_sub_image_3d(target, level, xoffset, yoffset, zoffset, width, height, depth, format, type_, pixels);
     }
 
     pub func texture_barrier(self) {
@@ -3337,16 +3337,16 @@ impl opengl::Api {
         self.ref_texture_buffer_range_ext(texture, target, internalformat, buffer, offset, size);
     }
 
-    pub func texture_image1dext(self, texture: u32, target: opengl::TextureTarget, level: i32, internalformat: opengl::InternalFormat, width: i32, border: i32, format: opengl::PixelFormat, type_: opengl::PixelType, pixels: *void) {
-        self.ref_texture_image1dext(texture, target, level, internalformat, width, border, format, type_, pixels);
+    pub func texture_image_1dext(self, texture: u32, target: opengl::TextureTarget, level: i32, internalformat: opengl::InternalFormat, width: i32, border: i32, format: opengl::PixelFormat, type_: opengl::PixelType, pixels: *void) {
+        self.ref_texture_image_1dext(texture, target, level, internalformat, width, border, format, type_, pixels);
     }
 
-    pub func texture_image2dext(self, texture: u32, target: opengl::TextureTarget, level: i32, internalformat: opengl::InternalFormat, width: i32, height: i32, border: i32, format: opengl::PixelFormat, type_: opengl::PixelType, pixels: *void) {
-        self.ref_texture_image2dext(texture, target, level, internalformat, width, height, border, format, type_, pixels);
+    pub func texture_image_2dext(self, texture: u32, target: opengl::TextureTarget, level: i32, internalformat: opengl::InternalFormat, width: i32, height: i32, border: i32, format: opengl::PixelFormat, type_: opengl::PixelType, pixels: *void) {
+        self.ref_texture_image_2dext(texture, target, level, internalformat, width, height, border, format, type_, pixels);
     }
 
-    pub func texture_image3dext(self, texture: u32, target: opengl::TextureTarget, level: i32, internalformat: opengl::InternalFormat, width: i32, height: i32, depth: i32, border: i32, format: opengl::PixelFormat, type_: opengl::PixelType, pixels: *void) {
-        self.ref_texture_image3dext(texture, target, level, internalformat, width, height, depth, border, format, type_, pixels);
+    pub func texture_image_3dext(self, texture: u32, target: opengl::TextureTarget, level: i32, internalformat: opengl::InternalFormat, width: i32, height: i32, depth: i32, border: i32, format: opengl::PixelFormat, type_: opengl::PixelType, pixels: *void) {
+        self.ref_texture_image_3dext(texture, target, level, internalformat, width, height, depth, border, format, type_, pixels);
     }
 
     pub func texture_page_commitment_ext(self, texture: u32, level: i32, xoffset: i32, yoffset: i32, zoffset: i32, width: i32, height: i32, depth: i32, commit: bool) {
@@ -3405,68 +3405,68 @@ impl opengl::Api {
         self.ref_texture_renderbuffer_ext(texture, target, renderbuffer);
     }
 
-    pub func texture_storage1d(self, texture: u32, levels: i32, internalformat: opengl::SizedInternalFormat, width: i32) {
-        self.ref_texture_storage1d(texture, levels, internalformat, width);
+    pub func texture_storage_1d(self, texture: u32, levels: i32, internalformat: opengl::SizedInternalFormat, width: i32) {
+        self.ref_texture_storage_1d(texture, levels, internalformat, width);
     }
 
-    pub func texture_storage1dext(self, texture: u32, target: u32, levels: i32, internalformat: opengl::SizedInternalFormat, width: i32) {
-        self.ref_texture_storage1dext(texture, target, levels, internalformat, width);
+    pub func texture_storage_1dext(self, texture: u32, target: u32, levels: i32, internalformat: opengl::SizedInternalFormat, width: i32) {
+        self.ref_texture_storage_1dext(texture, target, levels, internalformat, width);
     }
 
-    pub func texture_storage2d(self, texture: u32, levels: i32, internalformat: opengl::SizedInternalFormat, width: i32, height: i32) {
-        self.ref_texture_storage2d(texture, levels, internalformat, width, height);
+    pub func texture_storage_2d(self, texture: u32, levels: i32, internalformat: opengl::SizedInternalFormat, width: i32, height: i32) {
+        self.ref_texture_storage_2d(texture, levels, internalformat, width, height);
     }
 
-    pub func texture_storage2dext(self, texture: u32, target: u32, levels: i32, internalformat: opengl::SizedInternalFormat, width: i32, height: i32) {
-        self.ref_texture_storage2dext(texture, target, levels, internalformat, width, height);
+    pub func texture_storage_2dext(self, texture: u32, target: u32, levels: i32, internalformat: opengl::SizedInternalFormat, width: i32, height: i32) {
+        self.ref_texture_storage_2dext(texture, target, levels, internalformat, width, height);
     }
 
-    pub func texture_storage2dmultisample(self, texture: u32, samples: i32, internalformat: opengl::SizedInternalFormat, width: i32, height: i32, fixedsamplelocations: bool) {
-        self.ref_texture_storage2dmultisample(texture, samples, internalformat, width, height, fixedsamplelocations);
+    pub func texture_storage_2d_multisample(self, texture: u32, samples: i32, internalformat: opengl::SizedInternalFormat, width: i32, height: i32, fixedsamplelocations: bool) {
+        self.ref_texture_storage_2d_multisample(texture, samples, internalformat, width, height, fixedsamplelocations);
     }
 
-    pub func texture_storage2dmultisample_ext(self, texture: u32, target: opengl::TextureTarget, samples: i32, internalformat: opengl::SizedInternalFormat, width: i32, height: i32, fixedsamplelocations: bool) {
-        self.ref_texture_storage2dmultisample_ext(texture, target, samples, internalformat, width, height, fixedsamplelocations);
+    pub func texture_storage_2d_multisample_ext(self, texture: u32, target: opengl::TextureTarget, samples: i32, internalformat: opengl::SizedInternalFormat, width: i32, height: i32, fixedsamplelocations: bool) {
+        self.ref_texture_storage_2d_multisample_ext(texture, target, samples, internalformat, width, height, fixedsamplelocations);
     }
 
-    pub func texture_storage3d(self, texture: u32, levels: i32, internalformat: opengl::SizedInternalFormat, width: i32, height: i32, depth: i32) {
-        self.ref_texture_storage3d(texture, levels, internalformat, width, height, depth);
+    pub func texture_storage_3d(self, texture: u32, levels: i32, internalformat: opengl::SizedInternalFormat, width: i32, height: i32, depth: i32) {
+        self.ref_texture_storage_3d(texture, levels, internalformat, width, height, depth);
     }
 
-    pub func texture_storage3dext(self, texture: u32, target: u32, levels: i32, internalformat: opengl::SizedInternalFormat, width: i32, height: i32, depth: i32) {
-        self.ref_texture_storage3dext(texture, target, levels, internalformat, width, height, depth);
+    pub func texture_storage_3dext(self, texture: u32, target: u32, levels: i32, internalformat: opengl::SizedInternalFormat, width: i32, height: i32, depth: i32) {
+        self.ref_texture_storage_3dext(texture, target, levels, internalformat, width, height, depth);
     }
 
-    pub func texture_storage3dmultisample(self, texture: u32, samples: i32, internalformat: opengl::SizedInternalFormat, width: i32, height: i32, depth: i32, fixedsamplelocations: bool) {
-        self.ref_texture_storage3dmultisample(texture, samples, internalformat, width, height, depth, fixedsamplelocations);
+    pub func texture_storage_3d_multisample(self, texture: u32, samples: i32, internalformat: opengl::SizedInternalFormat, width: i32, height: i32, depth: i32, fixedsamplelocations: bool) {
+        self.ref_texture_storage_3d_multisample(texture, samples, internalformat, width, height, depth, fixedsamplelocations);
     }
 
-    pub func texture_storage3dmultisample_ext(self, texture: u32, target: u32, samples: i32, internalformat: opengl::SizedInternalFormat, width: i32, height: i32, depth: i32, fixedsamplelocations: bool) {
-        self.ref_texture_storage3dmultisample_ext(texture, target, samples, internalformat, width, height, depth, fixedsamplelocations);
+    pub func texture_storage_3d_multisample_ext(self, texture: u32, target: u32, samples: i32, internalformat: opengl::SizedInternalFormat, width: i32, height: i32, depth: i32, fixedsamplelocations: bool) {
+        self.ref_texture_storage_3d_multisample_ext(texture, target, samples, internalformat, width, height, depth, fixedsamplelocations);
     }
 
-    pub func texture_sub_image1d(self, texture: u32, level: i32, xoffset: i32, width: i32, format: opengl::PixelFormat, type_: opengl::PixelType, pixels: *void) {
-        self.ref_texture_sub_image1d(texture, level, xoffset, width, format, type_, pixels);
+    pub func texture_sub_image_1d(self, texture: u32, level: i32, xoffset: i32, width: i32, format: opengl::PixelFormat, type_: opengl::PixelType, pixels: *void) {
+        self.ref_texture_sub_image_1d(texture, level, xoffset, width, format, type_, pixels);
     }
 
-    pub func texture_sub_image1dext(self, texture: u32, target: opengl::TextureTarget, level: i32, xoffset: i32, width: i32, format: opengl::PixelFormat, type_: opengl::PixelType, pixels: *void) {
-        self.ref_texture_sub_image1dext(texture, target, level, xoffset, width, format, type_, pixels);
+    pub func texture_sub_image_1dext(self, texture: u32, target: opengl::TextureTarget, level: i32, xoffset: i32, width: i32, format: opengl::PixelFormat, type_: opengl::PixelType, pixels: *void) {
+        self.ref_texture_sub_image_1dext(texture, target, level, xoffset, width, format, type_, pixels);
     }
 
-    pub func texture_sub_image2d(self, texture: u32, level: i32, xoffset: i32, yoffset: i32, width: i32, height: i32, format: opengl::PixelFormat, type_: opengl::PixelType, pixels: *void) {
-        self.ref_texture_sub_image2d(texture, level, xoffset, yoffset, width, height, format, type_, pixels);
+    pub func texture_sub_image_2d(self, texture: u32, level: i32, xoffset: i32, yoffset: i32, width: i32, height: i32, format: opengl::PixelFormat, type_: opengl::PixelType, pixels: *void) {
+        self.ref_texture_sub_image_2d(texture, level, xoffset, yoffset, width, height, format, type_, pixels);
     }
 
-    pub func texture_sub_image2dext(self, texture: u32, target: opengl::TextureTarget, level: i32, xoffset: i32, yoffset: i32, width: i32, height: i32, format: opengl::PixelFormat, type_: opengl::PixelType, pixels: *void) {
-        self.ref_texture_sub_image2dext(texture, target, level, xoffset, yoffset, width, height, format, type_, pixels);
+    pub func texture_sub_image_2dext(self, texture: u32, target: opengl::TextureTarget, level: i32, xoffset: i32, yoffset: i32, width: i32, height: i32, format: opengl::PixelFormat, type_: opengl::PixelType, pixels: *void) {
+        self.ref_texture_sub_image_2dext(texture, target, level, xoffset, yoffset, width, height, format, type_, pixels);
     }
 
-    pub func texture_sub_image3d(self, texture: u32, level: i32, xoffset: i32, yoffset: i32, zoffset: i32, width: i32, height: i32, depth: i32, format: opengl::PixelFormat, type_: opengl::PixelType, pixels: *void) {
-        self.ref_texture_sub_image3d(texture, level, xoffset, yoffset, zoffset, width, height, depth, format, type_, pixels);
+    pub func texture_sub_image_3d(self, texture: u32, level: i32, xoffset: i32, yoffset: i32, zoffset: i32, width: i32, height: i32, depth: i32, format: opengl::PixelFormat, type_: opengl::PixelType, pixels: *void) {
+        self.ref_texture_sub_image_3d(texture, level, xoffset, yoffset, zoffset, width, height, depth, format, type_, pixels);
     }
 
-    pub func texture_sub_image3dext(self, texture: u32, target: opengl::TextureTarget, level: i32, xoffset: i32, yoffset: i32, zoffset: i32, width: i32, height: i32, depth: i32, format: opengl::PixelFormat, type_: opengl::PixelType, pixels: *void) {
-        self.ref_texture_sub_image3dext(texture, target, level, xoffset, yoffset, zoffset, width, height, depth, format, type_, pixels);
+    pub func texture_sub_image_3dext(self, texture: u32, target: opengl::TextureTarget, level: i32, xoffset: i32, yoffset: i32, zoffset: i32, width: i32, height: i32, depth: i32, format: opengl::PixelFormat, type_: opengl::PixelType, pixels: *void) {
+        self.ref_texture_sub_image_3dext(texture, target, level, xoffset, yoffset, zoffset, width, height, depth, format, type_, pixels);
     }
 
     pub func texture_view(self, texture: u32, target: opengl::TextureTarget, origtexture: u32, internalformat: opengl::SizedInternalFormat, minlevel: u32, numlevels: u32, minlayer: u32, numlayers: u32) {
@@ -3505,8 +3505,8 @@ impl opengl::Api {
         self.ref_uniform1i(location, v0);
     }
 
-    pub func uniform1i64arb(self, location: i32, x: i64) {
-        self.ref_uniform1i64arb(location, x);
+    pub func uniform1i64_arb(self, location: i32, x: i64) {
+        self.ref_uniform1i64_arb(location, x);
     }
 
     pub func uniform1i64v_arb(self, location: i32, count: i32, value: *i64) {
@@ -3521,8 +3521,8 @@ impl opengl::Api {
         self.ref_uniform1ui(location, v0);
     }
 
-    pub func uniform1ui64arb(self, location: i32, x: u64) {
-        self.ref_uniform1ui64arb(location, x);
+    pub func uniform1ui64_arb(self, location: i32, x: u64) {
+        self.ref_uniform1ui64_arb(location, x);
     }
 
     pub func uniform1ui64v_arb(self, location: i32, count: i32, value: *u64) {
@@ -3553,8 +3553,8 @@ impl opengl::Api {
         self.ref_uniform2i(location, v0, v1);
     }
 
-    pub func uniform2i64arb(self, location: i32, x: i64, y: i64) {
-        self.ref_uniform2i64arb(location, x, y);
+    pub func uniform2i64_arb(self, location: i32, x: i64, y: i64) {
+        self.ref_uniform2i64_arb(location, x, y);
     }
 
     pub func uniform2i64v_arb(self, location: i32, count: i32, value: *i64) {
@@ -3569,8 +3569,8 @@ impl opengl::Api {
         self.ref_uniform2ui(location, v0, v1);
     }
 
-    pub func uniform2ui64arb(self, location: i32, x: u64, y: u64) {
-        self.ref_uniform2ui64arb(location, x, y);
+    pub func uniform2ui64_arb(self, location: i32, x: u64, y: u64) {
+        self.ref_uniform2ui64_arb(location, x, y);
     }
 
     pub func uniform2ui64v_arb(self, location: i32, count: i32, value: *u64) {
@@ -3601,8 +3601,8 @@ impl opengl::Api {
         self.ref_uniform3i(location, v0, v1, v2);
     }
 
-    pub func uniform3i64arb(self, location: i32, x: i64, y: i64, z: i64) {
-        self.ref_uniform3i64arb(location, x, y, z);
+    pub func uniform3i64_arb(self, location: i32, x: i64, y: i64, z: i64) {
+        self.ref_uniform3i64_arb(location, x, y, z);
     }
 
     pub func uniform3i64v_arb(self, location: i32, count: i32, value: *i64) {
@@ -3617,8 +3617,8 @@ impl opengl::Api {
         self.ref_uniform3ui(location, v0, v1, v2);
     }
 
-    pub func uniform3ui64arb(self, location: i32, x: u64, y: u64, z: u64) {
-        self.ref_uniform3ui64arb(location, x, y, z);
+    pub func uniform3ui64_arb(self, location: i32, x: u64, y: u64, z: u64) {
+        self.ref_uniform3ui64_arb(location, x, y, z);
     }
 
     pub func uniform3ui64v_arb(self, location: i32, count: i32, value: *u64) {
@@ -3649,8 +3649,8 @@ impl opengl::Api {
         self.ref_uniform4i(location, v0, v1, v2, v3);
     }
 
-    pub func uniform4i64arb(self, location: i32, x: i64, y: i64, z: i64, w: i64) {
-        self.ref_uniform4i64arb(location, x, y, z, w);
+    pub func uniform4i64_arb(self, location: i32, x: i64, y: i64, z: i64, w: i64) {
+        self.ref_uniform4i64_arb(location, x, y, z, w);
     }
 
     pub func uniform4i64v_arb(self, location: i32, count: i32, value: *i64) {
@@ -3665,8 +3665,8 @@ impl opengl::Api {
         self.ref_uniform4ui(location, v0, v1, v2, v3);
     }
 
-    pub func uniform4ui64arb(self, location: i32, x: u64, y: u64, z: u64, w: u64) {
-        self.ref_uniform4ui64arb(location, x, y, z, w);
+    pub func uniform4ui64_arb(self, location: i32, x: u64, y: u64, z: u64, w: u64) {
+        self.ref_uniform4ui64_arb(location, x, y, z, w);
     }
 
     pub func uniform4ui64v_arb(self, location: i32, count: i32, value: *u64) {
@@ -3681,8 +3681,8 @@ impl opengl::Api {
         self.ref_uniform_block_binding(program, uniform_block_index, uniform_block_binding);
     }
 
-    pub func uniform_handleui64arb(self, location: i32, value: u64) {
-        self.ref_uniform_handleui64arb(location, value);
+    pub func uniform_handleui64_arb(self, location: i32, value: u64) {
+        self.ref_uniform_handleui64_arb(location, value);
     }
 
     pub func uniform_handleui64v_arb(self, location: i32, count: i32, value: *u64) {
@@ -3813,12 +3813,12 @@ impl opengl::Api {
         self.ref_vertex_array_attrib_format(vaobj, attribindex, size, type_, normalized, relativeoffset);
     }
 
-    pub func vertex_array_attrib_iformat(self, vaobj: u32, attribindex: u32, size: i32, type_: opengl::VertexAttribIType, relativeoffset: u32) {
-        self.ref_vertex_array_attrib_iformat(vaobj, attribindex, size, type_, relativeoffset);
+    pub func vertex_array_attrib_i_format(self, vaobj: u32, attribindex: u32, size: i32, type_: opengl::VertexAttribIType, relativeoffset: u32) {
+        self.ref_vertex_array_attrib_i_format(vaobj, attribindex, size, type_, relativeoffset);
     }
 
-    pub func vertex_array_attrib_lformat(self, vaobj: u32, attribindex: u32, size: i32, type_: opengl::VertexAttribLType, relativeoffset: u32) {
-        self.ref_vertex_array_attrib_lformat(vaobj, attribindex, size, type_, relativeoffset);
+    pub func vertex_array_attrib_l_format(self, vaobj: u32, attribindex: u32, size: i32, type_: opengl::VertexAttribLType, relativeoffset: u32) {
+        self.ref_vertex_array_attrib_l_format(vaobj, attribindex, size, type_, relativeoffset);
     }
 
     pub func vertex_array_bind_vertex_buffer_ext(self, vaobj: u32, bindingindex: u32, buffer: u32, offset: i64, stride: i32) {
@@ -3877,20 +3877,20 @@ impl opengl::Api {
         self.ref_vertex_array_vertex_attrib_format_ext(vaobj, attribindex, size, type_, normalized, relativeoffset);
     }
 
-    pub func vertex_array_vertex_attrib_iformat_ext(self, vaobj: u32, attribindex: u32, size: i32, type_: opengl::VertexAttribIType, relativeoffset: u32) {
-        self.ref_vertex_array_vertex_attrib_iformat_ext(vaobj, attribindex, size, type_, relativeoffset);
+    pub func vertex_array_vertex_attrib_i_format_ext(self, vaobj: u32, attribindex: u32, size: i32, type_: opengl::VertexAttribIType, relativeoffset: u32) {
+        self.ref_vertex_array_vertex_attrib_i_format_ext(vaobj, attribindex, size, type_, relativeoffset);
     }
 
-    pub func vertex_array_vertex_attrib_ioffset_ext(self, vaobj: u32, buffer: u32, index: u32, size: i32, type_: opengl::VertexAttribType, stride: i32, offset: i64) {
-        self.ref_vertex_array_vertex_attrib_ioffset_ext(vaobj, buffer, index, size, type_, stride, offset);
+    pub func vertex_array_vertex_attrib_i_offset_ext(self, vaobj: u32, buffer: u32, index: u32, size: i32, type_: opengl::VertexAttribType, stride: i32, offset: i64) {
+        self.ref_vertex_array_vertex_attrib_i_offset_ext(vaobj, buffer, index, size, type_, stride, offset);
     }
 
-    pub func vertex_array_vertex_attrib_lformat_ext(self, vaobj: u32, attribindex: u32, size: i32, type_: opengl::VertexAttribLType, relativeoffset: u32) {
-        self.ref_vertex_array_vertex_attrib_lformat_ext(vaobj, attribindex, size, type_, relativeoffset);
+    pub func vertex_array_vertex_attrib_l_format_ext(self, vaobj: u32, attribindex: u32, size: i32, type_: opengl::VertexAttribLType, relativeoffset: u32) {
+        self.ref_vertex_array_vertex_attrib_l_format_ext(vaobj, attribindex, size, type_, relativeoffset);
     }
 
-    pub func vertex_array_vertex_attrib_loffset_ext(self, vaobj: u32, buffer: u32, index: u32, size: i32, type_: opengl::VertexAttribLType, stride: i32, offset: i64) {
-        self.ref_vertex_array_vertex_attrib_loffset_ext(vaobj, buffer, index, size, type_, stride, offset);
+    pub func vertex_array_vertex_attrib_l_offset_ext(self, vaobj: u32, buffer: u32, index: u32, size: i32, type_: opengl::VertexAttribLType, stride: i32, offset: i64) {
+        self.ref_vertex_array_vertex_attrib_l_offset_ext(vaobj, buffer, index, size, type_, stride, offset);
     }
 
     pub func vertex_array_vertex_attrib_offset_ext(self, vaobj: u32, buffer: u32, index: u32, size: i32, type_: opengl::VertexAttribPointerType, normalized: bool, stride: i32, offset: i64) {
@@ -3985,32 +3985,32 @@ impl opengl::Api {
         self.ref_vertex_attrib3sv(index, v);
     }
 
-    pub func vertex_attrib4nbv(self, index: u32, v: *i8) {
-        self.ref_vertex_attrib4nbv(index, v);
+    pub func vertex_attrib4_nbv(self, index: u32, v: *i8) {
+        self.ref_vertex_attrib4_nbv(index, v);
     }
 
-    pub func vertex_attrib4niv(self, index: u32, v: *i32) {
-        self.ref_vertex_attrib4niv(index, v);
+    pub func vertex_attrib4_niv(self, index: u32, v: *i32) {
+        self.ref_vertex_attrib4_niv(index, v);
     }
 
-    pub func vertex_attrib4nsv(self, index: u32, v: *i16) {
-        self.ref_vertex_attrib4nsv(index, v);
+    pub func vertex_attrib4_nsv(self, index: u32, v: *i16) {
+        self.ref_vertex_attrib4_nsv(index, v);
     }
 
-    pub func vertex_attrib4nub(self, index: u32, x: u8, y: u8, z: u8, w: u8) {
-        self.ref_vertex_attrib4nub(index, x, y, z, w);
+    pub func vertex_attrib4_nub(self, index: u32, x: u8, y: u8, z: u8, w: u8) {
+        self.ref_vertex_attrib4_nub(index, x, y, z, w);
     }
 
-    pub func vertex_attrib4nubv(self, index: u32, v: *u8) {
-        self.ref_vertex_attrib4nubv(index, v);
+    pub func vertex_attrib4_nubv(self, index: u32, v: *u8) {
+        self.ref_vertex_attrib4_nubv(index, v);
     }
 
-    pub func vertex_attrib4nuiv(self, index: u32, v: *u32) {
-        self.ref_vertex_attrib4nuiv(index, v);
+    pub func vertex_attrib4_nuiv(self, index: u32, v: *u32) {
+        self.ref_vertex_attrib4_nuiv(index, v);
     }
 
-    pub func vertex_attrib4nusv(self, index: u32, v: *u16) {
-        self.ref_vertex_attrib4nusv(index, v);
+    pub func vertex_attrib4_nusv(self, index: u32, v: *u16) {
+        self.ref_vertex_attrib4_nusv(index, v);
     }
 
     pub func vertex_attrib4bv(self, index: u32, v: *i8) {
@@ -4153,12 +4153,12 @@ impl opengl::Api {
         self.ref_vertex_attrib_i4usv(index, v);
     }
 
-    pub func vertex_attrib_iformat(self, attribindex: u32, size: i32, type_: opengl::VertexAttribIType, relativeoffset: u32) {
-        self.ref_vertex_attrib_iformat(attribindex, size, type_, relativeoffset);
+    pub func vertex_attrib_i_format(self, attribindex: u32, size: i32, type_: opengl::VertexAttribIType, relativeoffset: u32) {
+        self.ref_vertex_attrib_i_format(attribindex, size, type_, relativeoffset);
     }
 
-    pub func vertex_attrib_ipointer(self, index: u32, size: i32, type_: opengl::VertexAttribIType, stride: i32, pointer: *void) {
-        self.ref_vertex_attrib_ipointer(index, size, type_, stride, pointer);
+    pub func vertex_attrib_i_pointer(self, index: u32, size: i32, type_: opengl::VertexAttribIType, stride: i32, pointer: *void) {
+        self.ref_vertex_attrib_i_pointer(index, size, type_, stride, pointer);
     }
 
     pub func vertex_attrib_l1d(self, index: u32, x: f64) {
@@ -4169,8 +4169,8 @@ impl opengl::Api {
         self.ref_vertex_attrib_l1dv(index, v);
     }
 
-    pub func vertex_attrib_l1ui64arb(self, index: u32, x: u64) {
-        self.ref_vertex_attrib_l1ui64arb(index, x);
+    pub func vertex_attrib_l1ui64_arb(self, index: u32, x: u64) {
+        self.ref_vertex_attrib_l1ui64_arb(index, x);
     }
 
     pub func vertex_attrib_l1ui64v_arb(self, index: u32, v: *u64) {
@@ -4201,12 +4201,12 @@ impl opengl::Api {
         self.ref_vertex_attrib_l4dv(index, v);
     }
 
-    pub func vertex_attrib_lformat(self, attribindex: u32, size: i32, type_: opengl::VertexAttribLType, relativeoffset: u32) {
-        self.ref_vertex_attrib_lformat(attribindex, size, type_, relativeoffset);
+    pub func vertex_attrib_l_format(self, attribindex: u32, size: i32, type_: opengl::VertexAttribLType, relativeoffset: u32) {
+        self.ref_vertex_attrib_l_format(attribindex, size, type_, relativeoffset);
     }
 
-    pub func vertex_attrib_lpointer(self, index: u32, size: i32, type_: opengl::VertexAttribLType, stride: i32, pointer: *void) {
-        self.ref_vertex_attrib_lpointer(index, size, type_, stride, pointer);
+    pub func vertex_attrib_l_pointer(self, index: u32, size: i32, type_: opengl::VertexAttribLType, stride: i32, pointer: *void) {
+        self.ref_vertex_attrib_l_pointer(index, size, type_, stride, pointer);
     }
 
     pub func vertex_attrib_p1ui(self, index: u32, type_: opengl::VertexAttribPointerType, normalized: bool, value: u32) {
