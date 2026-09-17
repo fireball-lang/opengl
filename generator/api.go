@@ -17,12 +17,14 @@ func WriteApi(w fb.Writer, aliases []*fb.Alias, extensions []string) {
 	fields := make([]*fb.Field, 0, 2+len(aliases)-1)
 
 	fields = append(fields, &fb.Field{
-		Name: "version",
-		Type: &fb.SimpleType{Text: "opengl::Version"},
+		Public: true,
+		Name:   "version",
+		Type:   &fb.SimpleType{Text: "opengl::Version"},
 	})
 
 	fields = append(fields, &fb.Field{
-		Name: "extensions",
+		Public: true,
+		Name:   "extensions",
 		Type: &fb.ArrayType{
 			Size:    uint32(len(extensions)),
 			Element: &fb.SimpleType{Text: "bool"},
@@ -37,8 +39,9 @@ func WriteApi(w fb.Writer, aliases []*fb.Alias, extensions []string) {
 		name := bindgen.CamelToSnakeCase(strings.TrimPrefix(alias.Name, "Gl"))
 
 		fields = append(fields, &fb.Field{
-			Name: "ref_" + name,
-			Type: &fb.DeclType{Decl: alias},
+			Public: true,
+			Name:   "ref_" + name,
+			Type:   &fb.DeclType{Decl: alias},
 		})
 	}
 
